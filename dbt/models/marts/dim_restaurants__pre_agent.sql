@@ -11,7 +11,7 @@
 
 {{ config(
     materialized='external',
-    location='../data/pre_agent/restaurants.parquet',
+    location=env_var('REVEL_PRE_AGENT_PARQUET', '../data/pre_agent/restaurants.parquet'),
     format='parquet'
 ) }}
 

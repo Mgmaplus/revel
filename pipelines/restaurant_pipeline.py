@@ -26,8 +26,12 @@ from uuid import uuid4
 from revel.clean import compute_clean_stats, write_clean_stats
 from revel.config import Settings
 from revel.dedup_clusters import run_dedup, write_dedup_report
+from revel.enrich.run import run_enrichment, write_enrichment_report
 from revel.ingest import compute_ingest_stats, write_ingest_stats
 from revel.logging_setup import bind_run_id, configure_logging, get_logger
+from revel.notify import write_run_report
+from revel.publish import publish
+from revel.validate import validate_published_frame
 
 # Repo-relative path to the dbt project. Resolved against the current working
 # directory at runtime so the orchestrator can be invoked from anywhere via
@@ -110,6 +114,10 @@ def run_pipeline(
         raise FileNotFoundError(f"dbt project directory not found at {project_dir}")
 
     settings.data_dir.mkdir(parents=True, exist_ok=True)
+    # Stage 4 writes Parquet under these subdirs; dbt-duckdb expects the
+    # directories to exist before it materializes external marts.
+    (settings.data_dir / "pre_agent").mkdir(parents=True, exist_ok=True)
+    (settings.data_dir / "enriched").mkdir(parents=True, exist_ok=True)
 
     with bind_run_id(rid):
         log.info(
@@ -124,6 +132,11 @@ def run_pipeline(
             # Variables consumed by `dbt/profiles.yml` and `dbt_project.yml`.
             "REVEL_DUCKDB_PATH": str(settings.duckdb_path.resolve()),
             "REVEL_INPUT_PATH": str(settings.input_path.resolve()),
+            # Stage 4a's external mart writes Parquet here; absolute path
+            # so the model is independent of dbt's cwd.
+            "REVEL_PRE_AGENT_PARQUET": str(
+                (settings.data_dir / "pre_agent" / "restaurants.parquet").resolve()
+            ),
             # Tell dbt to look for profiles.yml inside the project dir, not ~/.dbt.
             "DBT_PROFILES_DIR": str(project_dir.resolve()),
         }
@@ -191,6 +204,7 @@ def run_pipeline(
             project_dir=project_dir,
             env=dbt_env,
         )
+        elapsed_dedup = round(time.monotonic() - t2, 3)
         log.info(
             "pipeline.stage_complete",
             stage="deduplicate",
@@ -198,14 +212,107 @@ def run_pipeline(
             singletons=dedup_report.singleton_count,
             edges=dedup_report.edge_count_by_tier,
             largest_cluster=dedup_report.largest_cluster_size,
-            elapsed_s=round(time.monotonic() - t2, 3),
+            elapsed_s=elapsed_dedup,
         )
 
-        # ---- Stages 4–7: not yet implemented (added in Steps 4–5) ----------
+        # ---- Stage 4a: Deterministic enrichment + pre-agent mart -----------
+        t3 = time.monotonic()
+        _run_dbt(
+            [
+                "build",
+                "--select",
+                "int_restaurants__enriched_det",
+                "dim_restaurants__pre_agent",
+            ],
+            project_dir=project_dir,
+            env=dbt_env,
+        )
+        elapsed_4a = round(time.monotonic() - t3, 3)
+        log.info("pipeline.stage_complete", stage="enrich_deterministic", elapsed_s=elapsed_4a)
+
+        # ---- Stage 4b: LLM enrichment (Gemini in live runs; Stub in --dry-run)
+        t4 = time.monotonic()
+        pre_agent_parquet = settings.data_dir / "pre_agent" / "restaurants.parquet"
+        enriched_parquet = settings.data_dir / "enriched" / "restaurants.parquet"
+        enrichment = run_enrichment(settings, pre_agent_parquet, enriched_parquet)
+        write_enrichment_report(enrichment, run_dir / "04_enrichment_report.json")
+        elapsed_4b = round(time.monotonic() - t4, 3)
         log.info(
-            "pipeline.stages_pending",
-            stages=["fill_transform", "validate", "publish", "notify"],
-            note="Implemented incrementally in Steps 4–5 of .plan.md",
+            "pipeline.stage_complete",
+            stage="enrich_llm",
+            rows_total=enrichment.rows_total,
+            cuisine=enrichment.cuisine_stats,
+            romance=enrichment.romance_stats,
+            elapsed_s=elapsed_4b,
+        )
+
+        # ---- Stage 5: Validate + Stage 6: Publish + Stage 7: Notify --------
+        # All three are quick — keep them inline, no extra logging boundaries.
+        import polars as pl  # local import; polars is heavy and only needed here
+
+        t5 = time.monotonic()
+        enriched_df = pl.read_parquet(enriched_parquet)
+        validation = validate_published_frame(enriched_df)
+        if not validation.ok:
+            for err in validation.errors:
+                log.error("validate.error", message=err)
+            # Still write a report so the user sees the failure summary.
+            write_run_report(
+                run_dir=run_dir,
+                output_dir=settings.output_dir,
+                run_id=rid,
+                source_csv=settings.input_path,
+                final_parquet=Path("(not published)"),
+                validation_errors=validation.errors,
+                validation_warnings=validation.warnings,
+                elapsed_per_stage={
+                    "ingest": round(t1 - t0, 3),
+                    "clean": round(t2 - t1, 3),
+                    "deduplicate": elapsed_dedup,
+                    "enrich_deterministic": elapsed_4a,
+                    "enrich_llm": elapsed_4b,
+                    "validate_publish": round(time.monotonic() - t5, 3),
+                },
+            )
+            raise RuntimeError(
+                f"Stage 5 validation failed with {len(validation.errors)} error(s); "
+                f"see {settings.output_dir / 'run_report.md'}"
+            )
+        for w in validation.warnings:
+            log.warning("validate.warning", message=w)
+
+        final_parquet = publish(
+            enriched_df,
+            run_dir=run_dir,
+            repo_root=repo_root,
+            source_csv=settings.input_path,
+            run_id=rid,
+            also_csv=settings.also_csv,
+        )
+        elapsed_5 = round(time.monotonic() - t5, 3)
+        log.info(
+            "pipeline.stage_complete",
+            stage="validate_publish",
+            published=str(final_parquet),
+            elapsed_s=elapsed_5,
+        )
+
+        write_run_report(
+            run_dir=run_dir,
+            output_dir=settings.output_dir,
+            run_id=rid,
+            source_csv=settings.input_path,
+            final_parquet=final_parquet,
+            validation_errors=validation.errors,
+            validation_warnings=validation.warnings,
+            elapsed_per_stage={
+                "ingest": round(t1 - t0, 3),
+                "clean": round(t2 - t1, 3),
+                "deduplicate": elapsed_dedup,
+                "enrich_deterministic": elapsed_4a,
+                "enrich_llm": elapsed_4b,
+                "validate_publish": elapsed_5,
+            },
         )
 
         log.info("pipeline.done", run_dir=str(run_dir))
