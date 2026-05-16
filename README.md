@@ -37,7 +37,7 @@ To run with real Gemini calls (drops the `--dry-run` flag):
 
 ```bash
 echo "GEMINI_API_KEY=your-key-here" >> .env
-just pipeline-run                          # ~12s end-to-end on the v1 dataset
+just pipeline-run                          # ~14s warm-cache; ~50s cold (live LLM calls)
 ```
 
 Cached LLM responses live under `.cache/llm/` — reruns on the same input
@@ -167,9 +167,23 @@ uv run python -c "import duckdb; from revel.dbt_plugin import register_udfs; c =
   configurable; sub-scores preserved so consumers can re-weight.
 - **No agent framework.** Plain Python functions with batched structured-output
   calls. LangGraph/LangChain/agentic routing belong to v2 (see ADR-002).
+- **Concurrent LLM calls.** Batches go out via a `ThreadPoolExecutor` with
+  `llm_max_concurrency=8` by default (config in `local.yaml`). Cuisine
+  batches are 40 rows each (~12 batches for v1 dataset); romance is 25
+  rows each (~22 batches). With concurrency, a cold live run completes
+  Stage 4b in ~40 seconds; a warm cache run completes it in ~0.5 seconds.
 - **Caching is mandatory.** `diskcache` keyed on
   `sha256(provider + model + prompt + schema_version)`. Reruns are free
-  and deterministic.
+  and deterministic. Cache hit rate is 100% on identical re-runs (Stage 4b
+  drops from ~40s to ~0.5s) and approaches 100% across CSVs that share
+  restaurants. Cache stays valid until you bump `SCHEMA_VERSION` in
+  `src/revel/enrich/llm/schemas.py`.
+- **Determinism is enforced at two seams.** Polars `filter` doesn't
+  guarantee row order and `join` reshuffles rows by default. Both Stage
+  4b functions sort by `canonical_id` after filtering, and the cuisine
+  step uses `maintain_order='left'` on its update join, so batch
+  composition (and therefore prompt content and cache keys) is stable
+  across runs.
 - **`--dry-run` swaps in `StubLLMClient`.** Tests + CI never need credentials.
 
 ---

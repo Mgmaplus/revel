@@ -13,13 +13,9 @@ from __future__ import annotations
 
 from collections.abc import Callable, Iterable, Sequence
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from typing import TypeVar
-
-B = TypeVar("B")  # batch input type
-R = TypeVar("R")  # batch output type
 
 
-def run_batches_concurrent(
+def run_batches_concurrent[B, R](
     batches: Sequence[B],
     fn: Callable[[B], R],
     *,
@@ -37,5 +33,6 @@ def run_batches_concurrent(
             batch = future_to_batch[future]
             try:
                 yield batch, future.result()
-            except Exception as exc:  # noqa: BLE001 — caller decides policy
+            except Exception as exc:
+                # Bare Exception: the caller decides retry / fail policy.
                 yield batch, exc

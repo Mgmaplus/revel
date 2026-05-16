@@ -10,7 +10,7 @@ Usage examples (also run via `just pipeline-run ...`):
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Annotated, Optional
+from typing import Annotated
 
 import typer
 
@@ -58,7 +58,7 @@ def pipeline_run(
         bool, typer.Option("--dry-run", help="Skip LLM calls (Stage 4 only).")
     ] = False,
     csv: Annotated[
-        Optional[bool],
+        bool | None,
         typer.Option(
             "--csv/--no-csv",
             help="Publish CSV alongside Parquet (default: True; pass --no-csv to disable).",

@@ -1,10 +1,10 @@
 # Revel pipeline run
 
-- **run_id**: `20260516T210903Z-daf5ed1f`
+- **run_id**: `20260516T211114Z-fa1e9010`
 - **pipeline_version**: `0.1.0`
-- **produced_at (UTC)**: 2026-05-16T21:09:17.667980+00:00
+- **produced_at (UTC)**: 2026-05-16T21:11:28.394765+00:00
 - **source_csv**: `input/restaurants.csv`
-- **published_parquet**: `output/20260516T210903Z-daf5ed1f/restaurants.parquet`
+- **published_parquet**: `output/20260516T211114Z-fa1e9010/restaurants.parquet`
 
 ## Status
 
@@ -12,11 +12,11 @@
 
 ## Stage timings (seconds)
 
-- ingest: 3.02
-- clean: 2.88
-- deduplicate: 6.20
-- enrich_deterministic: 1.98
-- enrich_llm: 0.49
+- ingest: 2.61
+- clean: 2.67
+- deduplicate: 6.07
+- enrich_deterministic: 2.00
+- enrich_llm: 0.48
 - validate_publish: 0.00
 
 ## Stage 1 — Ingest
