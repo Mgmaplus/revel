@@ -230,3 +230,5 @@ schema or transform semantics.
 - `.design.md` — design phase reasoning (one-shot)
 - `.plan.md` — implementation plan, step by step, with the "lessons learned" notes
   that the next dev should read before touching any stage
+- `Data_exercise_revel.md` — full transcript of the agent conversation that built v1
+  (design decisions, gotchas hit during implementation, why specific tradeoffs were made)
