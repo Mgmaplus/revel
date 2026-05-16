@@ -21,6 +21,7 @@ import time
 from collections.abc import Sequence
 from datetime import UTC, datetime
 from pathlib import Path
+from typing import Any
 from uuid import uuid4
 
 from revel.clean import compute_clean_stats, write_clean_stats
@@ -86,6 +87,66 @@ def _run_dbt(
         raise RuntimeError(f"dbt {' '.join(args)} exited {result.returncode}")
 
     return result
+
+
+def _finalize(
+    *,
+    settings: Settings,
+    run_dir: Path,
+    enriched_parquet: Path,
+    repo_root: Path,
+    rid: str,
+    elapsed_per_stage: dict[str, float],
+    log: Any,
+) -> Path:
+    """Run Stage 5/6/7 inline. Extracted so `run_pipeline` stays under
+    the lint complexity threshold (50 statements)."""
+    import polars as pl
+
+    enriched_df = pl.read_parquet(enriched_parquet)
+    validation = validate_published_frame(enriched_df)
+
+    if not validation.ok:
+        for err in validation.errors:
+            log.error("validate.error", message=err)
+        write_run_report(
+            run_dir=run_dir,
+            output_dir=settings.output_dir,
+            run_id=rid,
+            source_csv=settings.input_path,
+            final_parquet=Path("(not published)"),
+            validation_errors=validation.errors,
+            validation_warnings=validation.warnings,
+            elapsed_per_stage=elapsed_per_stage,
+        )
+        raise RuntimeError(
+            f"Stage 5 validation failed with {len(validation.errors)} error(s); "
+            f"see {settings.output_dir / 'run_report.md'}"
+        )
+
+    for w in validation.warnings:
+        log.warning("validate.warning", message=w)
+
+    final = publish(
+        enriched_df,
+        run_dir=run_dir,
+        repo_root=repo_root,
+        source_csv=settings.input_path,
+        run_id=rid,
+        also_csv=settings.also_csv,
+    )
+
+    write_run_report(
+        run_dir=run_dir,
+        output_dir=settings.output_dir,
+        run_id=rid,
+        source_csv=settings.input_path,
+        final_parquet=final,
+        validation_errors=validation.errors,
+        validation_warnings=validation.warnings,
+        elapsed_per_stage=elapsed_per_stage,
+    )
+    return final
 
 
 def run_pipeline(
@@ -247,72 +308,32 @@ def run_pipeline(
         )
 
         # ---- Stage 5: Validate + Stage 6: Publish + Stage 7: Notify --------
-        # All three are quick — keep them inline, no extra logging boundaries.
-        import polars as pl  # local import; polars is heavy and only needed here
-
+        # Extracted into `_finalize` to keep `run_pipeline` under the lint
+        # complexity threshold and to make the success/failure paths clearer.
         t5 = time.monotonic()
-        enriched_df = pl.read_parquet(enriched_parquet)
-        validation = validate_published_frame(enriched_df)
-        if not validation.ok:
-            for err in validation.errors:
-                log.error("validate.error", message=err)
-            # Still write a report so the user sees the failure summary.
-            write_run_report(
-                run_dir=run_dir,
-                output_dir=settings.output_dir,
-                run_id=rid,
-                source_csv=settings.input_path,
-                final_parquet=Path("(not published)"),
-                validation_errors=validation.errors,
-                validation_warnings=validation.warnings,
-                elapsed_per_stage={
-                    "ingest": round(t1 - t0, 3),
-                    "clean": round(t2 - t1, 3),
-                    "deduplicate": elapsed_dedup,
-                    "enrich_deterministic": elapsed_4a,
-                    "enrich_llm": elapsed_4b,
-                    "validate_publish": round(time.monotonic() - t5, 3),
-                },
-            )
-            raise RuntimeError(
-                f"Stage 5 validation failed with {len(validation.errors)} error(s); "
-                f"see {settings.output_dir / 'run_report.md'}"
-            )
-        for w in validation.warnings:
-            log.warning("validate.warning", message=w)
-
-        final_parquet = publish(
-            enriched_df,
+        elapsed_per_stage = {
+            "ingest": round(t1 - t0, 3),
+            "clean": round(t2 - t1, 3),
+            "deduplicate": elapsed_dedup,
+            "enrich_deterministic": elapsed_4a,
+            "enrich_llm": elapsed_4b,
+            "validate_publish": 0.0,  # filled below
+        }
+        final_parquet = _finalize(
+            settings=settings,
             run_dir=run_dir,
+            enriched_parquet=enriched_parquet,
             repo_root=repo_root,
-            source_csv=settings.input_path,
-            run_id=rid,
-            also_csv=settings.also_csv,
+            rid=rid,
+            elapsed_per_stage=elapsed_per_stage,
+            log=log,
         )
-        elapsed_5 = round(time.monotonic() - t5, 3)
+        elapsed_per_stage["validate_publish"] = round(time.monotonic() - t5, 3)
         log.info(
             "pipeline.stage_complete",
             stage="validate_publish",
             published=str(final_parquet),
-            elapsed_s=elapsed_5,
-        )
-
-        write_run_report(
-            run_dir=run_dir,
-            output_dir=settings.output_dir,
-            run_id=rid,
-            source_csv=settings.input_path,
-            final_parquet=final_parquet,
-            validation_errors=validation.errors,
-            validation_warnings=validation.warnings,
-            elapsed_per_stage={
-                "ingest": round(t1 - t0, 3),
-                "clean": round(t2 - t1, 3),
-                "deduplicate": elapsed_dedup,
-                "enrich_deterministic": elapsed_4a,
-                "enrich_llm": elapsed_4b,
-                "validate_publish": elapsed_5,
-            },
+            elapsed_s=elapsed_per_stage["validate_publish"],
         )
 
         log.info("pipeline.done", run_dir=str(run_dir))

@@ -44,7 +44,7 @@ def composite_score(
         + weights["dining_experience"] * dining_experience
         + weights["cuisine_fit"] * cuisine_fit
     )
-    return int(round(10 * raw))
+    return round(10 * raw)
 
 
 def _build_prompt(rows: list[dict[str, object]]) -> str:

@@ -15,7 +15,7 @@ This is a hard rule per `.kiro/steering/security-rules.md`.
 from __future__ import annotations
 
 import os
-from typing import TYPE_CHECKING, Any, Protocol, TypeVar
+from typing import Any, Protocol, TypeVar
 
 from pydantic import BaseModel, ValidationError
 
@@ -29,9 +29,6 @@ from .schemas import (
     RomanceLLMBatch,
     RomanceLLMResult,
 )
-
-if TYPE_CHECKING:
-    from collections.abc import Mapping
 
 T = TypeVar("T", bound=BaseModel)
 
@@ -116,19 +113,24 @@ class GeminiClient:
                     raise LLMError("empty response")
                 parsed = response_schema.model_validate_json(response.text)
                 self._cache.set(cache_key, parsed.model_dump(mode="json"))
+                usage = getattr(response, "usage_metadata", None)
                 log.info(
                     "llm.cache_miss",
                     model=self.model,
                     retries=attempt,
-                    # Token usage if the SDK exposed it.
-                    prompt_tokens=getattr(getattr(response, "usage_metadata", None), "prompt_token_count", None),
-                    completion_tokens=getattr(getattr(response, "usage_metadata", None), "candidates_token_count", None),
+                    prompt_tokens=getattr(usage, "prompt_token_count", None),
+                    completion_tokens=getattr(usage, "candidates_token_count", None),
                 )
                 return parsed
             except (ValidationError, LLMError) as exc:
                 last_err = exc
-                log.warning("llm.validation_failed", attempt=attempt, error_type=type(exc).__name__)
-            except Exception as exc:  # noqa: BLE001 — surface any provider error
+                log.warning(
+                    "llm.validation_failed", attempt=attempt, error_type=type(exc).__name__
+                )
+            except Exception as exc:
+                # Bare Exception is intentional: the SDK can raise from
+                # transport, auth, rate-limit, etc. We treat all of them
+                # as retryable up to `max_retries`.
                 last_err = exc
                 log.warning("llm.error", attempt=attempt, error_type=type(exc).__name__)
 
@@ -157,8 +159,9 @@ class StubLLMClient:
         self,
         prompt: str,
         response_schema: type[T],
-        max_retries: int = 2,  # noqa: ARG002 — kept to satisfy protocol
+        max_retries: int = 2,
     ) -> T:
+        del max_retries  # required by Protocol; stub does no retries
         ids = _extract_ids_from_prompt(prompt)
 
         if response_schema is CuisineLLMBatch:
@@ -203,8 +206,8 @@ def _extract_ids_from_prompt(prompt: str) -> list[int]:
     can produce a same-length response without needing JSON parsing.
     """
     ids: list[int] = []
-    for line in prompt.splitlines():
-        line = line.strip()
+    for raw_line in prompt.splitlines():
+        line = raw_line.strip()
         if line.startswith("- canonical_id="):
             try:
                 ids.append(int(line.split("=", 1)[1].split()[0]))

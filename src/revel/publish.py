@@ -22,7 +22,7 @@ from revel.logging_setup import get_logger
 def _git_sha(repo_root: Path) -> str | None:
     """Return short git SHA, or None if not a git repo / git unavailable."""
     try:
-        result = subprocess.run(  # noqa: S603 — fixed args, no user input
+        result = subprocess.run(
             ["git", "-C", str(repo_root), "rev-parse", "--short", "HEAD"],
             capture_output=True,
             text=True,
@@ -78,11 +78,9 @@ def publish(
 
     # Atomic rename.
     os.replace(tmp, final)
-    try:
+    # tmp_dir may have other files (none in v1, but be defensive).
+    with contextlib.suppress(OSError):
         tmp_dir.rmdir()
-    except OSError:
-        # tmp_dir may have other files (none in v1, but be defensive).
-        pass
 
     if also_csv:
         csv_path = run_dir / "restaurants.csv"

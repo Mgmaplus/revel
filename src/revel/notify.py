@@ -56,7 +56,7 @@ def write_run_report(
     enrich = _read_json(run_dir / "04_enrichment_report.json")
 
     lines: list[str] = []
-    lines.append(f"# Revel pipeline run\n")
+    lines.append("# Revel pipeline run\n")
     lines.append(f"- **run_id**: `{run_id}`")
     lines.append(f"- **pipeline_version**: `{pipeline_version}`")
     lines.append(f"- **produced_at (UTC)**: {datetime.now(UTC).isoformat()}")
