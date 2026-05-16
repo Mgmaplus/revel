@@ -19,7 +19,8 @@ from revel.logging_setup import get_logger
 def _read_json(path: Path) -> dict[str, Any]:
     if not path.is_file():
         return {}
-    return json.loads(path.read_text(encoding="utf-8"))
+    data: dict[str, Any] = json.loads(path.read_text(encoding="utf-8"))
+    return data
 
 
 def _format_dict(d: dict[str, Any], indent: int = 0) -> str:

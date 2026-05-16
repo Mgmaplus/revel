@@ -7,6 +7,7 @@ Same shape as `cuisine.py`: read pre-agent frame, find rows where
 from __future__ import annotations
 
 from collections.abc import Iterable
+from typing import cast
 
 import polars as pl
 
@@ -132,11 +133,11 @@ def fill_romance(
                 error=str(exc)[:200],
             )
             for row in batch:
-                failed_ids.add(int(row["canonical_id"]))  # type: ignore[arg-type]
+                failed_ids.add(cast(int, row["canonical_id"]))
             continue
 
         returned_ids = {r.canonical_id for r in response.results}
-        expected_ids = {int(r["canonical_id"]) for r in batch}  # type: ignore[arg-type]
+        expected_ids = {cast(int, r["canonical_id"]) for r in batch}
         for r in response.results:
             resolved[r.canonical_id] = r
         for missing in expected_ids - returned_ids:

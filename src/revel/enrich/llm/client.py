@@ -124,9 +124,7 @@ class GeminiClient:
                 return parsed
             except (ValidationError, LLMError) as exc:
                 last_err = exc
-                log.warning(
-                    "llm.validation_failed", attempt=attempt, error_type=type(exc).__name__
-                )
+                log.warning("llm.validation_failed", attempt=attempt, error_type=type(exc).__name__)
             except Exception as exc:
                 # Bare Exception is intentional: the SDK can raise from
                 # transport, auth, rate-limit, etc. We treat all of them

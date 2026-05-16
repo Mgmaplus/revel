@@ -51,9 +51,7 @@ def run_enrichment(
 
     # Distribution + histogram for the run report. Buckets: 0–9, 10–19, ...
     cuisine_dist = {
-        row[0]: int(row[1])
-        for row in df.group_by("cuisine").len().rows()
-        if row[0] is not None
+        row[0]: int(row[1]) for row in df.group_by("cuisine").len().rows() if row[0] is not None
     }
     null_cuisine = int(df.select(pl.col("cuisine").is_null().sum()).item())
     if null_cuisine:

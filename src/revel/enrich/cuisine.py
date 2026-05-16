@@ -9,6 +9,7 @@ yields NULL + a flag (per security rules, fail closed).
 from __future__ import annotations
 
 from collections.abc import Iterable
+from typing import cast
 
 import polars as pl
 
@@ -117,11 +118,11 @@ def fill_cuisine(
                 error=str(exc)[:200],
             )
             for row in batch:
-                failed_ids.add(int(row["canonical_id"]))  # type: ignore[arg-type]
+                failed_ids.add(cast(int, row["canonical_id"]))
             continue
 
         returned_ids = {r.canonical_id for r in response.results}
-        expected_ids = {int(r["canonical_id"]) for r in batch}  # type: ignore[arg-type]
+        expected_ids = {cast(int, r["canonical_id"]) for r in batch}
         for r in response.results:
             resolved[r.canonical_id] = r
         for missing in expected_ids - returned_ids:
@@ -172,7 +173,11 @@ def fill_cuisine(
             .then(pl.col("_cuisine_secondary_new"))
             .otherwise(pl.col("cuisine_secondary")),
             _quality_flags=pl.when(pl.col("_cuisine_flag").is_not_null())
-            .then(pl.col("_quality_flags").list.concat(pl.col("_cuisine_flag").cast(pl.List(pl.String))))
+            .then(
+                pl.col("_quality_flags").list.concat(
+                    pl.col("_cuisine_flag").cast(pl.List(pl.String))
+                )
+            )
             .otherwise(pl.col("_quality_flags")),
         ).drop(["_cuisine_new", "_cuisine_secondary_new", "_cuisine_flag"])
 

@@ -86,11 +86,19 @@ files = ["src/revel", "pipelines"]
 plugins = ["pydantic.mypy"]
 exclude = ["dbt/", "tests/"]
 
+# Third-party libs without py.typed markers. Suppress globally so the
+# `import` lines in our modules don't error out.
+disable_error_code = ["import-untyped"]
+
 [[tool.mypy.overrides]]
-module = ["duckdb", "duckdb.*", "pygeohash", "pygeohash.*", "networkx", "networkx.*"]
+module = [
+    "duckdb", "duckdb.*",
+    "pygeohash", "pygeohash.*",
+    "networkx", "networkx.*",
+    "diskcache", "diskcache.*",
+]
 ignore_missing_imports = true
 follow_imports = "skip"
-disable_error_code = ["import-untyped"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

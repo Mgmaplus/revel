@@ -40,8 +40,15 @@ def validate_published_frame(df: pl.DataFrame) -> ValidationReport:
 
     # Required columns present?
     required = {
-        "canonical_id", "name", "city_canonical", "latitude", "longitude",
-        "price_point", "cuisine", "romance_score", "google_place_id",
+        "canonical_id",
+        "name",
+        "city_canonical",
+        "latitude",
+        "longitude",
+        "price_point",
+        "cuisine",
+        "romance_score",
+        "google_place_id",
         "source_ids",
     }
     missing = required - set(df.columns)
@@ -85,8 +92,10 @@ def validate_published_frame(df: pl.DataFrame) -> ValidationReport:
     # 4. price_point ∈ closed set or NULL.
     bad_price = int(
         df.select(
-            (pl.col("price_point").is_not_null() & ~pl.col("price_point").is_in(list(_VALID_PRICE)))
-            .sum()
+            (
+                pl.col("price_point").is_not_null()
+                & ~pl.col("price_point").is_in(list(_VALID_PRICE))
+            ).sum()
         ).item()
     )
     if bad_price:
@@ -105,8 +114,7 @@ def validate_published_frame(df: pl.DataFrame) -> ValidationReport:
     bad_score = int(
         df.select(
             (
-                pl.col("romance_score").is_not_null()
-                & ~pl.col("romance_score").is_between(0, 100)
+                pl.col("romance_score").is_not_null() & ~pl.col("romance_score").is_between(0, 100)
             ).sum()
         ).item()
     )
@@ -116,9 +124,7 @@ def validate_published_frame(df: pl.DataFrame) -> ValidationReport:
     # 7. google_place_id format if non-null.
     bad_place = (
         df.filter(pl.col("google_place_id").is_not_null())
-        .select(
-            (~pl.col("google_place_id").str.contains(_PLACE_ID_RE.pattern)).sum()
-        )
+        .select((~pl.col("google_place_id").str.contains(_PLACE_ID_RE.pattern)).sum())
         .item()
     )
     if bad_place:
@@ -137,9 +143,7 @@ def validate_published_frame(df: pl.DataFrame) -> ValidationReport:
     # 9. Cuisine null-rate warning.
     null_cuisine_rate = float(df.select(pl.col("cuisine").is_null().mean()).item() or 0.0)
     if null_cuisine_rate > 0.05:
-        report.warnings.append(
-            f"cuisine null rate {null_cuisine_rate:.1%} exceeds 5% threshold"
-        )
+        report.warnings.append(f"cuisine null rate {null_cuisine_rate:.1%} exceeds 5% threshold")
 
     log.info(
         "validate.complete",
