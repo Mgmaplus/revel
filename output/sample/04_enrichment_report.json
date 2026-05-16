@@ -1,0 +1,56 @@
+{
+  "cuisine": {
+    "rows_deterministic": 546,
+    "rows_llm_failed": 0,
+    "rows_llm_low_confidence": 5,
+    "rows_llm_resolved": 436,
+    "rows_total": 987
+  },
+  "cuisine_distribution": {
+    "African": 7,
+    "American": 278,
+    "Asian Fusion": 24,
+    "Chinese": 22,
+    "Dessert": 1,
+    "European": 18,
+    "Filipino": 4,
+    "French": 72,
+    "Indian": 25,
+    "Italian": 100,
+    "Japanese": 126,
+    "Korean": 29,
+    "Latin American": 24,
+    "Mediterranean": 40,
+    "Mexican": 39,
+    "Middle Eastern": 8,
+    "Other": 49,
+    "Pizza": 9,
+    "Seafood": 28,
+    "Southeast Asian": 6,
+    "Spanish": 14,
+    "Steakhouse": 40,
+    "Thai": 7,
+    "Vegetarian/Vegan": 6,
+    "Vietnamese": 6,
+    "__null__": 5
+  },
+  "romance": {
+    "rows_deterministic": 459,
+    "rows_llm_failed": 0,
+    "rows_llm_resolved": 528,
+    "rows_total": 987
+  },
+  "romance_score_histogram": {
+    "0": 3,
+    "10": 1,
+    "20": 13,
+    "30": 25,
+    "40": 34,
+    "50": 90,
+    "60": 236,
+    "70": 292,
+    "80": 279,
+    "90": 14
+  },
+  "rows_total": 987
+}

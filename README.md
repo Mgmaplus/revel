@@ -27,9 +27,11 @@ That writes:
 
 - **`output/<run_id>/restaurants.parquet`** — the canonical dataset (this is what you publish/share)
 - **`output/run_report.md`** — single human-readable summary, **overwritten each run** (look here first)
+- `output/<run_id>/restaurants.csv` — same data as Parquet but plain-text; list columns flattened to comma-strings (use `--no-csv` to skip)
 - `output/<run_id>/0N_*.json` — per-stage stats (ingest counts, dedup edges, enrichment distribution)
 - `output/<run_id>/metadata.json` — sidecar provenance (pipeline version, git sha, source CSV sha256)
 - `output/latest` — symlink to the most recent run
+- **`output/sample/`** — stable copy of the latest published artifacts. Tracked in git so reviewers can inspect the Parquet/CSV/reports directly on GitHub without cloning + running.
 
 To run with real Gemini calls (drops the `--dry-run` flag):
 
@@ -199,7 +201,7 @@ TL;DR:
 |---|---|
 | Run pipeline (dry-run, no API key needed) | `just pipeline-run --dry-run` |
 | Run pipeline (live Gemini) | `just pipeline-run` |
-| Publish CSV alongside Parquet | `just pipeline-run --also-csv` |
+| Skip CSV (Parquet only) | `just pipeline-run --no-csv` |
 | Inspect a specific dbt model | `just dbt build --select <name>` |
 | Validate dbt project parses | `just dbt-parse` |
 | Lint + format check | `just lint` |

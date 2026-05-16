@@ -1,0 +1,31 @@
+{
+  "distinct_values": {
+    "city_canonical": 22,
+    "price_point": 3,
+    "primary_type": 102
+  },
+  "flag_counts": {
+    "missing_address": 108,
+    "missing_city": 4,
+    "missing_coords": 1,
+    "missing_place_id": 5,
+    "missing_price_point": 206,
+    "missing_website": 15,
+    "unknown_price_point": 2
+  },
+  "null_after_clean": {
+    "city_canonical": 4,
+    "geohash7": 1,
+    "google_place_id": 5,
+    "latitude": 1,
+    "longitude": 1,
+    "name_core": 0,
+    "postal_code": 108,
+    "price_point": 208,
+    "primary_type": 0,
+    "state_code": 0,
+    "website": 15
+  },
+  "rejected_place_id_samples": [],
+  "row_count": 1073
+}

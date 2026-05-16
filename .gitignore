@@ -15,8 +15,16 @@ dist/
 # --- Pipeline runtime ---------------------------------------------------------
 # DuckDB warehouse + intermediate Parquet (per ADR-004 these are local-only)
 data/
-output/
 .cache/
+
+# Most run artifacts are local-only, but we DO commit the latest published
+# dataset + run report so reviewers can inspect them in GitHub without
+# cloning + running the pipeline. The selective whitelist below keeps the
+# repo small while preserving review value.
+output/*
+!output/run_report.md
+!output/sample/
+!output/sample/*
 
 # --- dbt ---------------------------------------------------------------------
 dbt/target/

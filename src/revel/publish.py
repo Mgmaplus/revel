@@ -10,6 +10,7 @@ import contextlib
 import hashlib
 import json
 import os
+import shutil
 import subprocess
 from datetime import UTC, datetime
 from pathlib import Path
@@ -85,13 +86,40 @@ def publish(
 
     if also_csv:
         csv_path = run_dir / "restaurants.csv"
-        enriched.write_csv(csv_path)
+        # CSV can't hold nested types; serialize lists as JSON strings.
+        csv_df = enriched.with_columns(
+            source_ids=pl.col("source_ids").cast(pl.List(pl.String)).list.join(","),
+            _quality_flags=pl.col("_quality_flags").list.join(","),
+        )
+        csv_df.write_csv(csv_path)
 
     # Update `output/latest` symlink to point at this run.
     latest = run_dir.parent / "latest"
     if latest.is_symlink() or latest.exists():
         latest.unlink()
     latest.symlink_to(run_dir.name, target_is_directory=True)
+
+    # Also publish a stable `output/sample/` snapshot. This is the directory
+    # we whitelist in `.gitignore` so reviewers see the latest published
+    # dataset directly in GitHub without cloning + running. Symlinks aren't
+    # portable across platforms; we copy small files explicitly.
+    sample_dir = run_dir.parent / "sample"
+    sample_dir.mkdir(parents=True, exist_ok=True)
+
+    shutil.copy2(final, sample_dir / "restaurants.parquet")
+    if also_csv:
+        shutil.copy2(run_dir / "restaurants.csv", sample_dir / "restaurants.csv")
+    # Also copy the per-stage stats + metadata for review.
+    for stat_name in (
+        "01_ingest_stats.json",
+        "02_clean_stats.json",
+        "03_dedup_report.json",
+        "04_enrichment_report.json",
+        "metadata.json",
+    ):
+        src = run_dir / stat_name
+        if src.is_file():
+            shutil.copy2(src, sample_dir / stat_name)
 
     log.info(
         "publish.done",

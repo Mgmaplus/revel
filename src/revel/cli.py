@@ -10,7 +10,7 @@ Usage examples (also run via `just pipeline-run ...`):
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Annotated
+from typing import Annotated, Optional
 
 import typer
 
@@ -57,9 +57,13 @@ def pipeline_run(
     dry_run: Annotated[
         bool, typer.Option("--dry-run", help="Skip LLM calls (Stage 4 only).")
     ] = False,
-    also_csv: Annotated[
-        bool, typer.Option("--also-csv", help="Publish CSV alongside Parquet. (Stage 6.)")
-    ] = False,
+    csv: Annotated[
+        Optional[bool],
+        typer.Option(
+            "--csv/--no-csv",
+            help="Publish CSV alongside Parquet (default: True; pass --no-csv to disable).",
+        ),
+    ] = None,
 ) -> None:
     """Run the v1 pipeline end-to-end.
 
@@ -70,7 +74,9 @@ def pipeline_run(
     from pipelines.restaurant_pipeline import run_pipeline
 
     settings = Settings.from_yaml(config)
-    overrides: dict[str, object] = {"dry_run": dry_run, "also_csv": also_csv}
+    overrides: dict[str, object] = {"dry_run": dry_run}
+    if csv is not None:
+        overrides["also_csv"] = csv
     if input_path is not None:
         overrides["input_path"] = input_path
     if output_dir is not None:

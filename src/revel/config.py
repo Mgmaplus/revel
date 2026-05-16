@@ -71,7 +71,7 @@ class Settings(BaseSettings):
 
     # --- Run modes -------------------------------------------------------------
     dry_run: bool = False
-    also_csv: bool = False
+    also_csv: bool = True  # CSV alongside Parquet by default for reviewer access
 
     @classmethod
     def from_yaml(cls, path: Path | str) -> Settings:

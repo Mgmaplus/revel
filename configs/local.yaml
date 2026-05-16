@@ -24,4 +24,4 @@ dedup:
 
 # --- Run modes -----------------------------------------------------------------
 dry_run: false
-also_csv: false
+also_csv: true
