@@ -16,7 +16,7 @@ from typing import Literal
 from pydantic import BaseModel, Field
 
 # Bump on any change to prompt text, model output shape, or this file.
-SCHEMA_VERSION = "v1.0"
+SCHEMA_VERSION = "v1.1"
 
 # Closed cuisine taxonomy. Must stay in sync with
 # `dbt/seeds/cuisine_taxonomy.csv`'s `cuisine` column.

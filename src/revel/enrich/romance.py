@@ -71,13 +71,12 @@ def _build_prompt(rows: list[dict[str, object]]) -> str:
         cid = row["canonical_id"]
         name = row.get("name") or ""
         ptype = row.get("primary_type") or ""
-        cuisine = row.get("cuisine") or "(unknown)"
         price = row.get("price_point") or "(unknown)"
         city = row.get("city_canonical") or ""
         addr = row.get("display_address") or ""
         lines.append(
             f"- canonical_id={cid} | name={name!r} | primary_type={ptype!r} | "
-            f"cuisine={cuisine!r} | price_point={price!r} | "
+            f"price_point={price!r} | "
             f"city={city!r} | address={addr!r}"
         )
     return "\n".join(lines)
@@ -118,7 +117,6 @@ def fill_romance(
             "canonical_id",
             "name",
             "primary_type",
-            "cuisine",
             "price_point",
             "city_canonical",
             "display_address",
