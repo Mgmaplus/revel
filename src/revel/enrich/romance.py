@@ -98,7 +98,7 @@ def fill_romance(
     log = get_logger(__name__)
 
     needs_llm_mask = df["_needs_llm_romance"]
-    needs_llm = df.filter(needs_llm_mask)
+    needs_llm = df.filter(needs_llm_mask).sort("canonical_id")
     deterministic_count = int((~needs_llm_mask).sum())
 
     if needs_llm.height == 0:
@@ -221,7 +221,7 @@ def fill_romance(
                 "_romance_flag": pl.String,
             },
         )
-        df = df.join(updates, on="canonical_id", how="left")
+        df = df.join(updates, on="canonical_id", how="left", maintain_order="left")
         df = df.with_columns(
             ambiance=pl.when(pl.col("_needs_llm_romance"))
             .then(pl.col("_amb_new"))

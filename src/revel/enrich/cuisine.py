@@ -92,7 +92,10 @@ def fill_cuisine(
     df = df.with_columns(_quality_flags=pl.col("_quality_flags"))  # ensure col present
 
     needs_llm_mask = df["_needs_llm_cuisine"]
-    needs_llm = df.filter(needs_llm_mask)
+    # Sort by canonical_id to make batch composition stable across runs
+    # — Polars `filter` doesn't guarantee row order, so without sort the
+    # same input data can produce different prompts → cache misses.
+    needs_llm = df.filter(needs_llm_mask).sort("canonical_id")
     deterministic_count = int((~needs_llm_mask).sum())
 
     if needs_llm.height == 0:
@@ -204,7 +207,11 @@ def fill_cuisine(
                 "_cuisine_flag": pl.String,
             },
         )
-        df = df.join(updates, on="canonical_id", how="left")
+        # `maintain_order='left'` is critical: without it, Polars reshuffles
+        # rows after a join, which breaks Stage 4b's cache (see plan §Step 4
+        # cache notes — fill_romance reads `df` after this join and the
+        # new ordering changes the per-batch prompts → cache misses).
+        df = df.join(updates, on="canonical_id", how="left", maintain_order="left")
         df = df.with_columns(
             cuisine=pl.when(pl.col("_needs_llm_cuisine"))
             .then(pl.col("_cuisine_new"))

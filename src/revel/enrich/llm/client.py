@@ -89,14 +89,8 @@ class GeminiClient:
 
         cached = self._cache.get(cache_key)
         if cached is not None:
-            log.info("llm.cache_hit", model=self.model, key=cache_key[:16])
+            log.info("llm.cache_hit", model=self.model)
             return response_schema.model_validate(cached)
-        log.info(
-            "llm.cache_check_miss",
-            model=self.model,
-            key=cache_key[:16],
-            prompt_len=len(prompt),
-        )
 
         # Local import — avoids loading google.genai when only the stub is used.
         from google.genai import types as gen_types
