@@ -25,6 +25,7 @@ from uuid import uuid4
 
 from revel.clean import compute_clean_stats, write_clean_stats
 from revel.config import Settings
+from revel.dedup_clusters import run_dedup, write_dedup_report
 from revel.ingest import compute_ingest_stats, write_ingest_stats
 from revel.logging_setup import bind_run_id, configure_logging, get_logger
 
@@ -171,11 +172,40 @@ def run_pipeline(
             elapsed_s=round(time.monotonic() - t1, 3),
         )
 
-        # ---- Stages 3–7: not yet implemented (added in Steps 3–5) ----------
+        # ---- Stage 3: Deduplicate ------------------------------------------
+        # Three sub-steps:
+        #   1. dbt builds `int_restaurants__dedup_candidates` (Tier B blocking).
+        #   2. Python computes Tier A/B(/C) edges + connected components,
+        #      writing `dedup_edges` and `dedup_cluster_map` tables to DuckDB.
+        #   3. dbt builds `int_restaurants__deduped` from the cluster map.
+        t2 = time.monotonic()
+        _run_dbt(
+            ["build", "--select", "int_restaurants__dedup_candidates"],
+            project_dir=project_dir,
+            env=dbt_env,
+        )
+        dedup_report = run_dedup(str(settings.duckdb_path), settings.dedup)
+        write_dedup_report(dedup_report, run_dir / "03_dedup_report.json")
+        _run_dbt(
+            ["build", "--select", "int_restaurants__deduped"],
+            project_dir=project_dir,
+            env=dbt_env,
+        )
+        log.info(
+            "pipeline.stage_complete",
+            stage="deduplicate",
+            clusters=dedup_report.cluster_count,
+            singletons=dedup_report.singleton_count,
+            edges=dedup_report.edge_count_by_tier,
+            largest_cluster=dedup_report.largest_cluster_size,
+            elapsed_s=round(time.monotonic() - t2, 3),
+        )
+
+        # ---- Stages 4–7: not yet implemented (added in Steps 4–5) ----------
         log.info(
             "pipeline.stages_pending",
-            stages=["deduplicate", "fill_transform", "validate", "publish", "notify"],
-            note="Implemented incrementally in Steps 3–5 of .plan.md",
+            stages=["fill_transform", "validate", "publish", "notify"],
+            note="Implemented incrementally in Steps 4–5 of .plan.md",
         )
 
         log.info("pipeline.done", run_dir=str(run_dir))

@@ -24,6 +24,7 @@ Registered UDFs:
 
 from __future__ import annotations
 
+import contextlib
 import re
 import unicodedata
 from typing import Any, ClassVar
@@ -107,8 +108,8 @@ def clean_url(raw: str | None) -> str | None:
     # Drop fragment unconditionally (no canonical info there for our needs).
     canonical = urlunsplit((scheme, netloc, path, query, ""))
 
-    # No trailing slash unless the URL is just scheme://netloc/.
-    if canonical.endswith("/") and len(canonical) > len(f"{scheme}://{netloc}/"):
+    # Always strip trailing slash for stable comparison.
+    if canonical.endswith("/"):
         canonical = canonical.rstrip("/")
     return canonical
 
@@ -120,7 +121,10 @@ def geohash(lat: float | None, lon: float | None, precision: int = 7) -> str | N
     """Geohash a coordinate pair. Defensive: NULL → NULL."""
     if lat is None or lon is None:
         return None
-    return pygeohash.encode(latitude=float(lat), longitude=float(lon), precision=int(precision))
+    encoded: str = pygeohash.encode(
+        latitude=float(lat), longitude=float(lon), precision=int(precision)
+    )
+    return encoded
 
 
 # --- name normalization ------------------------------------------------------
@@ -160,29 +164,27 @@ class Plugin(BasePlugin):
 
     UDF_NAMES: ClassVar[tuple[str, ...]] = ("clean_url", "geohash", "name_core")
 
-    def configure_connection(self, conn: Any) -> None:  # type: ignore[override]
-        # Late import so the dbt CLI can introspect the project without
-        # needing duckdb importable.
-        import duckdb
+    def configure_connection(self, conn: Any) -> None:
+        register_udfs(conn)
 
-        conn.create_function(
-            "clean_url",
-            clean_url,
-            [duckdb.typing.VARCHAR],
-            duckdb.typing.VARCHAR,
-            null_handling="special",  # let our function see NULLs and decide
-        )
-        conn.create_function(
-            "geohash",
-            geohash,
-            [duckdb.typing.DOUBLE, duckdb.typing.DOUBLE, duckdb.typing.INTEGER],
-            duckdb.typing.VARCHAR,
-            null_handling="special",
-        )
-        conn.create_function(
-            "name_core",
-            name_core,
-            [duckdb.typing.VARCHAR],
-            duckdb.typing.VARCHAR,
-            null_handling="special",
-        )
+
+def register_udfs(conn: Any) -> None:
+    """Attach the same UDFs the dbt plugin registers to an arbitrary
+    DuckDB connection. Required when reading staging views *outside* of
+    dbt (e.g. for run-stats), because views reference UDFs by name and
+    the resolution happens at SELECT time. Idempotent — safe to call
+    on a connection that already has the UDFs.
+    """
+    # We pass DuckDB type names as strings — they're stable across
+    # duckdb versions and avoid depending on `duckdb.typing` (which
+    # was renamed/removed in some versions and only available
+    # post-connect anyway).
+    for name, fn, arg_types in (
+        ("clean_url", clean_url, ["VARCHAR"]),
+        ("geohash", geohash, ["DOUBLE", "DOUBLE", "INTEGER"]),
+        ("name_core", name_core, ["VARCHAR"]),
+    ):
+        # duckdb raises a generic error when a function with the same name
+        # is already registered; re-registration is a no-op for our purposes.
+        with contextlib.suppress(Exception):
+            conn.create_function(name, fn, arg_types, "VARCHAR", null_handling="special")

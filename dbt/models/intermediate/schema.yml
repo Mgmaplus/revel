@@ -1,0 +1,71 @@
+version: 2
+
+models:
+  - name: int_restaurants__dedup_candidates
+    description: |
+      Tier B candidate pairs: same geohash6 + same canonical city, with
+      both names and coordinates. Consumed by `revel.dedup_clusters` which
+      scores via rapidfuzz + haversine and emits surviving edges.
+    columns:
+      - name: id_a
+        tests:
+          - not_null
+      - name: id_b
+        tests:
+          - not_null
+
+  - name: int_restaurants__deduped
+    description: |
+      Stage 3 (Deduplicate) — one row per canonical venue. Joins the cluster
+      map computed in Python (connected components over Tier A/B/C edges)
+      and merges columns per the precedence rules in the model file.
+    tests:
+      # Post-dedup, every non-null place_id must be unique. If a place_id
+      # spans clusters, the dedup logic has a bug.
+      - dbt_utils.expression_is_true:
+          expression: |
+            NOT EXISTS (
+              SELECT 1 FROM (
+                SELECT google_place_id FROM int_restaurants__deduped
+                WHERE google_place_id IS NOT NULL
+                GROUP BY google_place_id HAVING COUNT(*) > 1
+              )
+            )
+          name: int_restaurants__deduped_unique_place_id_post_dedup
+      # Provenance integrity.
+      - dbt_utils.expression_is_true:
+          expression: "ARRAY_LENGTH(source_ids) >= 1"
+          name: int_restaurants__deduped_source_ids_nonempty
+      - dbt_utils.expression_is_true:
+          expression: "dedup_tier IN ('A', 'B', 'C', 'singleton')"
+          name: int_restaurants__deduped_valid_dedup_tier
+    columns:
+      - name: canonical_id
+        description: "Stable canonical id for the venue (= MIN(source_ids))."
+        tests:
+          - not_null
+          - unique
+      - name: source_ids
+        description: "Every original raw `id` that was merged into this row."
+        tests:
+          - not_null
+      - name: name
+        tests:
+          - not_null
+      - name: name_core
+        tests:
+          - not_null
+      - name: dedup_confidence
+        description: "MIN of in-cluster edge confidences; singletons get 1.0."
+        tests:
+          - not_null
+      - name: dedup_tier
+        description: "'A' (place_id), 'B' (geo+name), 'C' (website), or 'singleton'."
+        tests:
+          - not_null
+          - accepted_values:
+              values: ["A", "B", "C", "singleton"]
+              quote: true
+      - name: _quality_flags
+        tests:
+          - not_null

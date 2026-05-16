@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: dim_restaurants__pre_agent
+    description: |
+      Stage 4a mart. The single intermediate Parquet boundary in the v1
+      pipeline. Read by `revel.enrich.*` in Step 4b to produce the final
+      enriched frame; see `data/pre_agent/restaurants.parquet`.
+    tests:
+      # Invariant: the LLM-needed flag is true exactly when the
+      # deterministic cuisine join missed.
+      - dbt_utils.expression_is_true:
+          expression: "_needs_llm_cuisine = (cuisine IS NULL)"
+          name: dim_restaurants__pre_agent_cuisine_flag_invariant
+      - dbt_utils.expression_is_true:
+          expression: "_needs_llm_romance = (romance_score IS NULL)"
+          name: dim_restaurants__pre_agent_romance_flag_invariant
+    columns:
+      - name: canonical_id
+        tests:
+          - not_null
+          - unique
+      - name: name
+        tests:
+          - not_null

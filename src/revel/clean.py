@@ -13,6 +13,8 @@ from pathlib import Path
 
 import duckdb
 
+from revel.dbt_plugin import register_udfs
+
 
 @dataclass(slots=True, frozen=True)
 class CleanStats:
@@ -64,6 +66,7 @@ def compute_clean_stats(
     )
 
     with duckdb.connect(str(duckdb_path), read_only=True) as conn:
+        register_udfs(conn)
         # Row count.
         row_count_row = conn.sql(f"SELECT COUNT(*) FROM {model_name}").fetchone()
         if row_count_row is None:

@@ -232,7 +232,7 @@ Important: Always review your solutions and provide code that is only production
 
 ## 9. Versioning
 
-Pipeline is explicitly versioned. We are on **v1**. Future versions are additive — earlier code keeps working unchanged. Detailed roadmap and ADRs in `architecture-decisions.md`.
+Pipeline is explicitly versioned. We are on **v1**. **v2 is not in development.** The roadmap below exists so v1 stays forward-compatible — do not implement v2 work until v1 ships and a stakeholder explicitly asks. Detailed roadmap and ADRs in `architecture-decisions.md`; v2 backlog at the bottom of that file.
 
 | Concern | v1 (now) | v2 (next) | v3+ (if scale demands) |
 |---|---|---|---|

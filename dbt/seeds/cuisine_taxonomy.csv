@@ -1,0 +1,69 @@
+primary_type,cuisine,cuisine_secondary
+italian_restaurant,Italian,
+roman_restaurant,Italian,
+french_restaurant,French,
+modern_french_restaurant,French,
+japanese_restaurant,Japanese,
+authentic_japanese_restaurant,Japanese,
+sushi_restaurant,Japanese,Sushi
+ramen_restaurant,Japanese,Ramen
+izakaya_restaurant,Japanese,Izakaya
+kaiseki_restaurant,Japanese,Kaiseki
+chinese_restaurant,Chinese,
+taiwanese_restaurant,Chinese,
+korean_restaurant,Korean,
+korean_barbecue_restaurant,Korean,Barbecue
+indian_restaurant,Indian,
+modern_indian_restaurant,Indian,
+thai_restaurant,Thai,
+vietnamese_restaurant,Vietnamese,
+filipino_restaurant,Filipino,
+indonesian_restaurant,Southeast Asian,Indonesian
+laotian_restaurant,Southeast Asian,Laotian
+cambodian_restaurant,Southeast Asian,Cambodian
+southeast_asian_restaurant,Southeast Asian,
+asian_fusion_restaurant,Asian Fusion,
+asian_restaurant,Asian Fusion,
+pacific_northwest_restaurant,American,
+mexican_restaurant,Mexican,
+oaxacan_restaurant,Mexican,Oaxacan
+texmex_restaurant,Mexican,Tex-Mex
+peruvian_restaurant,Latin American,Peruvian
+argentinian_restaurant,Latin American,Argentinian
+south_american_restaurant,Latin American,
+latin_american_restaurant,Latin American,
+panlatin_restaurant,Latin American,
+spanish_restaurant,Spanish,
+basque_restaurant,Spanish,Basque
+portuguese_restaurant,Mediterranean,Portuguese
+mediterranean_restaurant,Mediterranean,
+greek_restaurant,Mediterranean,Greek
+israeli_restaurant,Mediterranean,Israeli
+moroccan_restaurant,Mediterranean,Moroccan
+middle_eastern_restaurant,Middle Eastern,
+persian_restaurant,Middle Eastern,Persian
+african_restaurant,African,
+west_african_restaurant,African,West African
+ethiopian_restaurant,African,Ethiopian
+american_restaurant,American,
+new_american_restaurant,American,New American
+californian_restaurant,American,Californian
+southern_restaurant,American,Southern
+southwestern_restaurant,American,Southwestern
+creole_restaurant,American,Creole
+cajun_restaurant,American,Cajun
+contemporary_louisiana_restaurant,American,Creole
+diner,American,Diner
+gastropub,American,Gastropub
+brunch_restaurant,American,Brunch
+sandwich_shop,American,Sandwich
+steak_house,Steakhouse,
+seafood_restaurant,Seafood,
+oyster_bar_restaurant,Seafood,Oyster
+pizza_restaurant,Pizza,
+vegetarian_restaurant,Vegetarian/Vegan,Vegetarian
+vegan_restaurant,Vegetarian/Vegan,Vegan
+ukrainian_restaurant,European,Ukrainian
+croatian_restaurant,European,Croatian
+european_restaurant,European,
+dessert_restaurant,Dessert,

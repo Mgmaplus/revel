@@ -5,6 +5,8 @@ inclusion: always
 # Architecture Decisions (v1)
 
 > Permanent record of load-bearing architectural choices for the restaurant pipeline. Full reasoning lives in `/.design.md`. Future Kiro sessions should treat these as **decided** unless a new ADR supersedes them.
+>
+> **v2 status: not currently in development.** The "v2" column in ADR-003 + the "v2 backlog" at the bottom of this file are forward-looking only. No v2 code lands until v1 is shipped and a stakeholder explicitly asks. Treat any v2 entry as "do not build now."
 
 ## ADR-001 — Staging with dbt-core + dbt-duckdb (Parquet-backed)
 
@@ -88,3 +90,14 @@ inclusion: always
 5. **No LLM call ships without a Pydantic schema** validating the output shape and a closed-set check on enum-like fields.
 6. **Reruns must be deterministic** given the same input + cache. New LLM calls add to the cache key only via `schema_version` bumps when prompts change.
 7. **Materialize Parquet only at the three documented boundaries** (input, pre-agent, publish). Everything else lives in `data/revel.duckdb` as views or tables.
+
+## v2 backlog (not in development)
+
+These items are deferred to v2 by ADR. Do **not** implement them in v1 even if a request seems to ask for them — flag and escalate per `escalation.md`. Each item has a documented v1 workaround.
+
+- **Google Places API enrichment** for missing `display_address` / `latitude` / `longitude`. Would break the local-only guarantee (ADR-004) and add a second runtime network dependency. v1 workaround: deterministic city fill via the offline `cities_by_geohash5` seed (Step 4a); rows that still lack coords are flagged with `missing_coords` and pass through.
+- **Dagster orchestration.** v1 trigger is a Python CLI (ADR-003 v1 column). v2 will wrap with `dagster-dbt`.
+- **Threshold-based notifications** (Slack/PagerDuty on data-quality regressions). v1 emits a structured run report only.
+- **Warehouse adapter swap** (Snowflake/BigQuery). v1 stays on dbt-duckdb.
+- **LangGraph / multi-step agent reasoning.** v1 keeps LLM calls one-shot and structured (ADR-002).
+- **Source freshness tests + snapshots** (`dbt-expectations`). v1 ships with basic schema tests only.

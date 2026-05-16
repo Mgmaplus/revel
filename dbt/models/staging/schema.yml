@@ -7,6 +7,19 @@ models:
       using SQL plus three Python UDFs: `clean_url`, `geohash`, `name_core`.
       All transforms are deterministic and side-effect free; this is a
       view (no physical bytes).
+    tests:
+      # Lat/lon range and place_id sanity are model-level expressions because
+      # `dbt_utils.expression_is_true` at the column level would prepend the
+      # column name to the expression.
+      - dbt_utils.expression_is_true:
+          expression: "latitude IS NULL OR (latitude BETWEEN 17 AND 72)"
+          name: stg_restaurants_latitude_in_us_bbox
+      - dbt_utils.expression_is_true:
+          expression: "longitude IS NULL OR (longitude BETWEEN -180 AND -65)"
+          name: stg_restaurants_longitude_in_us_bbox
+      - dbt_utils.expression_is_true:
+          expression: "LENGTH(google_place_id) >= 20 OR google_place_id IS NULL"
+          name: stg_restaurants_place_id_min_length
     columns:
       - name: id
         description: "Primary key (carried through from raw)."
@@ -38,17 +51,8 @@ models:
         description: "5-digit ZIP or ZIP+4 extracted from display_address."
       - name: google_place_id
         description: "Validated place_id (non-NULL implies passed prefix + length check)."
-        tests:
-          - dbt_utils.expression_is_true:
-              expression: "LENGTH(google_place_id) >= 20 OR google_place_id IS NULL"
       - name: latitude
-        tests:
-          - dbt_utils.expression_is_true:
-              expression: "latitude IS NULL OR (latitude BETWEEN 17 AND 72)"
       - name: longitude
-        tests:
-          - dbt_utils.expression_is_true:
-              expression: "longitude IS NULL OR (longitude BETWEEN -180 AND -65)"
       - name: price_point
         description: "Canonical pricing tier."
         tests:

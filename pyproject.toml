@@ -22,6 +22,12 @@ dependencies = [
     "dbt-core>=1.8,<1.10",
     "dbt-duckdb>=1.8,<1.10",
     "pygeohash>=1.2,<2",
+    # --- dedup (Step 3) ---------------------------------------------------------
+    "rapidfuzz>=3.9,<4",
+    "networkx>=3.3,<4",
+    # --- agent / LLM (Step 4b) --------------------------------------------------
+    "google-genai>=1.0,<3",
+    "diskcache>=5.6,<6",
 ]
 
 [project.scripts]
@@ -81,8 +87,10 @@ plugins = ["pydantic.mypy"]
 exclude = ["dbt/", "tests/"]
 
 [[tool.mypy.overrides]]
-module = ["duckdb.*"]
+module = ["duckdb", "duckdb.*", "pygeohash", "pygeohash.*", "networkx", "networkx.*"]
 ignore_missing_imports = true
+follow_imports = "skip"
+disable_error_code = ["import-untyped"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

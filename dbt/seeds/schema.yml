@@ -39,3 +39,35 @@ seeds:
         tests:
           - not_null
           - unique
+
+  - name: cuisine_taxonomy
+    description: |
+      Maps Google `primary_type` (after staging normalization) to a closed
+      cuisine taxonomy. Generic types (`restaurant`, `fine_dining_restaurant`,
+      `bistro`, `hotel`, `bar`, `cafe`, etc.) are intentionally absent →
+      those rows escalate to the LLM in Stage 4b. The same closed set of
+      cuisines is enforced on Gemini's structured output.
+    columns:
+      - name: primary_type
+        tests:
+          - not_null
+          - unique
+      - name: cuisine
+        tests:
+          - not_null
+
+  - name: romance_rubric
+    description: |
+      Deterministic per-(primary_type, price_point) prior for the romance
+      sub-scores. Rows that match get scores from this seed; rows that
+      don't escalate to Gemini in Stage 4b. Sub-scores are 0–10 ints.
+    columns:
+      - name: primary_type
+        tests:
+          - not_null
+      - name: price_point
+        tests:
+          - not_null
+          - accepted_values:
+              values: ["low", "medium", "high"]
+              quote: true
