@@ -1,0 +1,84 @@
+version: 2
+
+models:
+  - name: stg_restaurants
+    description: |
+      Stage 2 (Clean & Normalize). Per-column cleaning of `raw_restaurants`
+      using SQL plus three Python UDFs: `clean_url`, `geohash`, `name_core`.
+      All transforms are deterministic and side-effect free; this is a
+      view (no physical bytes).
+    columns:
+      - name: id
+        description: "Primary key (carried through from raw)."
+        tests:
+          - not_null
+          - unique
+      - name: name
+        description: "Original display name; preserved verbatim."
+        tests:
+          - not_null
+      - name: name_core
+        description: |
+          Name normalized for dedup blocking: lowercased, accent-stripped,
+          leading article ('the') removed, punctuation collapsed.
+        tests:
+          - not_null
+      - name: city_canonical
+        description: "Canonical city name from `city_canonical` seed (NULL if unknown)."
+        tests:
+          - relationships:
+              to: ref('city_canonical')
+              field: canonical
+              # Allow NULLs (unknown cities are flagged, not rejected).
+              config:
+                where: "city_canonical IS NOT NULL"
+      - name: state_code
+        description: "Two-letter US state code (from seed lookup or address regex)."
+      - name: postal_code
+        description: "5-digit ZIP or ZIP+4 extracted from display_address."
+      - name: google_place_id
+        description: "Validated place_id (non-NULL implies passed prefix + length check)."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "LENGTH(google_place_id) >= 20 OR google_place_id IS NULL"
+      - name: latitude
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "latitude IS NULL OR (latitude BETWEEN 17 AND 72)"
+      - name: longitude
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "longitude IS NULL OR (longitude BETWEEN -180 AND -65)"
+      - name: price_point
+        description: "Canonical pricing tier."
+        tests:
+          - accepted_values:
+              values: ["low", "medium", "high"]
+              quote: true
+              config:
+                where: "price_point IS NOT NULL"
+      - name: primary_type
+        description: "Lowercased Google primary type, with `_us`/`_restaurant_us` suffix stripped."
+      - name: region_hint
+        description: "'us' if the raw primary_type carried a US suffix, else NULL."
+      - name: website
+        description: "Canonicalized URL (see `revel.dbt_plugin.clean_url`)."
+      - name: geohash7
+        description: |
+          7-char geohash (~150m cell) used as the Tier B dedup blocking key.
+          NULL whenever lat/lon failed the bbox check.
+
+  - name: stg_restaurants__flagged
+    description: |
+      Layer over `stg_restaurants` that adds `_quality_flags`, a list of
+      snake_case labels naming each row's data quality issues. See the
+      flag catalog in the model file.
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: _quality_flags
+        description: "LIST(VARCHAR) — non-NULL, possibly empty."
+        tests:
+          - not_null

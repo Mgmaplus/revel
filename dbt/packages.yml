@@ -1,0 +1,6 @@
+packages:
+  # dbt_utils ships the `expression_is_true` test we use for lat/lon range and
+  # for boolean-invariant checks. Pinned to a 1.x release that's compatible
+  # with dbt-core 1.9.
+  - package: dbt-labs/dbt_utils
+    version: [">=1.2.0", "<2.0.0"]

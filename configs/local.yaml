@@ -1,0 +1,27 @@
+# Default config for local runs. No secrets here — those go in `.env`.
+# Settings precedence (low → high): YAML  <  .env  <  CLI flags.
+
+# --- Paths ---------------------------------------------------------------------
+input_path: input/restaurants.csv
+output_dir: output
+data_dir: data
+duckdb_path: data/revel.duckdb
+
+# --- Logging -------------------------------------------------------------------
+log_level: INFO
+
+# --- LLM (Stage 4; unused in Step 1) ------------------------------------------
+llm_provider: gemini
+llm_model: gemini-2.5-flash
+llm_max_concurrency: 4
+llm_cache_dir: .cache/llm
+
+# --- Stage 4 thresholds (placeholder for Step 4) ------------------------------
+dedup:
+  enable_tier_c: false
+  geo_match_meters: 150
+  name_ratio_min: 92
+
+# --- Run modes -----------------------------------------------------------------
+dry_run: false
+also_csv: false

@@ -1,0 +1,94 @@
+[project]
+name = "revel"
+version = "0.1.0"
+description = "Restaurant CSV → production-grade dataset pipeline (v1)"
+requires-python = ">=3.12"
+readme = "README.md"
+dependencies = [
+    # --- config / logging / CLI -------------------------------------------------
+    "pydantic>=2.7,<3",
+    "pydantic-settings>=2.4,<3",
+    "pyyaml>=6.0,<7",
+    "python-dotenv>=1.0,<2",
+    "structlog>=24.1,<25",
+    "typer>=0.15,<1",
+    # --- data layer (Step 1 minimum) -------------------------------------------
+    # duckdb 1.0+ supports create_function without numpy; pin to recent for safety.
+    "duckdb>=1.1.0,<2",
+    # numpy is a runtime dep of duckdb's Python UDF machinery (zero-copy buffer).
+    # Required for dbt-duckdb plugins that register UDFs (see src/revel/dbt_plugin.py).
+    "numpy>=1.26,<3",
+    "polars>=1.5,<2",
+    "dbt-core>=1.8,<1.10",
+    "dbt-duckdb>=1.8,<1.10",
+    "pygeohash>=1.2,<2",
+]
+
+[project.scripts]
+revel = "revel.cli:app"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.6,<1",
+    "mypy>=1.11,<2",
+    "pytest>=8.3,<9",
+    "types-PyYAML>=6.0,<7",
+]
+
+[tool.uv]
+package = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/revel", "pipelines"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["dbt/target", "dbt/logs", "dbt/dbt_packages"]
+
+[tool.ruff.lint]
+select = [
+    "E", "W", "F",   # pycodestyle / pyflakes
+    "I",             # isort
+    "B",             # bugbear
+    "UP",            # pyupgrade
+    "N",             # pep8-naming
+    "SIM",           # simplify
+    "RUF",           # ruff-specific
+    "PL",            # pylint subset
+]
+ignore = [
+    "PLR0913",       # too many arguments — typer commands legitimately have many
+    "PLR2004",       # magic numbers in tests are fine
+    "PLC0415",       # we use deferred imports intentionally (CLI startup, type cycles)
+    "RUF001",        # en-dash / em-dash in docstrings — used deliberately
+    "RUF002",        # ditto
+    "RUF003",        # ditto
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["PLR2004", "S101"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+files = ["src/revel", "pipelines"]
+plugins = ["pydantic.mypy"]
+exclude = ["dbt/", "tests/"]
+
+[[tool.mypy.overrides]]
+module = ["duckdb.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+filterwarnings = ["error::DeprecationWarning"]
+pythonpath = ["src", "."]
+markers = [
+    "integration: end-to-end tests that exercise dbt + DuckDB (slow-ish)",
+]

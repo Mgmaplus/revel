@@ -1,0 +1,41 @@
+version: 2
+
+seeds:
+  - name: city_canonical
+    description: |
+      Lookup from lowercased raw city → canonical display name + 2-letter
+      state code. Source: distinct city values present in the v1 input
+      CSV. New cities surfaced by future inputs land in `_quality_flags`
+      as `unknown_city` (see `stg_restaurants__flagged`).
+    columns:
+      - name: raw
+        tests:
+          - not_null
+          - unique
+      - name: canonical
+        tests:
+          - not_null
+      - name: state_code
+        tests:
+          - not_null
+
+  - name: price_point_mapping
+    description: |
+      Lookup from raw price_point string → canonical {low,medium,high}
+      or NULL. Empty `canonical` means "drop the value, flag the row".
+    columns:
+      - name: raw
+        tests:
+          - not_null
+          - unique
+
+  - name: place_id_prefixes
+    description: |
+      Allowed Google Places ID prefixes. Used by `stg_restaurants` to
+      reject obviously fabricated place_ids (random base64-looking strings
+      that don't start with one of these).
+    columns:
+      - name: prefix
+        tests:
+          - not_null
+          - unique

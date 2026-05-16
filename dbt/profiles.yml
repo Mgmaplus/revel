@@ -1,0 +1,21 @@
+# dbt-duckdb is an in-process embedded engine — no DB server required.
+# The `path` is a regular file managed by the orchestrator; the env var
+# `REVEL_DUCKDB_PATH` is set by `pipelines.restaurant_pipeline` so dev
+# runs and tests can target different files without conflict.
+#
+# `plugins.module` is a Python module path (resolved on PYTHONPATH) that
+# defines a `Plugin` class registering UDFs into every dbt connection.
+# See src/revel/dbt_plugin.py for the registered functions: clean_url,
+# geohash, name_core.
+
+revel:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('REVEL_DUCKDB_PATH', '../data/revel.duckdb') }}"
+      threads: 4
+      extensions:
+        - httpfs
+      plugins:
+        - module: revel.dbt_plugin

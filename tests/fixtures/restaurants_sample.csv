@@ -1,0 +1,23 @@
+id,name,city,display_address,google_place_id,latitude,longitude,price_point,primary_type,website
+97527,Traif,New York City,"229 South 4th Street, Brooklyn",ChIJveB2ceBbwokRlg4WCe7xoqM,40.7105723,-73.9589970,low,restaurant,http://traifny.com
+108742,traif,New York City,"229 SOUTH 4TH STREET, BROOKLYN",ChIJveB2ceBbwokRlg4WCe7xoqM,40.7101749,-73.9594847,low,restaurant,http://traifny.com
+43717,Dirt Candy,New York City,"86 Allen Street, New York",ChIJBXlte51ZwokRXzXtdaBG9xM,40.7178611,-73.9907054,low,vegetarian_restaurant,http://www.dirtcandynyc.com
+108718,Dirt Candy,New York City,"86 Allen Street, New York, United States",ChIJBXlte51ZwokRXzXtdaBG9xM,40.7181457,-73.9903979,low,vegetarian_restaurant,http://www.dirtcandynyc.com
+7788,Ivan Ramen,New York City,"25 Clinton St, New York, NY 10002",ChIJreEXi4FZwokR_ygs7wh2fTk,40.7205800,-73.9845400,low,ramen_restaurant,https://www.ivanramen.com/location/clinton-st
+108719,Ivan Ramen,New York City,"25 Clinton St, New York, NY 10002, United States",ChIJgBBDUR_gzv3pmCBrp7C3Jd-,40.7202463,-73.9845544,low,ramen_restaurant,https://www.ivanramen.com/location/clinton-st
+108720,Ivan Ramen,New York City,"25 Clinton St, New York, NY 10002, United States",ChIJzdy-qYDB9-JTjs9LIVdLG2k,40.7201485,-73.9849720,null,ramen_restaurant,https://www.ivanramen.com/location/clinton-st
+67553,Merois,Los Angeles,"8430 W Sunset Blvd, West Hollywood, CA 90069",ChIJ62K862-_woAR8YptH_AXFJY,34.0946318,-118.3735788,high,asian_fusion_restaurant,https://wolfgangpuck.com/restaurants/merois-west-hollywood/
+108753,Merois | West Hollywood,Los Angeles,"8430 W SUNSET BLVD, WEST HOLLYWOOD, CA 90069",ChIJ62K862-_woAR8YptH_AXFJY,34.0951101,-118.3733184,high,asian_fusion_restaurant,https://wolfgangpuck.com/restaurants/merois-west-hollywood/
+108754,The Merois | West Hollywood,Los Angeles,8430 W Sunset Blvd,ChIJ62K862-_woAR8YptH_AXFJY,34.0949279,-118.3737854,high,asian_fusion_restaurant,https://wolfgangpuck.com/restaurants/merois-west-hollywood/
+74275,Antoine's Restaurant,New Orleans,"713 St Louis St, New Orleans, LA 70130",ChIJWegGCA6mIIYRYAiMKN4T4CM,29.9567368,-90.0663924,high,french_restaurant,http://www.antoines.com/
+108766,Antoine's Restaurnt,New Orleans,"713 Street Louis Street, New Orleans, LA 70130",ChIJWegGCA6mIIYRYAiMKN4T4CM,29.9569825,-90.0664162,high,french_restaurant,http://www.antoines.com/
+73220,Queen Mother's Kitchen,"Washington, DC","1711 Crystal Dr, Arlington, VA 22202",ChIJsUjSwEa3t4kRl7l1G4zFmBM,38.8584766,-77.0490148,budget,restaurant,http://www.queenmothercooks.com
+3648,Basso by PXK,New York City,"11 King St, Chappaqua, NY 10514",ChIJoxhV4_dYwokRXZiebAzYAnY,41.1595504,-73.7730896,unknown,italian_restaurant,null
+108739,COTOA Restarant,null,"12475 NE 6TH CT, NORTH MIAMI, FL 33161, UNITED STATES",ChIJn8SyL-C32YgRWuPY_2YmsAA,25.8899996,-80.1850702,medium,restaurant,http://www.cotoa.rest/
+108057,Baar Baar - LA,Los Angeles,"705 W 9th St, Los Angeles, CA 90015, United States",ChIJW_3BHLfHwoARQ3w-at3U0Ek,null,null,medium,indian_restaurant,https://www.baarbaarla.com/
+101075,Seasons,"Washington, DC","2800 Pennsylvania Ave NW, Washington, DC 20007",ChIJNdBhOEu2t4kRHTP0U-g1raw,38.9048185,-77.0572948,high,restaurant,https://www.fourseasons.com/washington/dining/restaurants/seasons/%3Futm_source%3Dgoogle%26utm_medium%3Dorganicsearch%26utm_campaign%3Dtor-was-fab-mid-seo-na%26utm_content%3Dna-na%26utm_term%3Dna
+103302,Hawksmoor Chicago,Chicago,"500 N La Salle Dr, Chicago, IL 60654",ChIJ1W8bZAotDogRz5PYLjgokLU,41.8909552,-87.6330204,high,steak_house,https://thehawksmoor.com/us/chicago
+108768,il Carcofo,Chicago,"1045 W Fulton St, Chicago, IL 60607",,41.8865203,-87.6543999,high,roman_restaurant,http://www.ilcarciofochicago.com/
+108743,The Moody Tongue Brewing Company,Chicago,"2515 S WABASH AVE, CHICAGO, IL 60616",ChIJEv9q3heFKRjZ8fpJAMNXy6t,41.8474201,-87.6252308,null,restaurant,http://www.moodytongue.com
+34561,RPM Italian,Chicago,"52 W Illinois St, Chicago, IL 60654",ChIJgfrOPLIsDogRvM0_GwLBpyI,41.8909609,-87.6300419,medium,italian_restaurant,https://www.rpmrestaurants.com/rpm-italian-chicago
+66660,Lazy Betty (relocated ),Atlanta,"999 Peachtree St NE Suite #140, Atlanta, GA 30309",ChIJ00zCHiAH9YgR3l-kmURAKrM,33.7813991,-84.3836584,high,restaurant,http://lazybettyatl.com/

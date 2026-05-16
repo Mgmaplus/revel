@@ -1,0 +1,45 @@
+version: 2
+
+# The source CSV is read directly from disk by DuckDB. dbt-duckdb's
+# `external_location` jinja lets us point at any file at compile time and
+# wrap it in a `read_csv(...)` call so DuckDB never re-guesses parameters
+# across runs. The `REVEL_INPUT_PATH` env var is set by the orchestrator.
+#
+# CSV-read invariants pinned here:
+#   - utf-8 encoding (forced)
+#   - header row required
+#   - all columns read as VARCHAR; raw_restaurants does the cast (gives
+#     us TRY_CAST behavior on numerics rather than DuckDB aborting on
+#     a single bad row)
+#   - the strings '', 'null', 'NULL', 'None' are treated as SQL NULL
+
+sources:
+  - name: raw
+    description: "Source CSV files dropped under `input/`."
+    meta:
+      external_location: >-
+        read_csv('{{ env_var("REVEL_INPUT_PATH", "../input/restaurants.csv") }}',
+          header=true,
+          all_varchar=true,
+          nullstr=['', 'null', 'NULL', 'None'])
+    tables:
+      - name: restaurants
+        description: "Restaurants CSV — schema documented in `project-overview.md` §6."
+        columns:
+          - name: id
+            description: "Internal identifier."
+            tests:
+              - not_null
+              - unique
+          - name: name
+            description: "Restaurant display name."
+            tests:
+              - not_null
+          - name: city
+          - name: display_address
+          - name: google_place_id
+          - name: latitude
+          - name: longitude
+          - name: price_point
+          - name: primary_type
+          - name: website

@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: raw_restaurants
+    description: |
+      Stage 1 (Ingest). View over the source CSV with explicit casts.
+      Fails the run if `id` cannot be cast to BIGINT or if a duplicate `id`
+      is present. Geo casts use TRY_CAST so malformed numeric strings produce
+      NULLs (which the staging stage then flags) rather than aborting the
+      whole pipeline.
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: name
+        tests:
+          - not_null

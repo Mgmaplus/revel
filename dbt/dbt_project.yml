@@ -1,0 +1,38 @@
+name: revel
+version: "0.1.0"
+config-version: 2
+
+profile: revel
+
+# Standard layout. `external-target` controls where models materialized as
+# `external` write their Parquet files; we point it at `data/pre_agent` so
+# the only Parquet boundary in v1 lives in a known place (per ADR-004).
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+snapshot-paths: ["snapshots"]
+analysis-paths: ["analyses"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages", "logs"]
+
+# dbt-duckdb knows how to write Parquet directly when materialization=external.
+# We'll point individual marts at concrete paths in their config blocks once
+# Step 4 lands; nothing in Step 1 uses this.
+
+models:
+  revel:
+    raw:
+      +materialized: view
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: table
+    marts:
+      +materialized: external
+      +location: "../data/pre_agent/{name}.parquet"
+      +format: parquet
+
+seeds:
+  revel:
+    +quote_columns: false

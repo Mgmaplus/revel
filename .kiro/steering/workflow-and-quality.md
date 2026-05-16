@@ -167,54 +167,6 @@ Quality gates are **tiered by change size** to balance rigor with efficiency.
 
 ✓ = Required, △ = If applicable, ✗ = Not required
 
----
-
-## Repository Task Runner and Tooling
-
-* When a `justfile` exists, **discover tasks by reading it** and use `just` for build, test, lint, format, run, and deploy
-* If tasks are ambiguous, check `package.json` scripts, `Makefile`, or `README`
-* **Before running any task**, verify it exists and explain what it will do
-* **MUST** run formatter and linter before proposing commits
-* **Honor repo configuration files** (`.editorconfig`, `pyproject.toml`, `eslint.config.*`, `ruff.toml`, `tsconfig.json`)
-
-### Node Version Management (MUST)
-
-* This repo uses **fnm** (Fast Node Manager) - **DO NOT use nvm**
-* **MUST** run `eval "$(fnm env)" && fnm use` before executing npm/pnpm commands
-* If a `.nvmrc` file exists, fnm will read it automatically
-* If no `.nvmrc` exists, install a recent LTS version: `fnm install --lts && fnm use lts-latest`
-* **NEVER** attempt to install or use nvm on this system
-
-### Pre-commit Hooks
-
-* A git commit hook runs `pnpm eslint` and `prettier` on modified files automatically
-* **SHOULD** run these checks manually before committing to catch issues early:
-  ```bash
-  # Run ESLint on modified files
-  pnpm --filter mevo-app eslint --fix <file-path>
-  
-  # Run all pre-commit checks
-  pnpm --filter mevo-app pre-commit
-  ```
-* The pre-commit hook uses `lint-staged` to only check staged files
-* If pre-commit fails, fix the issues before committing again
-
-### TypeScript Type Checking
-
-* **MUST** run type checks after making TypeScript changes to catch type errors before CI
-* Use `getDiagnostics` tool to check specific files for type errors
-* Run full type check across all packages:
-  ```bash
-  pnpm checkTypesAll
-  ```
-* Run type check for specific package:
-  ```bash
-  pnpm --filter mevo-app check-types
-  pnpm --filter @marketingevolution/mevo-design-system check-types
-  ```
-* **Type check before committing** to avoid CI failures
-* CI runs type checks on all packages - local type checks must pass before pushing
-
 ## Sources of Truth and Research
 
 ### Documentation lookup priority
