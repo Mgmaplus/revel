@@ -1,0 +1,1074 @@
+id,name,city,display_address,google_place_id,latitude,longitude,price_point,primary_type,website
+97527,Traif,New York City,"229 South 4th Street, Brooklyn",ChIJveB2ceBbwokRlg4WCe7xoqM,40.7105723,-73.9589970,low,restaurant,http://traifny.com
+70550,Canje,Austin,null,ChIJiTXrX2G1RIYRwMqfb50ntjE,30.2616642,-97.7214271,medium,restaurant,https://canjeatx.com
+40049,Virtue Restaurant,Chicago,"1462 E 53rd St, Chicago, IL 60615",ChIJdQBzqFMpDogRblcUhYQDPu0,41.7996712,-87.5893287,null,southern_restaurant_us,https://www.virtuerestaurant.com/
+43717,Dirt Candy,New York City,"86 Allen Street, New York",ChIJBXlte51ZwokRXzXtdaBG9xM,40.7178611,-73.9907054,low,vegetarian_restaurant,http://www.dirtcandynyc.com
+97059,"Flagstaff House ",Denver,"1138 Flagstaff Rd, Boulder, CO 80302",ChIJSQiI-hbsa4cRUt4alNdjJjw,40.0073555,-105.2945273,high,fine_dining_restaurant,http://www.flagstaffhouse.com/
+41338,Little Shucker,San Francisco Bay Area,"2016 Fillmore St, San Francisco, CA 94115",ChIJwe9MfAyBhYAR1aUHKoeBbTw,37.7882506,-122.4335324,medium,seafood_restaurant,https://www.littleshucker.com/
+100159,Class Act,Chicago,"1737 N Damen Ave, Chicago, IL 60647",ChIJEZI_987TD4gRaV2Qr4NNFMs,41.9134230,-87.6772408,high,fine_dining_restaurant,https://classactchicago.com/
+76382,Knife Steakhouse,Dallas,"6121 W Park Blvd RS9, Plano, TX 75093",ChIJq6qq9n4jTIYRmeBRD-TNXFk,33.0314336,-96.8311105,high,steak_house,https://knifeplano.com/?utm_source=GMB
+22334,Tresca,Boston,"233 Hanover St, Boston, MA 02113",ChIJGwg4zohw44kR2JOE0zpR_Wo,42.3630135,-71.0550161,medium,italian_restaurant,https://trescanorthend.com
+101806,The Hollywood Roosevelt,Los Angeles,"7000 Hollywood Blvd, Los Angeles, CA 90028",ChIJazD_QyG_woARwKuHsRqY0nU,34.1011504,-118.3417817,null,hotel,https://www.thehollywoodroosevelt.com/%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgbp_listing
+43810,Francie,New York City,"136 Broadway, Brooklyn",ChIJ35V_tZlbwokRzolpCln-mG4,40.7101864,-73.9640186,low,restaurant,http://www.franciebrooklyn.com
+72259,Z & Y Peking Duck,San Francisco Bay Area,"606 Jackson St, San Francisco, CA 94133",ChIJP9HbwPSAhYAR2jzkKhT18MY,37.7963524,-122.4054916,null,chinese_restaurant,https://zandypekingduck.com
+56643,Ilis,New York City,"150 Green St, Brooklyn, NY 11222",ChIJHZyajD1ZwokREWLihHYSryQ,40.7334873,-73.9555292,high,restaurant,https://ilisnyc.com
+108729,Mélisse Restaurant Cafe,Los Angeles,"1104 Wilshire Blvd, Santa Monica, CA 90401",ChIJ7fOMUsSkwoARIOVuE_23I1Q,34.0245912,-118.4914502,high,new_american_restaurant,http://citrinandmelisse.com
+75188,Locust,Nashville,"2305 12th Ave S, Nashville, TN 37204",ChIJZTkU2HdlZIgR_V55oayk0Lw,36.1273778,-86.7893698,high,fine_dining_restaurant,http://locustnashville.com
+68225,Bonyeon,Chicago,"651 W Washington Blvd, Chicago, IL 60661",ChIJacBkcpAtDogR2w3CGoT-g0w,41.8827771,-87.6444716,high,steak_house,https://www.bonyeonchicago.com/
+43980,Locanda Verde Hudson Yards,New York City,"50 Hudson Yards, New York, NY 10001",ChIJV09-awBZwokROld1G3kx0e4,40.7547224,-74.0005774,high,restaurant,https://www.locandaverdenyc.com
+70758,Canoe,Atlanta,"4199 Paces Ferry Rd SE, Atlanta, GA 30339",ChIJJbthuA0Q9YgRLIGtr6ZLaOU,33.8597400,-84.4551730,medium,new_american_restaurant,http://www.canoeatl.com/
+75404,Bardot Brasserie,Las Vegas,"ARIA Resort & Casino, 3730 S Las Vegas Blvd, Las Vegas, NV 89109, United States",ChIJ4Udn1TPEyIARwZHV7Ok1EOg,36.1075652,-115.1767016,medium,brunch_restaurant,https://aria.mgmresorts.com/en/restaurants/bardot-brasserie.html?ecid=GMB_AR_RE
+101075,Seasons,"Washington, DC","2800 Pennsylvania Ave NW, Washington, DC 20007",ChIJNdBhOEu2t4kRHTP0U-g1raw,38.9048185,-77.0572948,high,restaurant,https://www.fourseasons.com/washington/dining/restaurants/seasons/%3Futm_source%3Dgoogle%26utm_medium%3Dorganicsearch%26utm_campaign%3Dtor-was-fab-mid-seo-na%26utm_content%3Dna-na%26utm_term%3Dna
+69845,The Village Pub,San Francisco Bay Area,null,ChIJG1kW_BCkj4AR8ZZ326YvxPU,37.4289581,-122.2515746,null,fine_dining_restaurant,http://www.thevillagepub.net
+67232,Ciccio Mio,Chicago,"226 W Kinzie St, Chicago, IL 60654",ChIJ3y7Zs1ctDogRSTUTHxxmFHI,41.8892640,-87.6352141,medium,italian_restaurant,https://cicciomio.com
+108748,Miura Restaurant,Los Angeles,null,ChIJX30a3DdHNFCdris4FbOZTta,34.0675726,-118.4009507,null,fine_dining_restaurant,http://miura-beverlyhills.com/
+68288,Bavel,Los Angeles,"500 Mateo St #102, Los Angeles, CA 90013",ChIJAQDw5jzGwoARJ0ddsqWyCAQ,34.0414870,-118.2329313,high,restaurant,https://baveldtla.com
+11967,Golden Diner,New York City,"123 Madison St, New York, NY 10002",ChIJ1-mW-LhbwokR7Ryv5ha-gzc,40.7124400,-73.9940000,null,diner,https://www.goldendinerny.com
+33928,Little Goat Diner,Chicago,null,ChIJ-zu2tdosDogRx95ZkNcp7t0,41.8846461,-87.6484127,low,diner,http://littlegoatchicago.com
+69701,SOICHI,San Diego,"2121 Adams Ave, San Diego, CA 92116",ChIJfQEdreJV2YARnieTJoa2pGQ,32.7626574,-117.1418019,null,sushi_restaurant,http://www.soichisushi.com
+72471,Gary Danko,San Francisco Bay Area,"800 North Point Street, San Francisco",ChIJq342JeGAhYARwdtH9tlX7gg,37.8058651,-122.4206043,high,bar,http://www.garydanko.com
+40577,IRIS,New York City,"1740 Broadway, New York, NY 10019",ChIJMccf7SRZwokRyJJEQAXUhqM,40.7652659,-73.9817508,medium,mediterranean_restaurant,https://www.irisrestaurant.nyc
+39582,Kono,New York City,"46 Bowery, New York, NY 10013",ChIJ45qzIv9bwokRtdvAuQxHYrQ,40.7156608,-73.9967012,high,japanese_restaurant,http://yakitorikono.com
+74659,Girl & the Goat Los Angeles,Los Angeles,null,ChIJXVodUFfHwoARe63Z7LSuUnY,34.0402258,-118.2331693,medium,new_american_restaurant,https://www.girlandthegoat.com/los-angeles
+10923,Hirohisa,New York City,"73 Thompson St, New York, NY 10012",ChIJXW6IXYxZwokR-i9saEWMIBY,40.7245970,-74.0031740,null,japanese_restaurant,https://www.hirohisa.nyc
+73220,Queen Mother's Kitchen,"Washington, DC","1711 Crystal Dr, Arlington, VA 22202",ChIJsUjSwEa3t4kRl7l1G4zFmBM,38.8584766,-77.0490148,budget,restaurant,http://www.queenmothercooks.com
+4183,Estiatorio Milos - Midtown,New York City,"125 W 55th St, New York, NY 10019",ChIJbRaexvlYwokRYc5RgUjlsIY,40.7636800,-73.9792200,high,greek_restaurant,https://www.estiatoriomilos.com/restaurant/new-york-midtown
+43844,Wayan,New York City,"20 Spring Street, New York",ChIJm7ryTglZwokRsgnJB6CDMCo,40.7213692,-73.9950855,medium,indonesian_restaurant,http://www.wayan-nyc.com
+34596,Chicago Cut Steakhouse,Chicago,"300 N Lasalle, Chicago, IL 60654",ChIJQ8QqIbEsDogReNfi-87G-4A,41.8879719,-87.6333480,null,steak_house,http://www.chicagocutsteakhouse.com
+41563,The Mercer Hotel,New York City,"147 Mercer St, New York, NY 10012",ChIJzyx3-o5ZwokR9DTHgZ521n8,40.7248889,-73.9985375,null,hotel,http://mercerhotel.com
+41569,Xiquet by Danny Lledó,"Washington, DC","2404 Wisconsin Ave NW, Washington, DC 20007",ChIJZZNZ9Lu3t4kRsIt1tM8JHjk,38.9212715,-77.0724221,high,restaurant,http://xiquetdl.com
+103640,888,Nashville,"800 Clark Pl, Nashville, TN 37203, USA",ChIJLza7xQxnZIgREuqfmswhlFI,36.1558084,-86.7805324,high,japanese_restaurant,https://www.888nashville.com/
+43541,Le Bernardin,New York City,"155 West 51st Street, New York, NY 10019",ChIJV7QQ6kdZwokRax4615zpSGU,40.7614218,-73.9817558,high,french_restaurant,https://www.le-bernardin.com/home
+40526,Gravitas,"Washington, DC","1401 Okie St NE, Washington, DC 20002",ChIJlQvkj3O4t4kRbcYbGokqgX8,38.9143265,-76.9835677,high,american_restaurant,https://www.gravitasdc.com
+67133,Voltaggio Brothers Steakhouse,"Washington, DC","MGM National Harbor Resort & Casino, 101 MGM National Ave, Oxon Hill, MD 20745",ChIJ366-H4K6t4kRAFRSwllQw6E,38.7952112,-77.0088763,high,restaurant,https://mgmnationalharbor.mgmresorts.com/en/restaurants/voltaggio-brothers-steakhouse.html
+100515,Sushi Horiuchi,Houston,"2701 W Dallas St, Houston, TX 77019",ChIJVbEabgDBQIYRsd4OW6hQeic,29.7572039,-95.3950357,high,japanese_restaurant,http://www.sushi-horiuchi.com/
+4976,Gabriel Kreuther,New York City,"41 W 42nd St, New York, NY 10036",ChIJw_TGEwBZwokR-zLts543O-4,40.7545460,-73.9825560,high,french_restaurant,https://www.gknyc.com
+31380,Giant,Chicago,"3209 W Armitage Ave, Chicago, IL 60647",ChIJDQ-5B2jND4gR8fRYgBpWAzQ,41.9171000,-87.7074600,medium,gastropub,http://www.giantrestaurant.com
+94024,Uchi,Denver,"2500 Lawrence St, Denver, CO 80205",ChIJAUDAeiB5bIcR_zluXy3GT_8,39.7569264,-104.9852614,null,sushi_restaurant,https://uchi.uchirestaurants.com/location/denver/
+20482,The Eliot Hotel,Boston,"370 Commonwealth Ave, Boston, MA 02215",ChIJRXJQ1wR644kRg4P39DDMls4,42.3488900,-71.0887700,medium,hotel,https://www.eliothotel.com
+76328,¡VIVA!,Las Vegas,"3000 S Las Vegas Blvd, Las Vegas, NV 89109, United States",ChIJPegNjHzFyIARPBkzZhPswGU,36.1340143,-115.1649647,medium,mexican_restaurant,http://eatdrinkviva.com/
+108776,the spiral nyc,New York City,"66 HUDSON BLVD E, NEW YORK, NY 10001",ChIJuYzXdZlZwokR_36T9odtqPY,40.7553794,-73.9996576,null,corporate_office,https://www.thespiralny.com
+41451,Martiny’s,New York City,"121 E 17th St, New York, NY 10003",ChIJ_xzMHNtZwokRdVig2X11Rvk,40.7361454,-73.9876975,null,cocktail_bar,https://www.martinys.com
+12166,Manhatta,New York City,"28 Liberty St, Fl 60, New York, NY 10005",ChIJoTXWl8dbwokRpKA2BJFVsGA,40.7077620,-74.0088510,high,restaurant,https://www.manhattarestaurant.com
+68222,Arlo Grey by Kristen Kish,Austin,"111 E Cesar Chavez St, Austin, TX 78701",ChIJAc2DMIe1RIYRLq9Zr7joMNU,30.2627097,-97.7441138,medium,restaurant,https://www.thelinehotel.com/austin/restaurants-bars/arlo-grey
+74905,Nisei,San Francisco Bay Area,"2316 Polk Street, San Francisco",ChIJYSfspPSBhYARcVCbbkjGXg0,37.7981765,-122.4220853,high,restaurant,https://www.restaurantnisei.com
+99640,Crane Club,New York City,"85 10th Ave, New York, NY 10011",ChIJQZCdItFZwokR81gO5l3lMKc,40.7434185,-74.0075256,high,steak_house,https://taogroup.com/venues/crane-club-restaurant-new-york/
+107963,Miura,Los Angeles,"218 N Rodeo Dr #2f, Beverly Hills, CA 90210",ChIJ_5ydTHu7woARcQmby2lfPME,34.0674249,-118.4006047,null,fine_dining_restaurant,http://miura-beverlyhills.com/
+43548,Peacock Alley,New York City,"301 Park Avenue, New York",ChIJ27nx-PxYwokR7tAUjfLrCt4,40.7565712,-73.9736421,medium,restaurant,http://www.waldorfnewyorkcity.com
+41987,Little Myanmar,New York City,"150 E 2nd St, New York, NY 10009",ChIJpT0hlqtZwokRYQqPEQPFhBo,40.7230802,-73.9854598,low,restaurant,http://littlemyanmar.nyc
+76520,PRIME Steakhouse - Las Vegas,Las Vegas,null,ChIJswuaqjrEyIARSR1ucDAkn9Q,36.1137441,-115.1750267,high,restaurant,https://www.bellagio.com/en/restaurants/prime-steakhouse.html
+73014,Dakar NOLA,New Orleans,"3814 Magazine St, New Orleans, LA 70115",ChIJrZTdR6ylIIYRE3vWwDQt90M,29.9211942,-90.0945293,high,west_african_restaurant,https://www.dakarnola.com/
+72918,Soban,Los Angeles,"4001 W Olympic Blvd, Los Angeles, CA 90019",ChIJRSu-m4y4woARt5qs5kYeN48,34.0541189,-118.3208523,low,korean_restaurant,http://www.sobanla.com
+40974,Octavia,San Francisco Bay Area,null,ChIJs32Mdr-AhYARZmI19fIPvOM,37.7879770,-122.4271388,medium,restaurant,http://octavia-sf.com
+102013,Ramova,Chicago,"3520 S Halsted St, Chicago, IL 60609",ChIJmWfTNjosDogRFBq7zRq5Kr0,41.8301842,-87.6462351,null,live_music_venue,https://ramovachicago.com/
+100814,Kappo Kappo,Austin,"600 W 2nd St, Austin, TX 78701",ChIJ__-PqA-1RIYRhgaIU5RY_58,30.2661822,-97.7500310,high,restaurant,https://www.kappokappo.com/
+10154,Don Angie,New York City,"103 Greenwich Ave, New York, NY 10014",ChIJfxC19JVZwokRX2uKgQAL17c,40.7377800,-74.0019700,medium,italian_restaurant,https://www.donangie.com
+67398,Selva,Los Angeles,"4137 E Anaheim St, Long Beach, CA 90804",ChIJ50auiHgx3YARY61SKqSW-gA,33.7827376,-118.1439451,high,south_american_restaurant,http://www.selvalbc.com
+8493,Kochi,New York City,"652 10th Ave, New York, NY 10036",ChIJN8SzjFRZwokR-b5lqNXcg44,40.7620100,-73.9935100,high,korean_restaurant,https://www.kochinyc.com
+41928,Juno Sushi Chicago,Chicago,"2638 N Lincoln Ave, Chicago, IL 60614",ChIJ9R7uzwPTD4gRUK7ByrCK-wg,41.9297095,-87.6552036,high,sushi_restaurant,http://junosushichicago.com
+41764,Masseria,"Washington, DC","1340 4th St NE, Washington, DC 20002",ChIJp1AcfBq4t4kR8L1hnsBhxtE,38.9097032,-76.9992943,high,italian_restaurant,http://masseria-dc.com
+71076,Ubuntu,Los Angeles,"7469 Melrose Ave, Los Angeles, CA 90046",ChIJkQhOrD6_woARfuABNiRcGgg,34.0838345,-118.3528037,medium,west_african_restaurant,https://www.ubuntula.com
+68633,Pizzeria Mozza,Los Angeles,"641 Highland Ave, Los Angeles, CA 90036",ChIJbWvuoNO4woARx2Xy5MvJ138,34.0831169,-118.3388666,medium,pizza_restaurant,http://www.pizzeriamozza.com
+108722,Flour + Watr,San Francisco Bay Area,"2401 Harrison Street, San Francisco, CA 94110",ChIJQKuqQuqiPD77aNKgIGiweps,37.7591053,-122.4122280,medium,restaurant,
+42411,HYUN,New York City,"10 E 33rd St, New York, NY 10016",ChIJyVx4cR9ZwokRjVpmK-TnpM0,40.7474212,-73.9844589,high,korean_restaurant,http://www.hyun-nyc.com
+74034,CUT by Wolfgang Puck - DC,"Washington, DC","1050 31st St NW, Washington, DC 20007",ChIJVVUFCEy2t4kRrX0FPXT-1zk,38.9039578,-77.0614383,high,restaurant,https://wolfgangpuck.com/restaurants/cut-washington-d-c/
+69425,Folk,Nashville,"823 Meridian St, Nashville, TN 37207",ChIJERh-40NnZIgRbO9_7R21HJA,36.1855645,-86.7679768,medium,american_restaurant,https://www.goodasfolk.com
+96556,Spoon and Stable,Minneapolis-Saint Paul,"211 N 1st St, Minneapolis, MN 55401",ChIJpQmgMoQys1IRID1e5YB8eMo,44.9855244,-93.2694875,high,new_american_restaurant,http://www.spoonandstable.com/
+73191,Bestia,Los Angeles,"2121 E 7th Pl, Los Angeles, CA 90021",ChIJSRvZ1yHGwoARcLrfvc-APl4,34.0336799,-118.2292359,high,italian_restaurant,http://www.bestiala.com
+93859,Rockefeller Center,New York City,"45 Rockefeller Plaza, New York, NY 10111",ChIJ9U1mz_5YwokRosza1aAk0jM,40.7587402,-73.9786736,null,historical_landmark,https://www.rockefellercenter.com
+70367,Nixta Taqueria,Austin,"2512 E 12th St, Austin, TX 78702",ChIJhZqjqb-1RIYRUa_qnToL44k,30.2750091,-97.7132754,low,restaurant,https://nixtataqueria.com
+99859,Dōgon by Kwame Onwuachi,"Washington, DC","1330 Maryland Ave SW, Washington, DC 20024, USA",ChIJtVoQBpi3t4kRTdYswbsDnaA,38.8835888,-77.0301787,high,restaurant,https://www.salamanderdc.com/dining/dogon?utm_source=google&utm_medium=listing&utm_campaign=google-business-profile
+7786,Dirty French,New York City,null,ChIJrXEiw4NZwokRxp0-JU8sJ-I,40.7218300,-73.9871900,medium,french_restaurant,https://dirtyfrench.com/new-york
+27818,Tony's Pizza Napoletana,San Francisco Bay Area,"1570 Stockton St, San Francisco, CA 94133",ChIJHXHcEvGAhYARQPuHNN78s78,37.8003315,-122.4090540,low,restaurant,http://tonyspizzanapoletana.com
+42341,Jean's,New York City,"415 Lafayette St, New York, NY 10003",ChIJS9OS9sNZwokRx5r2iXYAk5E,40.7285389,-73.9921165,high,restaurant,https://jeans.nyc
+70525,Caffe Abbracci,Miami,"318 Aragon Ave, Coral Gables, FL 33134",ChIJiSd1C5q32YgRo6pHoZz1Aec,25.7500286,-80.2611389,medium,italian_restaurant,http://www.caffeabbracci.com
+99348,Stubborn Seed Las Vegas,Las Vegas,"3000 S Las Vegas Blvd, Las Vegas, NV 89109",ChIJaep_gxLEyIAReRQCxA99JxU,36.1345710,-115.1648028,high,restaurant,https://www.stubbornseed.com/las-vegas-menu
+71929,Restaurant Beatrice,Dallas,"1111 N Beckley Ave, Dallas, TX 75203",ChIJo0IBK-iZToYRew2A7ItIxx8,32.7569652,-96.8232253,medium,restaurant,http://restaurantbeatrice.com/
+67282,Centrico,Los Angeles,"1580 Disneyland Dr, Anaheim, CA 92802",ChIJ46M5DPHX3IARUM5_MlFj7Qk,33.8090795,-117.9229509,low,mexican_restaurant,https://www.centricoanaheim.com
+102120,Casa Neos,Miami,"40 SW North River Dr, Miami, FL 33128",ChIJ49bn4Vm32YgRh9MeU2fSIy0,25.7736160,-80.2005081,high,mediterranean_restaurant,https://www.casa-neos.com/
+73411,Boia De,Miami,"5205 NE 2nd Ave, Miami, FL 33137",ChIJte0b2xux2YgRr8f-xaLb0jw,25.8242908,-80.1913478,high,italian_restaurant,http://www.boiaderestaurant.com
+98251,Morimoto Las Vegas,Las Vegas,"MGM Grand, 3799 S Las Vegas Blvd, Las Vegas, NV 89109",ChIJZ-93QcvFyIARdSoxKD2AoOU,36.1028214,-115.1689456,high,japanese_restaurant,https://www.mgmgrand.com/en/restaurants/morimoto.html
+103401,Westwood Coast,Los Angeles,"1870 Harbor Blvd suite l1-108, Costa Mesa, CA 92626",ChIJLXYaJY_f3IARM-yoiHAsw3o,33.6416550,-117.9186523,null,american_restaurant,https://www.westwoodworld.com/orange-county/home/
+15317,1 Hotel Central Park,New York City,"1414 Ave Of The Americas, New York, NY 10019",ChIJHb72rfBYwokRRhrgUWHTlLs,40.7647100,-73.9765100,medium,hotel,https://www.1hotels.com/central-park
+6446,Atomix,New York City,null,ChIJ3bmAHghZwokRRXYO57yLuss,40.7442100,-73.9828600,high,korean_restaurant,http://www.atomixnyc.com
+41633,Ever Restaurant,Chicago,"1340 West Fulton Street, Chicago, IL",ChIJqUoVvkgtDogRLGIKXcfaiKk,41.8869229,-87.6603983,high,restaurant,https://www.ever-restaurant.com/
+41300,Paros Tribeca,New York City,null,ChIJW36sYEpZwokRS9MbIsZ_Hnk,40.7189138,-74.0062106,medium,greek_restaurant,http://parosnyc.com
+22104,Fox And The Knife,Boston,"28 W Broadway, Boston, MA 02127",ChIJnVA33md744kRF_VWMkzpOLI,42.3427600,-71.0564500,medium,italian_restaurant,http://www.foxandtheknife.com
+41860,Seven Reasons,"Washington, DC","931 H St NW, Washington, DC 20001, USA",ChIJLZMH6BC3t4kRm1AYuEfWHuw,38.9195518,-77.0323045,high,restaurant,https://www.sevenreasonsgroup.com/seven-reasons
+72478,The Catbird Seat,Nashville,null,ChIJq3tfSZJmZIgRLkkEXv4QxkQ,36.1505934,-86.7786880,high,new_american_restaurant,http://thecatbirdseatrestaurant.com
+40126,ROOH SF,San Francisco Bay Area,"333 Brannan Street, San Francisco, CA",ChIJf16Ze3iAhYAR3Yx8zTAr8Ug,37.7809636,-122.3927224,medium,bar,http://roohrestaurants.com/san-francisco
+74634,Jūn,Houston,"420 E 20th St Suite A, Houston, TX 77008",ChIJxTqZcwW5QIYRoEzN-u51-JI,29.8036955,-95.3936817,null,new_american_restaurant,https://www.junbykin.com/
+40005,SPQR,San Francisco Bay Area,"1911 Fillmore St, San Francisco, CA 94115",ChIJCUQFkseAhYARpkr3emAuxp8,37.7872974,-122.4337627,high,restaurant,http://spqrsf.com
+7180,Cathédrale Restaurant,New York City,"112 E 11th St, New York, NY 10003",ChIJJZKgh3JZwokRceJLj_PM7IY,40.7316000,-73.9895100,low,french_restaurant,http://moxy-hotels.marriott.com/nyc/east-village/cathedrale
+99709,Cafe Commerce,New York City,"964 Lexington Ave, New York, NY 10021",ChIJpRJxMZFZwokRuAIdqebbohg,40.7694419,-73.9632635,high,restaurant,http://cafecommercenyc.com/
+70148,Le Comptoir,Los Angeles,"3606 W 6th St, Los Angeles, CA 90020",ChIJH4sHtIK4woARiZb4-XmwTsM,34.0634619,-118.3006932,high,french_restaurant,http://www.lecomptoirla.com
+40236,"Trump International Hotel/Tower New York - New York, NY",New York City,"1 Central Park West, New York, NY 10023",ChIJh5JzbfZYwokR_28ru8Q14wM,40.7690715,-73.9815224,null,hotel,http://www.trumphotels.com/central-park
+41114,One White Street,New York City,"1 White St, New York, NY 10013",ChIJISXTwWJZwokRIok4xyMeb6g,40.7192639,-74.0059523,high,restaurant,https://www.onewhitestreetnyc.com
+95747,Museum of Modern Art,New York City,"11 W 53rd St, New York, NY 10019",ChIJKxDbe_lYwokRVf__s8CPn-o,40.7614327,-73.9776216,null,modern_art_museum,https://www.moma.org
+40272,The Office of Mr. Moto,New York City,"120a St Marks Pl, New York, NY 10009",ChIJhXlSFFVZwokRbQf-lmDUK6k,40.7268131,-73.9840360,high,japanese_restaurant,http://dearmrmoto.com
+44094,Wenwen,New York City,"1025 Manhattan Ave, Brooklyn, NY 11222",ChIJmcr2IF9ZwokRr-u_-UTxju4,40.7339858,-73.9551580,low,restaurant,https://www.wenwenbrooklyn.com
+103615,SORA By Hotel Collection,Miami,"50 NW 23rd St Suite #108, Miami, FL 33127",ChIJyxbKJMu32YgRd1-xgxi9p8Y,25.7993975,-80.1959814,null,restaurant,http://sorabyhc.com/
+69105,Openaire,Los Angeles,"3515 Wilshire Blvd, Los Angeles, CA 90010",ChIJD_h5Qti5woARUeDmRcmkWA4,34.0620896,-118.3011787,medium,american_restaurant,https://www.thelinehotel.com/los-angeles/restaurants-bars/openaire
+34614,Topolobampo,Chicago,"445 N Clark St, Chicago, IL 60654",ChIJ25jYKrIsDogRhv_ykBvwfOQ,41.8905850,-87.6309050,high,mexican_restaurant,https://www.rickbayless.com/restaurants/topolobampo
+96697,Beckon,Denver,"2843 Larimer St, Denver, CO 80205, United States",ChIJQ_9Q0DJ5bIcRbDAIulshVuY,39.7611853,-104.9823884,high,fine_dining_restaurant,https://www.beckon-denver.com/
+71359,Funke,Los Angeles,"9388 S Santa Monica Blvd, Beverly Hills, CA 90210",ChIJlWZ9iGS9woAR9jIwvlLy9OA,34.0717488,-118.4015124,high,restaurant,https://www.funkela.com
+2339,Oxomoco,New York City,"128 Greenpoint Ave, Brooklyn, NY 11222",ChIJ__-z7kBZwokRezHqB39zBLI,40.7299099,-73.9554800,low,mexican_restaurant,https://www.oxomoconyc.com
+67842,Chief's on Broadway,Nashville,"200 Broadway, Nashville, TN 37201",ChIJ80oDFS9nZIgRzUAll2PIcxE,36.1619481,-86.7755120,null,live_music_bar,https://www.chiefsonbroadway.com
+71342,Hestia,Austin,"607 W 3rd St #105, Austin, TX 78701",ChIJlWBjs7-1RIYRsJt0C41E558,30.2667619,-97.7500735,high,fine_dining_restaurant,http://hestiaaustin.com
+10734,Il Cantinori,New York City,"32 E 10th St, New York, NY 10003",ChIJH9mMjZlZwokRuIt5KXWOZMw,40.7322780,-73.9929322,high,italian_restaurant,https://www.ilcantinori.com
+68426,Kingfisher San Diego,San Diego,"2469 Broadway, San Diego, CA 92102",ChIJb0DwPZpT2YARPZq_UuCXALo,32.7155453,-117.1410437,high,vietnamese_restaurant,http://kingfishersd.com
+43891,Shota omakase,New York City,"50 S 3rd St, Brooklyn, NY 11249",ChIJ34eY6E5ZwokRvof_huM7t3U,40.7135200,-73.9661573,high,restaurant,https://shotaomakase.com
+70390,Herbsaint,New Orleans,"701 St Charles Ave, New Orleans, LA 70130",ChIJi2AxW3SmIIYRmML7jsbqtb8,29.9473160,-90.0715610,medium,french_restaurant,http://herbsaint.com/
+40722,Bar Miller,New York City,"620-622 E 6th St, New York, NY 10009",ChIJoXWHAlJZwokRVBsijjIYQoQ,40.7239629,-73.9808220,high,japanese_restaurant,http://barmiller.com
+98134,STRIPSTEAK,Las Vegas,"3950 S Las Vegas Blvd, Mandalay Bay Rd, Las Vegas, NV 89119",ChIJYUKC-8_FyIARsxE7MiyBOuM,36.0914256,-115.1758250,high,steak_house,https://www.mandalaybay.com/en/restaurants/stripsteak.html?icid=NS-AW-FB-GMB_Steakhouse-LV-MB
+71071,Hippo,Los Angeles,null,ChIJKfzc1hTFwoARglWDAZ2qTXA,34.1106445,-118.1903416,medium,italian_restaurant,http://www.hipporestaurant.com
+99281,Mamani,Dallas,"2681 Howell St BU4, Dallas, TX 75204",ChIJV-YmSQCZToYRFXUxw3gwL-A,32.7984813,-96.8038960,high,fine_dining_restaurant,http://www.mamanirestaurant.com/
+108762,The Hanare Sushi,Los Angeles,"2930 Bristol St, Costa Mesa, CA 92626",ChIJ62DBzxvf3IAREwjxJY9D6BM,33.6767393,-117.8854940,high,sushi_restaurant,http://www.hanaresushi.com
+67032,Herb & Wood,San Diego,"2210 Kettner Blvd, San Diego, CA 92101",ChIJ2_K2drNU2YAR-y2McDRLW_4,32.7273343,-117.1710044,high,mediterranean_restaurant,https://www.herbandwood.com
+74943,715 Los Angeles,Los Angeles,"738 E 3rd St, Los Angeles, CA 90013",ChIJyweGFPLHwoAR2CIY63KgPqU,34.0454637,-118.2367476,high,sushi_restaurant,http://715sushi.com
+108037,Asakura,Los Angeles,"11901 Santa Monica Blvd #111, Los Angeles, CA 90025",ChIJgUztncy7woARoknXEcsYvfg,34.0419248,-118.4608652,high,kaiseki_restaurant,https://asakura.la/
+73944,Pasta|Bar Austin,Austin,"1017 E 6th St, Austin, TX 78702",ChIJVcPwM3G1RIYRr4vXlKPHBAI,30.2646810,-97.7318551,null,restaurant,https://www.exploretock.com/pastabaraustin
+43957,Golden HOF,New York City,"16 W 48th St, New York, NY 10036",ChIJc6vecABZwokRBHqMFj4UsbY,40.7576225,-73.9792159,medium,korean_restaurant,https://www.goldenhof.com
+96872,399 Lafayette,New York City,"399 Lafayette St 2nd floor, New York, NY 10003",ChIJrd9Z1WRZwokRJqCwd-2nMYk,40.7279823,-73.9926938,null,cafe,http://thekagency.com/venue/399-lafayette
+97290,Omakase Room & Bar at WAKUDA,Las Vegas,"3325 S Las Vegas Blvd #1790, Las Vegas, NV 89109, United States",ChIJu1S_nbLFyIARS0NSENAlIu4,36.1224053,-115.1679805,high,japanese_restaurant,https://www.wakudajapanese.com/omakase/
+11163,MAMO Restaurant,New York City,"323 W Broadway, New York, NY 10013",ChIJb7FRCYtZwokRC3tJHKjos7w,40.7218600,-74.0038200,medium,italian_restaurant,https://www.mamonyc.com
+41652,Piglet & Co.,San Francisco Bay Area,"2170 Mission Street, San Francisco, CA",ChIJ9VzyvRx_j4AR5PhH9cl77fw,37.7623226,-122.4197580,low,restaurant,http://pigletandco.com
+73801,APT 115,Austin,"2025 E 7th St, Austin, TX 78702",ChIJUXgF3sm1RIYRYWD-hs1PB6s,30.2617714,-97.7195772,high,restaurant,http://apartmentonefifteen.com
+40734,HAGS,New York City,"163 1st Ave., New York, NY 10003",ChIJp0ha1dFZwokRK9WxgN9HVuY,40.7291339,-73.9847094,high,fine_dining_restaurant,http://hagsnyc.com
+68946,Chez Panisse,San Francisco Bay Area,"1517 Shattuck Ave., Berkeley, CA 94709",ChIJcYtcJaF-hYAR-VzrwZpQY0E,37.8796069,-122.2689248,high,californian_restaurant,http://www.chezpanisse.com
+100226,24 Suns,San Diego,"3375 Mission Ave J, Oceanside, CA 92058",ChIJhZY2Vtpx3IARNhf6gNX35yE,33.2180519,-117.3403947,high,restaurant,http://24sunsdining.com/
+40860,RPM Italian DC,"Washington, DC","650 K St NW, Washington, DC 20001",ChIJQRlBdo23t4kRcwaYDVOCAn0,38.9022775,-77.0212102,high,italian_restaurant,https://www.rpmrestaurants.com/rpm-italian-d.c/
+75207,Esmé,Chicago,"2200 N Clark St Suite B, Chicago, IL 60614",ChIJzVJtmfjTD4gRFfVzZaod3Ns,41.9220764,-87.6386157,null,restaurant,http://esmechicago.com
+94641,Orla,Las Vegas,"3950 S Las Vegas Blvd, Las Vegas, NV 89119, United States",ChIJe3Ai7jnFyIARcNVs1gZ-iBs,36.0915165,-115.1763316,high,mediterranean_restaurant,https://mandalaybay.mgmresorts.com/en/restaurants/orla.html?ecid=GMB_MB_RE
+108753,Merois | West Hollywood,Los Angeles,"8430 W SUNSET BLVD, WEST HOLLYWOOD, CA 90069",ChIJ62K862-_woAR8YptH_AXFJY,34.0951101,-118.3733184,high,asian_fusion_restaurant,https://wolfgangpuck.com/restaurants/merois-west-hollywood/
+39580,Chambers,New York City,"94 Chambers St, New York, NY 10007",ChIJ43KaxzxbwokRVjbWT05nZ_M,40.7145903,-74.0075468,null,american_restaurant,http://chambers.nyc
+73037,Bar Toti,Austin,"2113 Manor Rd, Austin, TX 78722",ChIJS2H2b-O1RIYRmXym-9wWQJ4,30.2840221,-97.7192551,medium,restaurant,https://www.bartoti.com
+108779,Poppy & Sed,Los Angeles,"350 S Anaheim Blvd, Anaheim, CA 92805, United States",ChIJZN16f2pLHztvvkGhG5wU00p,33.8321112,-117.9122009,high,fine_dining_restaurant,https://www.poppyandseedoc.com
+76670,Stillwell's,Dallas,"2575 McKinnon St, Dallas, TX 75201",ChIJVc54yoGZToYRU1qGMUhoIjA,32.7924548,-96.8059218,high,steak_house,https://stillwellsdallas.com/
+108742,traif,New York City,"229 SOUTH 4TH STREET, BROOKLYN",ChIJveB2ceBbwokRlg4WCe7xoqM,40.7101749,-73.9594847,low,restaurant,http://traifny.com
+4192,The Modern,New York City,"9 W 53rd St, New York, NY 10019",ChIJMW-gxPtYwokRzDlnsRgq9rA,40.7610061,-73.9767726,high,restaurant,http://www.themodernnyc.com
+74892,Mister Jiu's,San Francisco Bay Area,"28 Waverly Place, San Francisco",ChIJyRDJYIuAhYARyAPkIc7A2Vo,37.7937667,-122.4065861,medium,restaurant,https://www.misterjius.com
+100211,Cosetta,Los Angeles,"3150 Ocean Park Blvd, Santa Monica, CA 90405",ChIJHbSBvlC7woARE318Gvlntis,34.0204470,-118.4524977,null,italian_restaurant,https://www.cosettala.com/
+37695,The Occidental,"Washington, DC","1475 Pennsylvania Ave NW, Washington, DC 20004",ChIJ9yEHAZi3t4kR8O_zel8-og4,38.8968300,-77.0328100,high,restaurant,https://theoccidentaldc.com/
+41995,La Tête d'Or by Daniel,New York City,"318 Park Ave S, New York, NY 10010",ChIJsTUVzgBZwokRkUIgGFl_RJc,40.7406632,-73.9863353,high,french_restaurant,http://latetedorbydaniel.com
+108718,Dirt Candy,New York City,"86 Allen Street, New York, United States",ChIJBXlte51ZwokRXzXtdaBG9xM,40.7181457,-73.9903979,low,vegetarian_restaurant,http://www.dirtcandynyc.com
+99438,Honeysuckle Restaurant,Philadelphia,"631 N Broad St, Philadelphia, PA 19123",ChIJuQXylo3HxokR0Rywya2Tshg,39.9645357,-75.1606417,high,restaurant,http://www.honeysucklephl.com/
+102127,Elizabeth’s on L,"Washington, DC","1341 L St NW Suite 2, Washington, DC 20005",ChIJufgormq3t4kRIxaJCS6TK08,38.9039257,-77.0312577,null,event_venue,https://www.elizabethsgoneraw.com/private-dining
+101850,The Peninsula Beverly Hills,Los Angeles,"9882 S Santa Monica Blvd, Beverly Hills, CA 90212",ChIJo4XM5_W7woARSKsK1bsfNS8,34.0660173,-118.4106517,null,hotel,https://www.peninsula.com/en/beverly-hills/5-star-luxury-hotel-beverly-hills
+74164,Commander's Palace,New Orleans,"1403 Washington Ave, New Orleans, LA 70130",ChIJW3d2Wc2lIIYRu-qs_NaSOkg,29.9288071,-90.0842041,high,creole_restaurant,http://www.commanderspalace.com/
+41530,Thip Khao Restaurant,"Washington, DC","3462 14th St NW, Washington, DC 20010",ChIJZ_aTmBjIt4kRBOOprOJHSwk,38.9329458,-77.0329865,low,restaurant,http://thipkhao.com
+72837,Lustig,Los Angeles,"3273 Helms Ave, Culver City, CA 90232",ChIJRacW2da5woARqm7yD-y_wUg,34.0298293,-118.3841697,medium,restaurant,https://lustig-la.com/?utm_source=gmb
+102230,The West Hollywood EDITION,Los Angeles,"9040 Sunset Blvd, West Hollywood, CA 90069",ChIJr7tLCKG-woARNVvQTdKErgU,34.0904618,-118.3893231,null,hotel,https://www.marriott.com/en-us/hotels/laxeb-the-west-hollywood-edition/overview/%3Fscid%3Df2ae0541-1279-4f24-b197-a979c79310b0
+7788,Ivan Ramen,New York City,"25 Clinton St, New York, NY 10002",ChIJreEXi4FZwokR_ygs7wh2fTk,40.7205800,-73.9845400,low,ramen_restaurant,https://www.ivanramen.com/location/clinton-st
+25167,Sorrel,San Francisco Bay Area,"3228 Sacramento St, San Francisco, CA 94115",ChIJSUqmKoyAhYARHqx0N3gnl8o,37.7885630,-122.4461880,medium,restaurant,http://www.sorrelrestaurant.com
+108715,The Paju,Seattle,"513 Westlake Avenue N, Seattle, WA 98109",ChIJXcSoyoEVkFQRkS7RCcI00W4,47.6235709,-122.3386114,low,korean_restaurant,https://www.pajurestaurant.com/
+3943,Joe Allen,New York City,"326 W 46th St, New York, NY 10036",ChIJ0QKr91NYwokRhzehyIw3f0s,40.7600500,-73.9891300,low,american_restaurant,https://joeallenrestaurant.com/index.php
+39830,Foxface Natural,New York City,null,ChIJ-9FmcbhZwokR_2n_KX31fUI,40.7289789,-73.9816763,high,restaurant,https://foxface.nyc
+10546,Blue Hill,New York City,"75 Washington Pl, New York, NY 10011",ChIJi9BURJFZwokRDcqvIgxdXds,40.7320640,-73.9996931,high,american_restaurant,https://www.bluehillfarm.com/dine/new-york
+67435,San Laurel,Los Angeles,"100 S Grand Ave, Los Angeles, CA 90012",ChIJ56US5_HHwoARQNCokuNlpWw,34.0553123,-118.2486424,high,spanish_restaurant,https://www.sanlaurel.com/
+73210,Benu,San Francisco Bay Area,"22 Hawthorne Street, San Francisco",ChIJSToWqn2AhYAR1CuH2iGMvuo,37.7855007,-122.3990397,high,restaurant,http://www.benusf.com
+73127,Causa / Amazonia,"Washington, DC","920 Blagden Alley NW 2nd Floor, Washington, DC 20001",ChIJsdbOywi3t4kR4h2lslSr_6w,38.9065162,-77.0247586,high,restaurant,http://amazoniadc.com
+41972,The Omakase Room at Sushi-San,Chicago,"63 W Grand Ave, Chicago, IL 60654",ChIJ7ZPQ1OQtDogRE5hTFzbM2yM,41.8914127,-87.6304695,high,sushi_restaurant,https://www.theomakaseroom.com/
+44013,Misi,New York City,"329 Kent Ave, Brooklyn, NY 11249",ChIJw7SsU_pZwokREyGSSulF53U,40.7134010,-73.9671874,null,italian_restaurant,https://www.misinewyork.com
+101770,Valhalla,Chicago,null,ChIJa3XLkmfTD4gR9cSTo_vRhqQ,41.9034839,-87.6782037,high,fine_dining_restaurant,http://www.valhallachicago.com/
+74021,Abacá,San Francisco Bay Area,"2700 Jones Street, San Francisco",ChIJvUR84BqBhYARPsQEVivxTec,37.8067367,-122.4169367,low,restaurant,http://www.restaurantabaca.com
+15614,Lotte New York Palace,New York City,"455 Madison Ave, New York, NY 10022",ChIJu6kY43RawokRnmczCmSH-_s,40.7580260,-73.9749775,medium,hotel,https://www.lottenypalace.com/?chebs=local-newyorkpalace
+107856,Rye Bunny,"Washington, DC","1827 Adams Mill Rd NW Retail A, Washington, DC 20009",ChIJD42DK0K3t4kRIgBvypMHssk,38.9236310,-77.0432743,null,restaurant,https://www.ryebunny.com/
+108723,The Mori,New York City,"144 Sullivan St, New York, NY 10012",ChIJTzkZaC9ZwokRq_FgMF4lgac,40.7275161,-74.0017906,high,sushi_restaurant,http://morinyc.com
+41692,Sistina,New York City,"24 E 81st St, New York, NY 10028",ChIJh2wSuL5YwokRc5xdH9f4nRA,40.7775913,-73.9616751,high,italian_restaurant,http://sistinany.com
+34561,RPM Italian,Chicago,"52 W Illinois St, Chicago, IL 60654",ChIJgfrOPLIsDogRvM0_GwLBpyI,41.8909609,-87.6300419,medium,italian_restaurant,https://www.rpmrestaurants.com/rpm-italian-chicago
+44127,Falansai,New York City,"112 Harrison Pl, Brooklyn, NY 11237",ChIJc11gFQJcwokRcOejfRbBPpo,40.7067681,-73.9287600,low,vietnamese_restaurant,https://falansai.com
+67849,Pasta Moon,San Francisco Bay Area,"845 Main St, Half Moon Bay, CA 94019",ChIJ82zmjbR0j4ARcFHRkDc0AmI,37.4578344,-122.4297811,medium,italian_restaurant,http://www.pastamoon.com
+67652,Tzuco,Chicago,"720 N State St, Chicago, IL 60654",ChIJ6WN3LkvTD4gRTXjLu5f5udU,41.8953509,-87.6284726,medium,mexican_restaurant,https://www.tzuco.com/
+68470,Palm&Pine,New Orleans,"308 N Rampart St, New Orleans, LA 70112",ChIJB6_JZ4GnIIYR0c5EbhvvlJE,29.9574597,-90.0707713,medium,restaurant,http://www.palmandpinenola.com/
+72298,The Gibson Room,Miami,"2224 SW 22nd St, Miami, FL 33145",ChIJPe9st6O32YgRFhWq4Hy3y5I,25.7503293,-80.2307232,low,bar,https://thegibsonroommiami.com
+69133,Friends & Family,San Francisco Bay Area,"468 25th St, Oakland, CA 94612",ChIJdSD37WaBj4ARMe3rNmbZ53E,37.8145317,-122.2669857,null,restaurant,http://friendsandfamilybar.com
+4309,Aquavit,New York City,"65 E 55th St, New York, NY 10022",ChIJWfonJ_tYwokRwIGb6Im403E,40.7607900,-73.9722100,null,restaurant,http://www.aquavit.org
+101270,Minibar By José Andrés,"Washington, DC",null,ChIJle3KDpC3t4kRCoLvgEPj4uQ,38.8950825,-77.0228014,null,restaurant,http://www.minibarbyjoseandres.com/
+99263,The Happy Crane,San Francisco Bay Area,"451 Gough St, San Francisco, CA 94102, United States",ChIJtxEtPwCBhYARjixit0xj2Ws,37.7774909,-122.4233003,high,chinese_restaurant,https://thehappycranesf.com/
+42630,The Otter,New York City,"58 Thompson St, New York, NY 10012",ChIJl5_OCABZwokRkvjEfEkyuZo,40.7240253,-74.0031179,high,seafood_restaurant,https://www.theotter.nyc
+40666,Atelier Restaurant,Chicago,null,ChIJNY-UMbDTD4gRKMyKeqtQ000,41.9695688,-87.6885943,high,fine_dining_restaurant,http://atelier-chicago.com
+108754,The Merois | West Hollywood,Los Angeles,8430 W Sunset Blvd,ChIJ62K862-_woAR8YptH_AXFJY,34.0949279,-118.3737854,high,asian_fusion_restaurant,https://wolfgangpuck.com/restaurants/merois-west-hollywood/
+26514,SSAL,San Francisco Bay Area,"2226 Polk St, San Francisco, CA 94109",ChIJz9axs6SBhYARWHXy6JCAk_0,37.7972833,-122.4219450,high,fine_dining_restaurant,http://ssalsf.com
+66918,The Chastain - Restaurant,Atlanta,"4320 Powers Ferry Rd NW, Atlanta, GA 30342",ChIJ1Wi-NlMP9YgRCVbGo4ZgWu4,33.8727778,-84.3963889,null,restaurant,http://www.thechastainatl.com/
+73620,Shingo,Miami,"112 Alhambra Cir, Coral Gables, FL 33134",ChIJu5d4Dui32YgRs6qW_4aQOWM,25.7530311,-80.2566214,high,japanese_restaurant,http://www.shingomiami.com
+23671,Saint Julivert,New York City,"264 Clinton St, Brooklyn, NY 11201",ChIJC_-pxFdbwokRuPw-9HZucGA,40.6878700,-73.9956500,medium,seafood_restaurant,https://www.saintjulivertbk.com
+39892,Moono,New York City,"29 E 32nd St, New York, NY 10016",ChIJaWBLA_pZwokRX2BYIIr6rwE,40.7464411,-73.9833073,null,korean_restaurant,http://moononyc.com
+98430,Bourbon Steak Las Vegas,Las Vegas,"3960 S Las Vegas Blvd, Las Vegas, NV 89119, United States",ChIJzfn-SBPFyIARL6bFzeos_eA,36.0911193,-115.1743115,null,steak_house,https://www.bourbonsteak.com/location/las-vegas/
+40977,Metropolis by Marcus Samuelsson,New York City,"Performing Arts Center, New York, NY 10006",ChIJLbVjDF5bwokRZFE7PRwuRpY,40.7126623,-74.0121097,high,american_restaurant,http://metropolisbymarcus.com
+41018,The Odeon,New York City,"145 W Broadway, New York, NY 10013",ChIJS-u0mB9awokRZ7H0sa9Oy-U,40.7169400,-74.0077773,medium,french_restaurant,https://www.theodeonrestaurant.com
+75497,Kevin Rathbun Steak,Atlanta,"154 Krog St NE STE 200, Atlanta, GA 30307",ChIJ8cCo6QcE9YgRlrqsWTsW-UM,33.7592497,-84.3639437,high,steak_house,http://www.kevinrathbunsteak.com/
+25678,Avery Restaurant,San Francisco Bay Area,"1552 Fillmore St, San Francisco, CA 94105",ChIJAQDkp7mAhYARGHxMc_REcNY,37.7840800,-122.4326420,high,restaurant,http://www.averysf.com
+70681,L’Atelier de Joël Robuchon - Miami,Miami,"151 NE 41st St, Miami, FL 33137",ChIJJ3pnTr6x2YgRUcKI0-aDyJs,25.8146854,-80.1919354,high,restaurant,https://latelier-miami.com
+108711,RPM Italian Cafe,Chicago,"52 W Illinois St, Chicago, IL",ChIJnr7PMkUky-OJR1Xocurn84u,41.8906005,-87.6297969,medium,italian_restaurant,https://www.rpmrestaurants.com/rpm-italian-chicago
+68759,Rossoblu,Los Angeles,"1124 San Julian St, Los Angeles, CA 90015",ChIJc6BaWc3HwoARjoG2U9gMA3Q,34.0349250,-118.2533583,medium,italian_restaurant,https://www.rossoblula.com
+72488,Qué Bárbaro,Los Angeles,null,ChIJQ4ngMZvHwoARqkJibTfVKQM,34.0409409,-118.2674632,high,south_american_restaurant,https://www.quebarbarodtla.com/
+70565,Le Jardinier,Houston,"5500 Main St Suite 122, Houston, TX 77004",ChIJIUTbMUu_QIYRvNV3_RXqZDw,29.7264512,-95.3897271,high,modern_french_restaurant,https://www.lejardinier-houston.com/
+69808,Kiran's,Houston,"2925 Richmond Ave. Suite 160, Houston, TX 77098",ChIJfZC_2BbBQIYRnyQ2EtjAymk,29.7337915,-95.4224064,medium,modern_indian_restaurant,http://kiranshouston.com/
+4195,Loi Estiatorio,New York City,null,ChIJS8jgzmFYwokRv8Omkz2ip8k,40.7653850,-73.9780020,medium,greek_restaurant,https://www.loiestiatorio.com
+76544,STK Steakhouse,Las Vegas,"3708 Las Vegas Blvd S, Las Vegas, NV 89109, United States",ChIJT4mIszHEyIARbIoYQzpc9iA,36.1099462,-115.1753911,high,steak_house,https://stksteakhouse.com/venues/las-vegas/
+67076,Fearing's Restaurant,Dallas,"2121 McKinney Ave, Dallas, TX 75201",ChIJ2wxVsjqZToYRFuIJD9uQt74,32.7921570,-96.8035280,high,fine_dining_restaurant,https://www.fearingsrestaurant.com/
+108761,Bresca Cafe,"Washington, DC","1906 14th St NW, Washington, DC 20009",ChIJ-hpIyx8SILU4P1N8rSnCpx_,38.9153473,-77.0324949,high,restaurant,https://www.brescadc.com/
+40475,Yingtao,New York City,"805 9th Ave, New York, NY 10019",ChIJkYkkoh1ZwokRE01ymVZhhpg,40.7656960,-73.9876631,high,chinese_restaurant,http://yingtaonyc.com/Homepage
+33794,Swift & Sons,Chicago,"1000 W Fulton Market, Chicago, IL 60607",ChIJscE8yNAsDogR5bdhEY-wBwA,41.8869073,-87.6525045,high,steak_house,http://www.swiftandsonschicago.com
+4719,The Lambs Club,New York City,"132 W 44th St, New York, NY 10036",ChIJu0soFVVYwokRArPqt2VGdJs,40.7565104,-73.9845907,null,american_restaurant,http://www.thelambsclub.com
+68839,Barra Santos,Los Angeles,null,ChIJcdq_ayfHwoAR-RLysumjpiE,34.0956641,-118.2280490,medium,restaurant,https://www.barrasantosla.com/?utm_source=GoogleBusinessProfile&utm_medium=Website&utm_campaign=MapLabs
+69358,Hiden,Miami,"313 NW 25th St, Miami, FL 33127",ChIJEaa-UrK22YgR6rXu_t7u2hg,25.8008800,-80.2013860,high,japanese_restaurant,http://hidenmiami.com
+97682,The Newsroom,New York City,"11-01 43rd Ave, Queens, NY 11101",ChIJW94olvxZwokR1QjZKqZwjxY,40.7520767,-73.9473212,medium,restaurant,https://newsroomny.com
+23951,Claro,New York City,"284 3rd Ave, Brooklyn, NY 11215",ChIJGVQqnFVawokRltzLtx5fMhM,40.6773588,-73.9861984,null,mexican_restaurant,https://www.clarobk.com
+33128,Frontier,Chicago,"1072 N Milwaukee Ave, Chicago, IL 60642",ChIJw0cVUdHSD4gRZADPW6blGZY,41.9012010,-87.6635580,low,american_restaurant,http://www.thefrontierchicago.com
+76506,Carlitos Gardel Argentine Steakhouse,Los Angeles,"7963 Melrose Ave, Los Angeles, CA 90046",ChIJSfKeA8y-woARpP7lY4htzZk,34.0839438,-118.3631913,medium,steak_house,http://www.carlitosgardel.com/
+100130,Or'esh,New York City,"450 W Broadway, New York, NY 10012",ChIJD_SNAtFZwokR13xf4F0l6PQ,40.7260011,-74.0008797,high,mediterranean_restaurant,https://www.oresh.com/
+68274,Suerte,Austin,null,ChIJAQBE-7a1RIYRcZNYsxWYIUg,30.2622778,-97.7232758,medium,mexican_restaurant,https://www.suerteatx.com
+100468,OKDONGSIK Bayside,New York City,"43-13 Bell Blvd, Bayside, NY 11361",ChIJ_TDhmnFhwokRKhz6u7-OwKA,40.7610289,-73.7695054,low,korean_restaurant,https://www.okdongsik.net/
+108757,dLeña,"Washington, DC",476 K St NW Suite D,ChIJsVliI_H61q0EZVvh9j93U_9,38.9018354,-77.0186603,medium,restaurant,https://www.dlenadc.com/
+40115,Le B,New York City,null,ChIJExJQMsdZwokR7a48kYV6EMg,40.7376840,-74.0040136,high,restaurant,http://lebnyc.com
+68725,All Spice,San Francisco Bay Area,"1602 S El Camino Real, San Mateo, CA 94402",ChIJc3R6j16ej4ARSX5Uq0eROqI,37.5528778,-122.3156444,high,fine_dining_restaurant,https://allspicerestaurant.com
+71917,Uchi West Hollywood,Los Angeles,"9001 Santa Monica Blvd Ste 101, West Hollywood, CA 90069",ChIJNzshQFi_woAR2UkanIMOQB4,34.0830805,-118.3873130,high,sushi_restaurant,https://uchi.uchirestaurants.com/location/sushi-west-hollywood/
+68627,Carbone Vino Dallas,Dallas,"1617 Hi Line Dr, Dallas, TX 75207",ChIJBWM-yMOZToYRHMpm12bzXpA,32.7953330,-96.8203202,high,italian_restaurant,https://vino.carbonedallas.com/?utm_medium=Click&utm_source=GoogleMyBusiness
+70736,La Condesa,Austin,null,ChIJj9nrSA-1RIYRybO2K0NxQUo,30.2656391,-97.7477811,null,mexican_restaurant,https://lacondesa.com
+107129,Barbuto Garden,New York City,"60 Furman St, Brooklyn Heights, NY 11201",ChIJsT2azm1bwokRzgDlK1kUWYo,40.7024805,-73.9955394,null,restaurant,https://www.1hotels.com/brooklyn-bridge/taste/barbuto-garden%3Futm_source%3Dgoogle-gbp%26utm_medium%3Dorganic%26utm_campaign%3Dgbp
+106891,40 Love,Phoenix,"7117 E 6th Ave, Scottsdale, AZ 85251",ChIJlfuV7a4LK4cRuwMMS7oJHZI,33.4987464,-111.9274236,high,restaurant,https://www.40lovegroup.com/
+70521,Bastion,Nashville,"434 Houston St STE 110, Nashville, TN 37203",ChIJIS56-XFmZIgRsvTzijiFReo,36.1429242,-86.7665652,high,restaurant,http://www.bastionnashville.com
+41809,Flour + Water Pasta Shop,San Francisco Bay Area,"3000 20th Street, San Francisco, CA 94110",ChIJb7a6Fh1_j4ARenP13MtTy10,37.7592626,-122.4110641,low,restaurant,http://flourandwaterpastashop.com
+73613,Pizzeria Bianco - Los Angeles,Los Angeles,"1320 E 7th St Suite 100, Los Angeles, CA 90021",ChIJU4B7dFzHwoARzYn5dctIk0I,34.0343553,-118.2415658,low,pizza_restaurant,https://www.pizzeriabianco.com/los-angeles
+72996,Pizzeria da Laura,San Francisco Bay Area,"2049 Shattuck Ave., Berkeley, CA 94704",ChIJRYVeD6V_hYARnY1IPrjuF_Q,37.8713342,-122.2680799,low,pizza_restaurant,http://www.pizzeriadalaura.com
+40806,Café Chelsea,New York City,"218 West 23rd Street, New York, NY 10011",ChIJq0lehvhZwokRZvP6X-Exl88,40.7443036,-73.9967323,medium,french_restaurant,http://www.cafechelseanyc.com
+94859,Jaleo by José Andrés,Las Vegas,"Boulevard Tower, 3708 Las Vegas Blvd S Level 3, Las Vegas, NV 89109, United States",ChIJFbD_qDHEyIARB2AQf9-Ff3Q,36.1103040,-115.1743258,null,fine_dining_restaurant,https://www.ebyjoseandres.com/
+99227,Bong,New York City,"724 Sterling Pl, Brooklyn, NY 11216",ChIJq7VcWwBbwokRQf8bGqnAkrM,40.6726773,-73.9548334,high,cambodian_restaurant,https://bongnyc.com/
+72391,International Market,Nashville,"2013 Belmont Blvd, Nashville, TN 37212",ChIJpwRrESdkZIgRjHmwoIU8tK0,36.1317608,-86.7956859,low,southeast_asian_restaurant,http://www.im2nashville.com
+75707,Citizen Public House,Phoenix,"7111 E 5th Ave, Scottsdale, AZ 85251",ChIJd8bB-70LK4cRXycL1yo22UY,33.4980083,-111.9278528,medium,american_restaurant,http://www.citizenpublichouse.com/
+44160,The Rhymers' Club,New York City,"37 1/2 St Marks Pl, New York, NY 10003",ChIJ6fCoMABZwokRbyfPfNs_sT0,40.7285774,-73.9872948,budget,bar,https://therhymersclub.com
+74269,Spago Beverly Hills,Los Angeles,"176 N Canon Dr, Beverly Hills, CA 90210",ChIJW_du2f67woAR7ftXN3yTlWU,34.0676468,-118.3975718,high,restaurant,https://wolfgangpuck.com/dining/spago
+3633,Per Se,New York City,"10 Columbus Cir, Fl 4, New York, NY 10019",ChIJp3PsL_ZYwokRZYqs_40RJF4,40.7681529,-73.9827630,null,fine_dining_restaurant,https://thomaskeller.com/perseny
+99710,Yamada,New York City,"16 Elizabeth St, New York, NY 10013, United States",ChIJSdFphJdbwokRG3R5uMCxFt4,40.7159317,-73.9972602,high,japanese_restaurant,https://www.yamadanewyork.com/
+72520,Le Jardinier,Miami,"151 NE 41st St Suite 135, Miami, FL 33137",ChIJq6q6Rlex2YgRLVY5meAunEM,25.8144063,-80.1920834,high,restaurant,http://www.lejardinier-miami.com
+99978,Delos Greek Restaurant,New York City,"102 W 47th St, New York, NY 10036",ChIJ58cx12pZwokRzSNyQkBwBUY,40.7579428,-73.9821177,null,greek_restaurant,https://delosgr.com/
+103447,Wing Lei,Las Vegas,null,ChIJb7Qe8RTEyIARe3XtJlBwoww,36.1253604,-115.1658063,high,chinese_restaurant,https://www.wynnlasvegas.com/dining/fine-dining/wing-lei
+34096,North Pond,Chicago,null,ChIJt2vvlXTTD4gRHTP-0F3Hnyg,41.9293100,-87.6366160,high,american_restaurant,http://www.northpondrestaurant.com
+100312,Francesco Martucci,Miami,"10 NE 27th St, Miami, FL 33137",ChIJM5vU2qS32YgReejUakiPOQ4,25.8023817,-80.1946994,null,restaurant,http://martuccimiami.com/
+68812,Tatemó,Houston,"4740 Dacoma St Ste F, Houston, TX 77092",ChIJCbdfsUW_QIYRrevB02-CIV0,29.8071768,-95.4606369,high,mexican_restaurant,https://www.tatemohtx.com/
+68295,Roots Southern Table,Dallas,null,ChIJaRaBhbcnTIYRWorlkgfpBGM,32.9233217,-96.8954351,null,restaurant,http://www.rootssoutherntable.com/
+108721,The Kau Ba,Houston,"2502 Dunlavy St Suite B, Houston, TX 77006",ChIJc93Jm5nAQIYROjiOaPuFAD8,29.7436952,-95.4027595,low,peruvian_restaurant,
+70963,Lulu,Los Angeles,"10899 Wilshire Blvd, Los Angeles, CA 90024",ChIJk2YUd_m9woARHeliq1FRRS4,34.0596216,-118.4436140,medium,american_restaurant,https://lulu.restaurant
+10953,Rubirosa,New York City,"235 Mulberry St, New York, NY 10012",ChIJs8MdNo9ZwokRTPUHiArLC-o,40.7227500,-73.9962200,low,pizza_restaurant,https://www.rubirosanyc.com
+7080,Momofuku Noodle Bar - East Village,New York City,"171 1st Ave, New York, NY 10003",ChIJkXQ3_INZwokRE74ZvG46Jjc,40.7292064,-73.9844848,low,ramen_restaurant,https://www.momofuku.com/restaurants/noodle-bar-east-village
+39570,Mi Tocaya Antojería,Chicago,"2800 W Logan Blvd, Chicago, IL 60647",ChIJ3SXSgX3ND4gR4fD_C6KhXEU,41.9289228,-87.6977359,medium,mexican_restaurant,http://mitocaya.com
+103646,La Boca by Francis Mallmann,New York City,"500A W 18th St, New York, NY 10011, USA",ChIJhbg1g9dZwokRy1sVXkNN9iQ,40.7447749,-74.0072976,high,argentinian_restaurant,https://www.faena.com/new-york
+108728,orsa & winston,Los Angeles,"FARMERS AND MERCHANTS BANK BUILDING, 122 4th St, Los Angeles, CA",ChIJh9W-NkrGwoARmn2KQbXkdhg,34.0485917,-118.2481900,high,asian_fusion_restaurant,http://orsaandwinston.com
+67383,Dooky Chase Restaurant,New Orleans,"2301 Orleans Ave, New Orleans, LA 70119",ChIJ4_yjHvylIIYRVdcf1Ca5_eM,29.9682103,-90.0784912,null,creole_restaurant,https://www.dookychaserestaurants.com/
+99881,Tambourine Room by Tristan Brandt,Miami,"6801 Collins Ave, Miami Beach, FL 33141, USA",ChIJdQEhRsmz2YgRKkCcRapLA2c,25.8528544,-80.1199584,high,restaurant,https://www.carillonhotel.com/en/dining/tambourine-room-by-tristan-brandt/
+68519,Lucky Mizu,Los Angeles,"1254 S Figueroa St 8th Floor, Los Angeles, CA 90015",ChIJbclgahTHwoART7EvYIWdxIs,34.0407964,-118.2671353,medium,japanese_restaurant,https://www.luckymizudtla.com/
+71100,Guelaguetza Restaurant,Los Angeles,"3014 W Olympic Blvd, Los Angeles, CA 90006",ChIJKSPWlH-4woARrKJ5thvMBeY,34.0524074,-118.3006681,low,mexican_restaurant,http://www.ilovemole.com
+72196,Tsuke Edomae,Austin,"4600 Mueller Blvd #1035, Austin, TX 78723",ChIJp30jG-S1RIYRmjvTat08Eno,30.2985403,-97.7074460,high,sushi_restaurant,http://www.tsukeedo.com
+15251,Kappo Masa,New York City,"976 Madison Ave, New York, NY 10075",ChIJ9w07X5RYwokR5eolQAZ49C4,40.7746468,-73.9635315,high,japanese_restaurant,https://www.kappomasanyc.com
+40877,THE GALLERY by odo,New York City,"17 W 20th St, New York, NY 10011",ChIJQxY-iqhZwokRIaCg0KpTKV0,40.7403982,-73.9921624,low,japanese_restaurant,http://odogallery.nyc
+71623,Jewel Of The South,New Orleans,null,ChIJMwXLyuCnIIYRlJ9qpEg6tpI,29.9585646,-90.0695125,null,restaurant,https://www.jewelnola.com/
+68719,June,Nashville,"809 Meridian St, Nashville, TN 37207",ChIJc3c_OitnZIgRNs-wotrrjoc,36.1845002,-86.7679777,high,american_restaurant,http://junenashville.com
+70764,Eating House Miami,Miami,"128 Giralda Ave, Coral Gables, FL 33134",ChIJjcptQzS32YgRYhCLB9wfrSc,25.7512111,-80.2574181,null,restaurant,http://www.eatinghousemiami.com
+40058,Flour + Water,San Francisco Bay Area,"2401 Harrison St, San Francisco, CA 94110",ChIJDVaCXjd-j4AR4AOGUS0kLGc,37.7589374,-122.4122826,medium,restaurant,https://www.flourandwater.com/
+67843,Poggio Trattoria,San Francisco Bay Area,"777 Bridgeway, Sausalito, CA 94965",ChIJ80U7XkWEhYARVk__Z5FLdDE,37.8568500,-122.4806843,medium,italian_restaurant,http://www.poggiotrattoria.com
+107910,Rosa y Marigold,Boston,"400 Newbury St, Boston, MA 02115",ChIJuzqvXwB744kR7fCK6hO9FuI,42.3475861,-71.0883122,null,peruvian_restaurant,http://rosaymarigold.com/
+43868,KRU Brooklyn,New York City,"190 North 14th Street, Brooklyn",ChIJz0Bt0ldZwokR698-eT0Dh88,40.7228016,-73.9557975,low,thai_restaurant,https://www.krubrooklyn.com
+43009,The River,New York City,"102 Bayard St, New York, NY 10013",ChIJw74hEsJbwokR8Bai9N_a5q4,40.7161921,-73.9997056,low,bar,https://www.therivernewyork.com
+72525,Uchi,Houston,"904 Westheimer Rd, Houston, TX 77006, United States",ChIJq6qqqma_QIYRxrKS6EACh7o,29.7448938,-95.3907229,high,sushi_restaurant,https://uchi.uchirestaurants.com/location/houston/
+100562,Karyu,Miami,"40 NE 41st St, Miami, FL 33137",ChIJWx-tm-Sx2YgR-WmuniqfB_g,25.8139431,-80.1945719,high,restaurant,http://karyu-mia.com/
+72578,The Soul Food Lounge,Chicago,"3804 W 16th St, Chicago, IL 60623",ChIJQcmd77gzDogR_eWS1XQ8dv4,41.8590420,-87.7204907,medium,american_restaurant,https://thesoulfoodlounge.com/
+73870,Namo,Dallas,"3699 McKinney Ave #305, Dallas, TX 75204",ChIJV3dNUuKfToYRkaIgzQXcBR8,32.8081213,-96.7979397,high,sushi_restaurant,http://www.namosushi.com/
+100523,Yasu Omakase,Miami,null,ChIJVUU62g2x2YgRSt7Xfb_-sD8,25.8144063,-80.1920834,high,restaurant,http://yasu-miami.com/
+43858,SAGA,New York City,"70 Pine Street 63rd Floor, New York",ChIJZZlClEZbwokRZj-0-fE25tk,40.7065047,-74.0077715,high,fine_dining_restaurant,https://www.saga-nyc.com
+68435,Citrin Restaurant,Los Angeles,"1104 Wilshire Blvd Suite A, Santa Monica, CA 90401",ChIJB1gJrcelwoARTqn5Yh3E57s,34.0244252,-118.4913200,high,restaurant,https://www.citrinandmelisse.com/
+72224,Emeril's - New Orleans,New Orleans,"800 Tchoupitoulas St, New Orleans, LA 70130",ChIJp6mGj3GmIIYRfS0qjpoGsmo,29.9446197,-90.0672925,high,contemporary_louisiana_restaurant,http://emerilsrestaurant.com/
+39896,L'Artusi Supper Club,New York City,"105 Christopher St, New York, NY 10014",ChIJ69wzjklZwokRv1YuMukRVOA,40.7334635,-74.0050225,null,event_venue,http://lartusi.com/ticketed-events
+5222,The Grill,New York City,null,ChIJ8UxZqPxYwokRQSC7-Qoeea0,40.7586374,-73.9732412,high,fine_dining_restaurant,https://thegrillnewyork.com
+40676,Manchamanteles,Chicago,"2009 N Western Ave, Chicago, IL 60647",ChIJO1fdzAXTD4gR6Ucv4Q_C9Jw,41.9178976,-87.6871085,medium,mexican_restaurant,http://manchamantelesrestaurant.com
+73878,Redbird,Los Angeles,"114 E 2nd St, Los Angeles, CA 90012",ChIJv4yVGknGwoARC_5zwy3zU5M,34.0505620,-118.2440748,medium,new_american_restaurant,http://www.redbird.la
+95526,WAKUDA,Las Vegas,"3325 S Las Vegas Blvd #1790, Las Vegas, NV 89109",ChIJJaE220TFyIARTHBUT5fSnfA,36.1247347,-115.1691024,high,restaurant,https://www.wakudajapanese.com/location/wakuda-las-vegas/
+71959,New Heights Restaurant,"Washington, DC","2317 Calvert St NW, Washington, DC 20008",ChIJO_4WddS3t4kRJY1U7aZhQLQ,38.9237089,-77.0522596,medium,american_restaurant,http://www.newheightsrestaurant.com
+22266,Mamma Maria,Boston,"3 North Sq, Boston, MA 02113",ChIJVbrdD4lw44kRdZLKJo0e02o,42.3640900,-71.0533000,high,italian_restaurant,http://www.mammamaria.com
+3648,Basso by PXK,New York City,"11 King St, Chappaqua, NY 10514",ChIJoxhV4_dYwokRXZiebAzYAnY,41.1595504,-73.7730896,unknown,italian_restaurant,null
+71344,Zuma Miami,Miami,"270 Biscayne Blvd Way, Miami, FL 33131",ChIJlWF1Gp222YgRN3OMvZ0lWWA,25.7704336,-80.1892854,high,japanese_restaurant,https://www.zumarestaurant.com/en/miami?utm_source=InfoButtonClick&utm_medium=Home&utm_campaign=GoogleBusinessProfile
+95722,Jeju Restaurant,"Portland, OR","626 SE Main St, Portland, OR 97214",ChIJKVDd_PULlVQR7irbVYO80is,45.5135650,-122.6592454,medium,korean_restaurant,https://jejupdx.com/
+97372,Copine,Seattle,"6460 24th Ave NW, Seattle, WA 98107, United States",ChIJu-q9V9AVkFQRBXOOMahzKeo,47.6756873,-122.3872603,high,new_american_restaurant,http://copineseattle.com/
+44038,Centurion New York,New York City,"1 Vanderbilt Ave, New York, NY 10017",ChIJmxOl6dpZwokRCxD86jCgBfk,40.7530825,-73.9786543,high,bar,null
+107914,Koshu Club,Atlanta,"99 W Paces Ferry Rd NW Suite A, Atlanta, GA 30305",ChIJfxKcMU8F9YgRoB6aAZBMqPA,33.8412097,-84.3832428,null,restaurant,https://www.koshuclubatl.com/
+108741,The Bastion,Nashville,"434 Houston St STE 110, Nashville, TN 37203",ChIJQxJw-JwDtoUuV8SmVrLWM_1,36.1429583,-86.7667909,high,restaurant,http://www.bastionnashville.com
+99704,Emmett,Philadelphia,"161 W Girard Ave, Philadelphia, PA 19122",ChIJGf3zYyzGxokRyJXHN6zBMrg,39.9694597,-75.1383144,high,mediterranean_restaurant,https://www.emmettphilly.com/
+108773,noodle in a haystack,San Francisco Bay Area,"4601 Geary Blvd, San Francisco, CA 94118",ChIJKnQog2xWKZ2_0NPb71rlStv,37.7802306,-122.4684845,high,japanese_restaurant,http://noodleinhaystack.com
+41750,Asador Bastian,Chicago,"214 West Erie Street, River North, Chicago, IL",ChIJk8Z5cdstDogRdMPc0yBZB5M,41.8942298,-87.6347690,high,basque_restaurant,https://www.asadorbastian.com/
+40372,Le Pavillon,New York City,"1 Vanderbilt Avenue, New York, NY 10017",ChIJjcAJd-tZwokRJ0GkkJ2Urp0,40.7524779,-73.9782630,high,french_restaurant,http://lepavillonnyc.com
+40370,Rasika Penn Quarter,"Washington, DC","633 D St NW, Washington, DC 20004",ChIJJbjP-o-3t4kRpnr_gpNc4pE,38.8950011,-77.0213393,medium,indian_restaurant,https://www.rasikarestaurant.com/
+10628,Llama San,New York City,"359 6th Ave, New York, NY 10014",ChIJ8youq41ZwokRqnnXghN1DIs,40.7322500,-74.0007800,null,restaurant,https://llamasannyc.com
+95767,Luna By Giada,Phoenix,"4747 N Goldwater Blvd, Scottsdale, AZ 85251, United States",ChIJkYQ9LCILK4cRwKmBAxF-Jhk,33.5055742,-111.9293744,high,italian_restaurant,https://www.lunabygiadascottsdale.com/
+73947,Vespertine,Los Angeles,"3599 Hayden Ave, Culver City, CA 90232",ChIJVd04SYW5woAROE52K0dXeYE,34.0241968,-118.3818786,high,fine_dining_restaurant,https://vespertine.la/
+101093,Osteria Mozza DC,"Washington, DC","3276 M St NW, Washington, DC 20007, USA",ChIJQ61PEpm3t4kRTWJXu3qmIIw,38.9047606,-77.0651934,high,restaurant,https://osteriamozzadc.com/
+74017,Fabrik Austin,Austin,"1701 E Martin Luther King Jr Blvd Suite 102, Austin, TX 78702",ChIJv-uDeMq1RIYRvxi1IOQLRj4,30.2793410,-97.7230195,high,vegan_restaurant,http://fabrikatx.com
+108716,The AVIV,Miami,"2341 Collins Ave, Miami Beach, FL 33139",ChIJU0_IiQ8kHM97WSTzQx5Cpeb,25.7999887,-80.1273551,high,israeli_restaurant,https://www.avivsb.com/
+39708,Potluck Club,New York City,"133 Chrystie St, New York, NY 10002",ChIJ7yN3d6tZwokRATR9U3lAqLg,40.7196020,-73.9935919,low,chinese_restaurant,http://thepotluckclubny.com
+99073,Sao,Philadelphia,"1710 E Passyunk Ave, Philadelphia, PA 19147",ChIJ79vxrxvGxokRlO8fCh9Xtds,39.9284810,-75.1653571,high,southeast_asian_restaurant,null
+103302,Hawksmoor Chicago,Chicago,"500 N La Salle Dr, Chicago, IL 60654",ChIJ1W8bZAotDogRz5PYLjgokLU,41.8909552,-87.6330204,high,steak_house,https://thehawksmoor.com/us/chicago
+99549,Shmoné Wine,New York City,null,ChIJ5eQtHWZZwokRHoU7Tau8axs,40.7336022,-73.9991908,null,wine_bar,https://www.shmonenyc.com/shmonewine
+107546,Zero Bond,New York City,"0 Bond St, New York, NY 10012, USA",ChIJycgQ649ZwokRzQaPtEoIO38,40.7270436,-73.9947447,null,social_club,http://zerobondny.com/
+75412,Born and Raised,San Diego,"1909 India St, San Diego, CA 92101",ChIJ4yuqF7JU2YARcQmeuzO8iAE,32.7246680,-117.1684130,high,steak_house,http://bornandraisedsteak.com
+70559,Madera,San Francisco Bay Area,"2825 Sand Hill Rd, Menlo Park, CA 94025",ChIJiUNAfPukj4AR5sxvOP_JPUA,37.4193006,-122.2121501,high,fine_dining_restaurant,https://www.rosewoodhotels.com/en/sand-hill-menlo-park
+95158,Grand Banks,New York City,"West St, New York, NY 10013",ChIJh5KTK_ZZwokRSXHyzwhalo0,40.7202901,-74.0141132,null,park,https://www.hudsonriverpark.org/explore-the-park/locations/pier-25
+99130,The Kingsway,New Orleans,"4201 Magazine St, New Orleans, LA 70115",ChIJf1SJlrilIIYRhcLd-Oa2XDQ,29.9211768,-90.0992812,high,restaurant,https://www.kingswaynola.com/
+99241,Ishin,Atlanta,"1020 Spring St NW ST 801, Atlanta, GA 30309",ChIJRSuXatQF9YgRbMnq9QJ4ILM,33.7827160,-84.3895306,high,sushi_restaurant,http://www.ishinomakase.com/
+40200,BlackSalt Restaurant,"Washington, DC","4883 MacArthur Blvd NW, Washington, DC 20007",ChIJg9NR4wu2t4kRyH0vH7jToiM,38.9179227,-77.0965109,medium,seafood_restaurant,https://www.blacksaltrestaurant.com/intro
+96553,Ultreia,Denver,"1701 Wynkoop St #125, Denver, CO 80202",ChIJPQgXCsN4bIcR6RnbbBZmgms,39.7532211,-104.9998482,low,spanish_restaurant,http://ultreiadenver.com/
+10576,Carbone,New York City,"181 Thompson St, New York, NY 10012",ChIJmSvG_ZFZwokRTOFeiLXzkmA,40.7280000,-74.0001497,high,italian_restaurant,http://carbonenewyork.com
+98002,Traveling Mercies,Denver,null,ChIJXyW4Dcp7bIcR4WCpgUDKW38,39.7530479,-104.8773876,null,cocktail_bar,https://www.travelingmerciesbar.com/
+70070,Empress by Boon,San Francisco Bay Area,"838 Grant Ave, San Francisco, CA 94108",ChIJgXxAUJOBhYARP1FmKyFr__A,37.7948433,-122.4063533,high,chinese_restaurant,https://www.theempresssf.com
+70381,Colibrí Pop-up at Los Balcones,Los Angeles,"1360 Vine St, Los Angeles, CA 90028",ChIJi17OHDe_woARtMgCtG6EEiE,34.0960908,-118.3264397,low,peruvian_restaurant,http://losbalconesperu.com
+23573,Gage and Tollner,New York City,"372 Fulton St, Brooklyn, NY 11201",ChIJwZz-LWlbwokR_hshOuzdrkw,40.6913400,-73.9878200,high,american_restaurant,https://gageandtollner.com
+41560,Smuggler's Cove,San Francisco Bay Area,"650 Gough St, San Francisco, CA 94102",ChIJZYKHDZiAhYARXV0sNJgKAi8,37.7795727,-122.4233550,low,bar,http://smugglerscovesf.com
+42262,Noz Market,New York City,null,ChIJdbHkHtJZwokRDWARlBEgBMA,40.7738220,-73.9579557,high,sushi_restaurant,https://www.nozmarket.com
+67995,Meteora,Los Angeles,"6703 Melrose Ave, Los Angeles, CA 90038",ChIJ9-5CroC5woARfbFyVsudp1c,34.0837081,-118.3399396,null,restaurant,https://meteora.la/
+41865,The Corner Store,New York City,"475 West Broadway, New York, NY 10012",ChIJMbcxxvJZwokRvp2omDp1nyw,40.7265680,-73.9998350,high,restaurant,http://thecornerstoresoho.com
+68414,The Shota,San Francisco Bay Area,"115 Sansome St, San Francisco, CA 94104",ChIJAzG8hXmBhYARQ1Mw5xW5Lfo,37.7914251,-122.4010378,high,sushi_restaurant,https://www.theshotasf.com
+108747,The Fifth Avenue Hotel,New York City,1 W 28th St,ChIJ4dl6S5lZwokRb4ibeAxtTjI,40.7445425,-73.9879543,null,hotel,https://www.thefifthavenuehotel.com/
+40091,Demo,New York City,"34 Carmine St, New York, NY 10014",ChIJebeXnYRZwokRRFXk3Mc8Gjw,40.7299274,-74.0029971,high,restaurant,http://demowestvillage.com
+66779,Ryla,Los Angeles,"1220 Hermosa Ave, Hermosa Beach, CA 90254",ChIJ0XOGcKuzwoAR7UuOyKmZ3XU,33.8627001,-118.3997198,medium,restaurant,http://www.eatryla.com
+40479,El Quijote,New York City,"226 W 23rd St, New York, NY 10011",ChIJkZePoHtZwokR0FsTkwOF_lU,40.7445548,-73.9969304,low,spanish_restaurant,http://elquijoterestaurant.com
+71068,Found Oyster,Los Angeles,"4880 Fountain Ave, Los Angeles, CA 90029",ChIJkfUoRk_HwoARyBuvtlImPoQ,34.0952365,-118.2958170,medium,restaurant,https://www.foundoyster.com/
+67903,Late August,Houston,null,ChIJ8eV9CfW_QIYRvHvC5AeX56Y,29.7344783,-95.3821384,medium,new_american_restaurant,https://www.lateaugusthtx.com/
+108743,The Moody Tongue Brewing Company,Chicago,"2515 S WABASH AVE, CHICAGO, IL 60616",ChIJEv9q3heFKRjZ8fpJAMNXy6t,41.8474201,-87.6252308,null,restaurant,http://www.moodytongue.com
+11102,Jungsik,New York City,null,ChIJpSTN0R9awokRI29rK_SfbeA,40.7185910,-74.0088844,high,korean_restaurant,http://jungsik.com
+73046,Compère Lapin,New Orleans,"535 Tchoupitoulas St, New Orleans, LA 70130",ChIJs42YVXKmIIYRYyvCTD-koFQ,29.9478867,-90.0673474,medium,creole_restaurant,http://comperelapin.com/
+100415,le dräQ,Los Angeles,"118 East 4th St, Los Angeles, CA 90013",ChIJR2s0N0rGwoARscAlZYwChYQ,34.0484148,-118.2479281,null,food_and_drink,http://www.bar-ama.com/
+99828,Restaurant Naides,San Francisco Bay Area,"708 Bush St, San Francisco, CA 94108, USA",ChIJzyIspeuBhYARUNRInz8tBdk,37.7902449,-122.4090880,null,restaurant,https://restaurantnaides.com/
+98119,FnB Restaurant,Phoenix,"7125 E 5th Ave #31, Scottsdale, AZ 85251, United States",ChIJYSP9k70LK4cR8fzPnYeO70A,33.4979338,-111.9273782,high,american_restaurant,http://www.fnbrestaurant.com/
+75107,Little Pearl,"Washington, DC","Carriage House, 921 Pennsylvania Ave. SE, Washington, DC 20003",ChIJZamGfTO4t4kRnjETn_wWEqM,38.8831584,-76.9935725,high,restaurant,https://www.littlepearldc.com
+104931,Bar Avize,Atlanta,"956 Brady Ave NW, Atlanta, GA 30318",ChIJPXhfAFsF9YgRkzPe183UEl4,33.7808377,-84.4128349,low,bar,https://avizeatlanta.com/
+76557,China Poblano by José Andrés,Las Vegas,null,ChIJT__BBTHEyIAR5eCgpVl6GnQ,36.1099462,-115.1753911,medium,restaurant,https://www.chinapoblano.com/
+42200,Sushi Ikumi,New York City,"135 Sullivan St, New York, NY 10012",ChIJczHrvxxZwokRQP4sZs4ahxs,40.7266756,-74.0018095,high,sushi_restaurant,https://www.ikumi.nyc
+41221,Octo Restaurant,New York City,"1 E 33rd St, New York, NY 10016",ChIJo5Z8DuZZwokR0VamSWa1LwE,40.7477830,-73.9848377,high,chinese_restaurant,https://www.octo.nyc
+99425,Evviva,New Orleans,"2600 Dauphine St, New Orleans, LA 70117",ChIJRyVLVQCnIIYRvri5p-Z5Cxo,29.9656444,-90.0510472,null,restaurant,https://www.evvivanola.com/
+70194,Orsa & Winston,Los Angeles,"FARMERS AND MERCHANTS BANK BUILDING, 122 4th St, Los Angeles, CA 90013",ChIJh9W-NkrGwoARmn2KQbXkdhg,34.0484248,-118.2480162,high,asian_fusion_restaurant,http://orsaandwinston.com
+15252,Cafe Boulud,New York City,null,ChIJCcAxi5RYwokRdUqdw5_FHIk,40.7744400,-73.9639600,high,french_restaurant,https://www.cafeboulud.com/nyc
+107824,Bubble Bath High Street Place,Boston,"100 High St, Boston, MA 02110",ChIJMRW46ctx44kRRcXlVs4ihUI,42.3543018,-71.0556402,low,wine_bar,https://www.bubblebathboston.com/bb-hsp
+105747,PISCES Bar and Seafare,Las Vegas,null,ChIJe-IiujnFyIARz3rAFoSiZ9Q,36.1263057,-115.1675188,high,mediterranean_restaurant,https://www.wynnlasvegas.com/dining/fine-dining/pisces-bar-and-seafare
+10738,Indochine,New York City,"430 Lafayette St, Ste A, New York, NY 10003",ChIJq6qqqppYwokRclAbhLgDbOE,40.7291700,-73.9922700,high,vietnamese_restaurant,http://www.indochinenyc.com
+68501,Osteria Mozza,Los Angeles,"6602 Melrose Ave, Los Angeles, CA 90038",ChIJBacpEtO4woAR8TxewBOIolo,34.0832140,-118.3389700,high,italian_restaurant,https://www.osteriamozza.com/
+40480,Hav & Mar,New York City,"245 11th Ave, New York, NY 10001",ChIJkzm4uVZZwokRpH8jUC56Ry4,40.7508432,-74.0055924,medium,restaurant,http://havandmar.com
+108759,Warlord,Chicago,"3198 N MILWAUKEE AVE, CHICAGO, IL 60618",ChIJRZHMT1_ND4gRLCLV9oCWtEU,41.9386463,-87.7244229,medium,restaurant,http://www.warlordchicago.com
+10514,ZZ's Clam Bar,New York City,"169 Thompson St, New York, NY 10012",ChIJyQXfAI5ZwokRmcMV_qjG7SI,40.7276880,-74.0004660,high,fine_dining_restaurant,https://www.majorfood.com/brands/the-clam-bar
+93222,RockCreek Seafood & Spirits,Seattle,"4300 Fremont Ave N, Seattle, WA 98103, United States",ChIJ27JSH1MUkFQR1baxwA59nhk,47.6594856,-122.3496932,medium,seafood_restaurant,http://www.rockcreekseafood.com/
+56632,Maison Nur,New York City,"217 Bowery, New York, NY 10002",ChIJO6E3s95ZwokRR5lkDlMI9LI,40.7217078,-73.9931319,high,french_restaurant,https://maisonnur.nyc
+96208,Mara Restaurant and Bar,Minneapolis-Saint Paul,null,ChIJNe2tiHIzs1IRkvzI6nIMxt4,44.9812469,-93.2696381,high,mediterranean_restaurant,https://www.fourseasons.com/minneapolis/dining/restaurants/mara/?utm_source=google
+102457,Four Seasons Hotel Miami,Miami,"1435 Brickell Ave, Miami, FL 33131",ChIJB4u6yIC22YgRSudXSqzWT0k,25.7589641,-80.1920843,null,hotel,https://www.fourseasons.com/miami/%3Futm_source%3Dgoogle%26utm_medium%3Dorganicsearch%26utm_campaign%3Dtor-mia-hre-mid-seo-na%26utm_content%3Dna-na%26utm_term%3Dna
+69130,Bocadillo Market,Chicago,"1117 W Grand Ave, Chicago, IL 60642",ChIJDRwd-JDTD4gRKNFPB-JVFXE,41.8908973,-87.6553444,low,spanish_restaurant,http://www.bocadillomarket.com
+76374,Sphere,Las Vegas,"255 Sands Ave, Las Vegas, NV 89169, United States",ChIJQ4t9gYLFyIAR71bgg5iKwUI,36.1212170,-115.1620404,null,event_venue,https://www.thesphere.com/shows/wizard-of-oz-experience?utm_source=google
+98452,The Eighty Six,New York City,"86 Bedford St, New York, NY 10014",ChIJYe7ZKSFZwokR_b2xzZvc-4Q,40.7320801,-74.0051089,high,restaurant,https://www.the86.nyc
+74002,Rustic Canyon,Los Angeles,"1119 Wilshire Blvd, Santa Monica, CA 90401",ChIJVSrXF8qkwoARXxeoyWyDrHk,34.0250795,-118.4913174,high,californian_restaurant,http://www.rusticcanyonrestaurant.com
+40499,Frevo,New York City,"48 W 8th St, New York, NY 10011",ChIJL6-NTmBZwokRGacx3GWq3D0,40.7330117,-73.9987735,high,fine_dining_restaurant,http://frevonyc.com
+95404,Balla Italian Soul,Las Vegas,"2535 S Las Vegas Blvd, Las Vegas, NV 89109",ChIJISF7HmfFyIARDEd0Pn7Dd8s,36.1431072,-115.1573547,medium,italian_restaurant,https://www.saharalasvegas.com/restaurants-bars/balla
+41873,Sempre Oggi,New York City,"164 W 75th St, New York, NY 10023",ChIJ25ryEZ5ZwokRNUaYyZc52_8,40.7802763,-73.9798894,medium,italian_restaurant,http://semprenyc.com
+94354,Lilia Comedor,"Portland, OR","422 NW 8th Ave, Portland, OR 97209",ChIJcfxUYwULlVQRlCW4srsrr_4,45.5263056,-122.6782917,high,pacific_northwest_restaurant_us,http://www.liliapdx.com/?utm_source=google
+73749,Obélix,Chicago,"700 N Sedgwick St, Chicago, IL 60654",ChIJuS3rXR4tDogRfctqorJ8Qng,41.8949758,-87.6387334,high,french_restaurant,http://obelixchicago.com
+41506,Pineapple and Pearls,"Washington, DC","715 8th St SE, Washington, DC 20003",ChIJYXzP0cy5t4kRCAgWebW88x0,38.8807081,-76.9951997,high,fine_dining_restaurant,http://pineappleandpearls.com
+34573,Maple & Ash,Chicago,"8 W Maple St, Chicago, IL 60610",ChIJE8GjKE7TD4gR9CouUZM2Gis,41.9021131,-87.6286946,high,steak_house,http://www.mapleandash.com
+7832,Wildair,New York City,"142 Orchard St, New York, NY 10002",ChIJfZsx0ClawokRCNMYMdZ_smg,40.7197230,-73.9891977,medium,american_restaurant,https://www.wildair.nyc
+101823,"Beverly Wilshire, A Four Seasons Hotel",Los Angeles,"9500 Wilshire Blvd, Beverly Hills, CA 90212",ChIJz-22Hfm7woARmoLOmvYW4J0,34.0668765,-118.4004226,null,hotel,https://www.fourseasons.com/beverlywilshire/%3Futm_source%3Dgoogle%26utm_medium%3Dorganicsearch%26utm_campaign%3Dtor-bev-hre-mid-seo-na%26utm_content%3Dna-na%26utm_term%3Dna
+104420,void,Chicago,"2937 N Milwaukee Ave, Chicago, IL 60618",ChIJbbOlipbND4gR-fXni60q5OI,41.9347766,-87.7164283,medium,restaurant,https://voidchicago.com/
+74028,Napa Rose,Los Angeles,"1600 Disneyland Dr, Anaheim, CA 92802",ChIJvVJjgdjX3IAR3uv3fNQiuEs,33.8076943,-117.9215307,medium,californian_restaurant,https://disneyland.disney.go.com/grand-californian-hotel/napa-rose/?CMP=OKC-354372_GM_DLR_dining_naparose_NA
+10539,Minetta Tavern,New York City,"113 Macdougal St, New York, NY 10012",ChIJeQcZlpFZwokRjoemq-_w9QA,40.7300048,-74.0006074,null,french_restaurant,http://www.minettatavernny.com
+68694,Atlas,Atlanta,"88 W Paces Ferry Rd NW, Atlanta, GA 30305",ChIJC1jB5Y4F9YgRSA2D0d6UDJc,33.8400213,-84.3825719,high,new_american_restaurant,http://atlasrestaurant.com/
+39954,Superbueno,New York City,"13 1st Ave., New York, NY 10003",ChIJbXN71WhZwokRNTk55-ScVWY,40.7234473,-73.9885737,low,bar,http://superbuenonyc.com
+5562,Keens Steakhouse,New York City,"72 W 36th St, New York, NY 10018",ChIJ5804KalZwokRzGll2Rm7nag,40.7507100,-73.9865200,high,steak_house,http://www.keens.com
+99273,High Steaks Vegas,Las Vegas,"3700 W Flamingo Rd, Las Vegas, NV 89103, United States",ChIJ___U_SDEyIARuYyT1sStDPw,36.1169233,-115.1857575,high,steak_house,https://highsteaks.vegas/
+74003,Alexander's Steakhouse SF,San Francisco Bay Area,"165 O'Farrell St 3rd Floor, San Francisco, CA 94102, USA, CA 94102",ChIJVST7ANZ_j4ARbkYi2s36GQ8,37.7793031,-122.3956982,high,meal_takeaway,https://alexanderssteakhouse.com
+108770,maie day,Austin,"1603 S Congress Ave, Austin, TX",ChIJEU9CXNq1RIYRWTv3dLfnxPU,30.2476381,-97.7500090,medium,steak_house,https://www.maieday.com
+10497,Dante,New York City,"79-81 Macdougal St, New York, NY 10012",ChIJUw68EZJZwokRJ15RD_T4OTw,40.7287900,-74.0016500,medium,italian_restaurant,http://www.dante-nyc.com
+42663,Clemente Bar,New York City,"11 Madison Ave, New York, NY 10010",ChIJ6UzR7c9ZwokRRO7pi5eXZIM,40.7416326,-73.9870711,medium,bar,https://www.clementebar.com
+74066,Poppy & Seed,Los Angeles,"350 S Anaheim Blvd, Anaheim, CA 92805",ChIJVVWpsDrW3IARWQlzjBbdLVc,33.8324341,-117.9124737,high,fine_dining_restaurant,https://www.poppyandseedoc.com
+40201,Corima,New York City,"3 Allen St, New York, NY 10002",ChIJgaiXlpNbwokRN0vlYTshs-c,40.7146854,-73.9931191,high,fine_dining_restaurant,http://corimanyc.com
+72997,Knox Bistro,Dallas,"3230 Knox St #140, Dallas, TX 75205",ChIJRZ1y5iCfToYR-frpsEfGC-U,32.8238360,-96.7900068,medium,french_restaurant,https://knoxbistro.com/
+75598,n/naka,Los Angeles,"3455 Overland Ave, Los Angeles, CA 90034",ChIJb7GeyDS6woAROVvLEUiLZEk,34.0251279,-118.4122016,high,kaiseki_restaurant,https://n-naka.com
+108763,Sushi Nikkei - Bixby Knolls,Los Angeles,"3819 ATLANTIC AVE, LONG BEACH, CA 90807",ChIJWScCxpEz3YARs_wK6uTIcr4,33.8272272,-118.1855282,low,asian_fusion_restaurant,http://www.sushinikkei-la.com
+41592,The Noortwyck,New York City,"289 Bleecker St, New York, NY 10014",ChIJ6wJ-in5ZwokRRuY3ZKS6BOA,40.7321673,-74.0032725,high,american_restaurant,http://thenoortwyck.com
+2281,Casa Enrique,New York City,"5-48 49th Ave, Long Island City, NY 11101",ChIJv4bbdSNZwokRCgKfDGF8az8,40.7434043,-73.9543504,low,mexican_restaurant,https://www.henrinyc.com/casa-enrique.html
+68467,OTOTO,Los Angeles,"1360 Allison Ave, Los Angeles, CA 90026",ChIJB5MRik3HwoARFvZmDC7gi2I,34.0728424,-118.2515592,medium,japanese_restaurant,http://www.ototo.la
+94122,SW Steakhouse,Las Vegas,null,ChIJb7Qe8RTEyIARwcKw25b_33A,36.1262228,-115.1667299,high,steak_house,https://www.wynnlasvegas.com/dining/fine-dining/sw-steakhouse
+71907,Little Bear,Atlanta,"71 Georgia Ave SE Unit A, Atlanta, GA 30312",ChIJnz5JKsYD9YgRYVyGgN7um_o,33.7366828,-84.3854586,medium,restaurant,https://littlebearatl.com/
+39728,Jônt,"Washington, DC","1904 14th St NW, Washington, DC 20009",ChIJI_Nce0u3t4kRjBL-1l-nHs0,38.9158015,-77.0322171,high,fine_dining_restaurant,https://www.jontdc.com/
+70555,Nikolai's Roof,Atlanta,"255 Courtland St NE, Atlanta, GA 30303",ChIJ__IuDHcE9YgRe8dWurzipec,33.7615690,-84.3835913,high,restaurant,http://nikolaisroofatl.com/?SEO_id=GMB-HH-R-ATLAHHH-1&y_source=1_MTU0MDUxNDItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+108774,Marc179 Bar & Grill,New York City,"179 W BROADWAY, NEW YORK, NY 10013",ChIJnZ5hBQBbwokROCzTHwcM9PM,40.7177649,-74.0072180,medium,restaurant,https://chefmarcmurphy.com/marc-179
+39592,Mark's Off Madison,New York City,"41 Madison Ave, New York, NY 10010",ChIJ4c0uYh5ZwokRMrPmexnbPoY,40.7424407,-73.9865637,low,italian_restaurant,http://marksoffmadison.com
+69402,Sukeban,New Orleans,"8126 Oak St, New Orleans, LA 70118",ChIJE_hgLAylIIYRSiWvC_-wHR0,29.9477804,-90.1304328,medium,izakaya_restaurant,http://barsukeban.com/
+71923,Carbone Miami,Miami,"49 Collins Ave, Miami Beach, FL 33139",ChIJO00l3z212YgRMR2YmhbLEVE,25.7692319,-80.1339071,null,italian_restaurant,https://www.carbonemiami.com/?utm_medium=Click&utm_source=GoogleMyBusiness
+70708,Park's BBQ,Los Angeles,"955 S Vermont Ave G, Los Angeles, CA 90006",ChIJj6arSYLHwoAROfRRqiOfX2s,34.0539567,-118.2920580,high,korean_barbecue_restaurant,http://www.parksbbq.com
+41777,Essential by Christophe,New York City,"103 W 77th St, New York, NY 10024",ChIJw6JyhoxZwokR3mKl4FLg5rM,40.7809576,-73.9766017,high,french_restaurant,http://essentialbychristophe.com
+68402,Musso & Frank Grill,Los Angeles,"6667 Hollywood Blvd, Hollywood, CA 90028",ChIJaZ3OWSO_woARSF1VduqxGgY,34.1017527,-118.3353610,null,american_restaurant,http://www.mussoandfrank.com
+4331,Monkey Bar,New York City,"60 E 54th St, New York, NY 10022",ChIJm9ZmFPtYwokR4GjMlk_y7Fg,40.7599320,-73.9732160,medium,american_restaurant,http://monkeybarnewyork.com
+108087,Sushi by Scratch Restaurants: Denver,Denver,"1441 Larimer St, Denver, CO 80202",ChIJxWLfaZV5bIcRn4jgQSvB75o,39.7481377,-104.9993341,high,sushi_restaurant,https://www.sushibyscratchrestaurants.com/denver
+14430,The William Vale,New York City,"111 N 12th St, Williamsburg, Brooklyn, NY 11249",ChIJT0OO0UJZwokRDV4t1oFOrso,40.7222796,-73.9571206,medium,hotel,https://www.thewilliamvale.com
+41909,Kyoten Next Door,Chicago,"2513 W Armitage Ave, Chicago, IL 60647",ChIJEds1-4bTD4gRjPBicSC6ugM,41.9171879,-87.6900770,high,sushi_restaurant,http://kyotenchicago.com/kyoten-next-door-now-open
+95264,Restaurant Olivia,Denver,"290 S Downing St, Denver, CO 80209",ChIJhX90ku9-bIcRdBE6VQRav6g,39.7112580,-104.9731800,high,italian_restaurant,https://www.oliviadenver.com/
+40202,Indienne,Chicago,"217 W Huron St, Chicago, IL 60654",ChIJgaWIsk8tDogRXfsAkui5JOM,41.8945578,-87.6350620,high,fine_dining_restaurant,https://www.indiennechicago.com/
+9860,Portale,New York City,"126 W 18th St, New York, NY 10011",ChIJ-TuoLitZwokRgQRHmUGEgyY,40.7402600,-73.9962300,null,italian_restaurant,https://www.portalerestaurant.com
+71972,Noodle in a Haystack,San Francisco Bay Area,"4601 Geary Blvd, San Francisco, CA 94118",ChIJo6iy1GCHhYARYymaXv1hw44,37.7806610,-122.4687255,high,japanese_restaurant,http://noodleinhaystack.com
+108719,Ivan Ramen,New York City,"25 Clinton St, New York, NY 10002, United States",ChIJgBBDUR_gzv3pmCBrp7C3Jd-,40.7202463,-73.9845544,low,ramen_restaurant,https://www.ivanramen.com/location/clinton-st
+108760,Sachet,Dallas,null,ChIJdTynptyeToYR6IL5Jm4SIXo,32.8210760,-96.8024580,medium,mediterranean_restaurant,http://www.sachetdallas.com/
+70644,City House,Nashville,"1222 4th Ave N, Nashville, TN 37208",ChIJizjhXHJmZIgRFuDelhALHY8,36.1769230,-86.7872620,medium,restaurant,http://cityhousenashville.com
+72290,Soho House West Hollywood,Los Angeles,"9200 W Sunset Blvd, West Hollywood, CA 90069",ChIJPdqWeKC-woARRb9-tLR4Pmg,34.0898923,-118.3928127,null,social_club,https://www.sohohousewh.com/?utm_source=google&utm_medium=organic&utm_campaign=googlemybusiness
+108781,The Cecchi's,New York City,null,ChIJtrdGtCd1e32NGDJY5CZPuEj,40.7371066,-73.9981184,high,american_restaurant,http://cecchis.nyc
+41434,Bungalow,New York City,"24 First Avenue, New York, NY",ChIJxUPhRABZwokRWTa40zp_N10,40.7236675,-73.9879743,null,indian_restaurant,http://bungalowny.com
+96562,Uchi - Scottsdale,Phoenix,"3821 N Scottsdale Rd, Scottsdale, AZ 85251, United States",ChIJPRVGI-wLK4cRDzPAbt9f9sI,33.4924435,-111.9258167,high,sushi_restaurant,https://uchi.uchirestaurants.com/location/scottsdale/
+70035,Restaurant August,New Orleans,"301 Tchoupitoulas St, New Orleans, LA 70130",ChIJGw2RxnKmIIYRk0cBxtskDck,29.9499784,-90.0667922,high,contemporary_louisiana_restaurant,http://www.restaurantaugust.com/
+4040,Gallaghers Steakhouse,New York City,"228 W 52nd St, New York, NY 10019",ChIJFQ55zVdYwokRUyAEIvUGfHw,40.7628760,-73.9838370,high,steak_house,http://www.gallaghersnysteakhouse.com
+94134,Takai by Kashiba,Seattle,"180 Bellevue Way NE, Bellevue, WA 98004",ChIJB8PPeYdskFQRKkBJfiZLuXE,47.6115683,-122.2012879,high,sushi_restaurant,https://takaibykashiba.com/
+70348,Donna's,Los Angeles,"1538 W Sunset Blvd, Los Angeles, CA 90026",ChIJhyFWHlPHwoARElRKU5zEEsw,34.0762745,-118.2566492,low,restaurant,https://www.donnasla.com
+103636,CUT Lounge,Los Angeles,"9500 Wilshire Blvd, Beverly Hills, CA 90212",ChIJz-22Hfm7woAR85kVe9Ew3vs,34.0668246,-118.4010158,high,lounge_bar,https://www.fourseasons.com/beverlywilshire/dining/lounges/cut_lounge/%3Futm_source%3Dgoogle%26utm_medium%3Dorganicsearch%26utm_campaign%3Dtor-bev-fab-mid-seo-na%26utm_content%3Dna-na%26utm_term%3Dna
+70557,Macchialina,Miami,"810 Alton Rd, Miami Beach, FL 33139",ChIJIUhk5oq02YgRsQu7AiC8UQU,25.7784805,-80.1410231,high,italian_restaurant,http://www.macchialina.com
+103304,Tre Dita Cucina Toscana,Chicago,"The St Regis Hotel, 401 E Wacker Dr, Chicago, IL 60601",ChIJpTZfhUUrDogRsMadd7b4mek,41.8873909,-87.6173300,high,italian_restaurant,https://www.treditarestaurant.com/tre-dita/
+39949,Tortello,Chicago,"1746 W Division St, Chicago, IL 60622",ChIJBW5y387SD4gRCkxbf2J5Erw,41.9035048,-87.6718648,low,italian_restaurant,https://www.tortellopasta.com/
+99820,Meski,San Francisco Bay Area,"1000 Larkin St, San Francisco, CA 94109, USA",ChIJdwuOHACBhYARl10KMKaR75s,37.7873051,-122.4182117,medium,restaurant,http://www.meskisf.com/
+74046,Zasu,New Orleans,"127 N Carrollton Ave, New Orleans, LA 70119",ChIJVVVEYGKvIIYRmbRoIxRmaiA,29.9753396,-90.1002850,null,restaurant,https://zasunola.com/
+74767,dLeña,"Washington, DC","476 K St NW Suite D, Washington, DC 20001",ChIJY4Ci_Iy3t4kRpYIPI3wP6eY,38.9023215,-77.0186969,null,restaurant,https://www.dlenadc.com/
+11220,Le Coucou,New York City,"138 Lafayette St, New York, NY 10013",ChIJyw5j84lZwokRnUI_UknPSNA,40.7190900,-74.0001300,null,restaurant,https://lecoucou.com
+40843,Kyōten,Chicago,"2507 W Armitage Ave, Chicago, IL 60647",ChIJqbhk96bTD4gR4wJOg2blQYE,41.9174575,-87.6902302,high,sushi_restaurant,http://kyotenchicago.com
+107757,The French Laundry,New York City,"6640 Washington St, Yountville, CA 94599, USA",ChIJAAAAAERVhIARYeTLvbbzAxs,38.4044403,-122.3649712,high,fine_dining_restaurant,http://www.thomaskeller.com/tfl
+71301,Mr Chow,Los Angeles,"344 N Camden Dr, Beverly Hills, CA 90210",ChIJlRHMbPi7woARq2V2i-6rGsk,34.0681042,-118.4032343,high,restaurant,http://mrchow.com
+74138,The Den,Miami,"Inside Azabu, 161 Ocean Dr, Miami Beach, FL 33139",ChIJw0ar10C12YgRURxaPDVVM_A,25.7704335,-80.1322815,high,japanese_restaurant,https://www.azabumiami.com/the-den
+42595,Casino,New York City,"171 E Broadway, New York, NY 10002",ChIJM_QQQL5bwokRMo0UoSSL4Yg,40.7139140,-73.9896956,high,italian_restaurant,https://www.casinonyc.info
+99410,Madeira Park,Atlanta,"640 N Highland Ave NE, Atlanta, GA 30306",ChIJOwjjO20H9YgRw9ddmxiYGYA,33.7718353,-84.3526972,medium,wine_bar,http://madeiraparkatl.com/
+41159,"Love, Makoto","Washington, DC",null,ChIJUfkA14u3t4kR7KK4ltOvsbA,38.8991239,-77.0151475,high,japanese_restaurant,https://www.lovemakoto.com/
+100845,La Monique,Los Angeles,null,ChIJt4Km64alwoARbah3upGJM0Q,34.0213265,-118.5060760,high,restaurant,https://www.hoteloceanasantamonica.com/la-monique/
+108746,Sphere Kitchen,Las Vegas,255 Sands Ave,ChIJcBuqf91K8-RrcWEP6lLOFfw,36.1214107,-115.1622522,null,event_venue,https://www.thesphere.com/shows/wizard-of-oz-experience?utm_source=google
+95861,84 Yesler,Seattle,"84 Yesler Wy, Seattle, WA 98104, United States",ChIJLfKGWwtrkFQR7Clu6qi2Kxo,47.6019388,-122.3351362,high,new_american_restaurant,https://www.84-yesler.com/
+73865,Pêche Seafood Grill,New Orleans,"800 Magazine St, New Orleans, LA 70130",ChIJv2VvX3GmIIYRlCIIn4WtIYY,29.9452145,-90.0691312,medium,seafood_restaurant,https://www.pecherestaurant.com/
+70468,Barley Swine,Austin,"6555 Burnet Rd #400, Austin, TX 78757",ChIJid3yLt-0RIYR_JPyeaoX0Uc,30.3413146,-97.7382867,null,american_restaurant,http://www.barleyswine.com
+107634,Big Jones,Chicago,"5347 N Clark St, Chicago, IL 60640",ChIJbffEpojRD4gRCMjrcCJbV_4,41.9794493,-87.6680875,low,southern_restaurant_us,https://bigjoneschicago.com/
+95981,Kawa Ni Denver,Denver,"1900 W 32nd Ave, Denver, CO 80211, United States",ChIJm63rjHB5bIcRU3F3LFC7mWg,39.7618138,-105.0099703,null,restaurant,https://www.kawanidenver.com/
+101261,Huncho House,"Washington, DC","6450 America Blvd #105, Hyattsville, MD 20782",ChIJ5Y2v5dvHt4kRu7lLTtsRDmA,38.9675479,-76.9520596,high,restaurant,http://hunchohouse.com/
+105243,NOORA Miami - Casa Neos MM Rooftop,Miami,"40 SW North River Dr Rooftop, Miami, FL 33128",ChIJQS1rqB232YgR-BeAVMu_6B0,25.7736160,-80.2005081,null,restaurant,https://casa-neos.com/
+67194,Moo's Craft Barbecue,Los Angeles,"2118 N Broadway, Los Angeles, CA 90031",ChIJ3fzkWgzPwoARuBLCxTcdUOY,34.0732385,-118.2181912,low,barbecue_restaurant,http://mooscraftbarbecue.com
+72555,Republique,Los Angeles,"624 S La Brea Ave, Los Angeles, CA 90036",ChIJqaA5zt-4woARHGIEp3XlsZo,34.0641589,-118.3436970,medium,french_restaurant,http://www.republiquela.com
+74408,Acquerello,San Francisco Bay Area,"NEAR VAN NESS &, 1722 Sacramento Street, San Francisco",ChIJwYdY3uqAhYARXUJUOIELoqU,37.7915966,-122.4214670,high,restaurant,https://www.acquerellosf.com
+40954,bōm,New York City,"17 W 19th St, New York, NY 10011",ChIJRY8CqGJZwokR285BA7eLv5g,40.7396687,-73.9924795,high,korean_restaurant,http://bom-nyc.com
+17668,"The Beekman, A Thompson Hotel",New York City,"123 Nassau St, New York, NY 10038",ChIJq6r-exhawokRKgBzzPkn57U,40.7111443,-74.0066413,medium,hotel,https://www.thebeekman.com
+39641,Rose Mary Chicago,Chicago,"932 West Fulton Market, Chicago, IL",ChIJ5x1j00EtDogRy59iMkDkmBY,41.8869387,-87.6511537,medium,croatian_restaurant,https://www.rosemarychicago.com/
+97909,Paju,Seattle,"513 Westlake Ave N, Seattle, WA 98109",ChIJXcSoyoEVkFQRkS7RCcI00W4,47.6238300,-122.3386788,low,korean_restaurant,https://www.pajurestaurant.com/
+71245,KUSAKABE,San Francisco Bay Area,"584 Washington Street, San Francisco",ChIJL9EdyIqAhYARMTuAjQDC7Bs,37.7957326,-122.4029438,null,meal_takeaway,http://www.kusakabe-sf.com
+42773,Torrisi,New York City,null,ChIJWd7fRdZZwokRhru5tn4KsVM,40.7242743,-73.9954023,high,italian_restaurant,https://www.torrisinyc.com/?utm_medium=Click&utm_source=GoogleMyBusiness
+12184,Crown Shy,New York City,null,ChIJ__9LNBZawokREnkOiVx7ydc,40.7063449,-74.0076944,null,american_restaurant,https://www.crownshy.nyc
+43233,Luthun,New York City,null,ChIJ2V6T8ixZwokRlJ9kJkQmcmY,40.7299112,-73.9818830,high,american_restaurant,https://www.luthun.com
+74275,Antoine's Restaurant,New Orleans,"713 St Louis St, New Orleans, LA 70130",ChIJWegGCA6mIIYRYAiMKN4T4CM,29.9567368,-90.0663924,high,french_restaurant,http://www.antoines.com/
+72947,ADDISON RESTAURANT,San Diego,"5200 Grand Del Mar Way, San Diego, CA 92130",ChIJrVfI5sEH3IARfAmbFue9xNc,32.9415767,-117.1990702,high,fine_dining_restaurant,https://www.addisondelmar.com
+39558,Sixty Three Clinton,New York City,"63 Clinton St, New York, NY 10002",ChIJ385rlW9ZwokRHTamoLqoosI,40.7195030,-73.9851420,high,american_restaurant,https://www.63clinton.com
+98183,Blackbelly,Denver,"1606 Conestoga St Suite 1, Boulder, CO 80301",ChIJYZ6vWdrta4cR5BtaxL6q6HY,40.0150420,-105.2273022,medium,american_restaurant,https://www.blackbelly.com/
+67551,Hanare Sushi,Los Angeles,"2930 Bristol St, Costa Mesa, CA 92626",ChIJ62DBzxvf3IAREwjxJY9D6BM,33.6771887,-117.8853275,high,sushi_restaurant,http://www.hanaresushi.com
+9943,Cote Korean Steakhouse,New York City,"16 W 22nd St, New York, NY 10010",ChIJQ1R3hKNZwokRQM4wbIrc00o,40.7411920,-73.9913140,high,steak_house,https://www.cotekoreansteakhouse.com
+101204,KYOJIN Sushi,"Washington, DC","3315 Cady's Alley NW Suite B, Washington, DC 20007",ChIJf57htim3t4kRAMbxTZCtjao,38.9048019,-77.0666286,high,sushi_restaurant,https://www.kyojindc.com/
+108749,Miura Bar & Grill,Los Angeles,"218 N Rodeo Dr #2f, Beverly Hills, CA 90210",ChIJ_5ydTHu7woARcQmby2lfPME,34.0679051,-118.4008610,null,fine_dining_restaurant,http://miura-beverlyhills.com/
+56628,Marc179,New York City,"179 W Broadway, New York, NY 10013",ChIJnZ5hBQBbwokROCzTHwcM9PM,40.7179240,-74.0070881,medium,restaurant,https://chefmarcmurphy.com/marc-179
+41601,Maman Zari,Chicago,null,ChIJ74Jfwx_ND4gR2_ZkLb1hKVM,41.9659185,-87.7082101,high,restaurant,https://www.mamanzari.com/
+68573,Rebel Omakase,Los Angeles,"361 Forest Ave #103, Laguna Beach, CA 92651",ChIJbS4e2ELl3IARpUd8ZG8K_Z4,33.5433964,-117.7820186,high,sushi_restaurant,https://omakaserebel.com
+107762,Fuhuihua,San Francisco Bay Area,"2809 24th St, San Francisco, CA 94110",ChIJs7GuaQCBhYARzbng5vHP75I,37.7526995,-122.4084334,high,chinese_restaurant,https://www.fuhuihua.com/
+97011,Chez Maggy,Denver,"1616 Market St, Denver, CO 80202, United States",ChIJS96maGJ5bIcRJRI1kCMY45Q,39.7499238,-104.9978890,null,modern_french_restaurant,https://www.chezmaggydenver.com/
+43802,Katana Kitten,New York City,"531 Hudson Street, New York",ChIJp7-d8P9ZwokRtQtbCsCOCBA,40.7342547,-74.0064852,low,bar,https://www.katanakitten.com
+33288,Moody Tongue Brewing Company,Chicago,null,ChIJKREupjctDogRPMJ46mxncfM,41.8469600,-87.6248300,high,restaurant,http://www.moodytongue.com
+107737,1 Hotel Nashville,Nashville,"710 Demonbreun St, Nashville, TN 37203, USA",ChIJdxehjdJnZIgRcCHDGrZkrE4,36.1572740,-86.7807374,null,hotel,https://www.1hotels.com/nashville?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp
+69147,Este,Austin,"2113 Manor Rd, Austin, TX 78722",ChIJdTGqexG1RIYRS03eNwgxz7Y,30.2839325,-97.7194787,medium,seafood_restaurant,http://esteatx.com
+74464,Atelier Crenn,San Francisco Bay Area,"3127 Fillmore Street, San Francisco",ChIJx1ULhNCAhYARSRq9NDWTeqI,37.7983315,-122.4359605,high,restaurant,http://www.ateliercrenn.com
+75717,The Mission Old Town,Phoenix,null,ChIJDdNrlMALK4cRA3sbU-Dkxzw,33.4918400,-111.9242954,medium,latin_american_restaurant,https://www.themissionaz.com/
+68914,The Ivy Los Angeles,Los Angeles,"113 N Robertson Blvd, Los Angeles, CA 90048",ChIJCWhMHa2-woAR5xjOgff0Afs,34.0757100,-118.3841187,high,californian_restaurant,http://www.theivyrestaurants.com
+40739,Cecchi's,New York City,"105 W 13th St, New York, NY 10011",ChIJwbiIbj1ZwokRQxLK96ov07g,40.7369605,-73.9976575,high,american_restaurant,http://cecchis.nyc
+71361,Rubell Museum,Miami,"1100 NW 23rd St, Miami, FL 33127",ChIJLx5iM6222YgR2ubX5fvu4ts,25.7986710,-80.2141186,null,museum,http://rubellmuseum.org
+107724,Besharam,San Francisco Bay Area,"1275 Minnesota St, San Francisco, CA 94107, USA",ChIJpVAZ4wx_j4AR4j8Q0COpGHc,37.7542278,-122.3896472,medium,indian_restaurant,http://besharamrestaurant.com/
+100441,firstborn,Los Angeles,"978 N Broadway, Los Angeles, CA 90012",ChIJSQ9xYQDHwoARz_yZdvIZ3k8,34.0661162,-118.2359600,high,asian_restaurant,https://firstborn.la/
+74047,Luvi Restaurant,New Orleans,"5236 Tchoupitoulas St, New Orleans, LA 70115",ChIJVVVFAPikIIYR4TwYAKHpofs,29.9163156,-90.1121792,null,asian_restaurant,http://www.luvirestaurant.com/
+96142,Whitney Museum of American Art,New York City,"99 Gansevoort St, New York, NY 10014",ChIJN3MJ6pRYwokRiXg91flSP8Y,40.7395877,-74.0088629,null,modern_art_museum,https://whitney.org
+33947,Momotaro,Chicago,"820 W Lake St, Chicago, IL 60607",ChIJG4IdAdAsDogR1tSvuEq-QGU,41.8858362,-87.6485169,high,japanese_restaurant,https://www.momotarochicago.com
+99315,MIKA Coral Gables,Miami,"3007 Ponce de Leon, Coral Gables, FL 33134, United States",ChIJ97oPWgC32YgRCTgjOBkL5fQ,25.7443133,-80.2581085,high,restaurant,http://mikacoralgables.com/
+98422,Shiv Supper Club,Phoenix,"7373 E Camelback Rd, Scottsdale, AZ 85251, United States",ChIJUzSI7LYLK4cRdViiGx7pOHc,33.5019022,-111.9213825,high,steak_house,https://shivsupperclub.com/
+73202,Xochi,Houston,"1777 Walker St, Houston, TX 77010",ChIJsT1r2yO_QIYRdz286CS4Kt0,29.7546087,-95.3588409,medium,oaxacan_restaurant,http://www.xochihouston.com/?y_source=1_MTAzMTYxNjcyOS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D
+69184,Bonnell's Fine Texas Cuisine,Dallas,"4259 Bryant Irvin Rd, Fort Worth, TX 76109",ChIJdVSgi5lyToYRjjHXF7lMrQQ,32.6894470,-97.4112553,medium,southwestern_restaurant_us,http://bonnellstexas.com/
+93970,Century Grand,Phoenix,null,ChIJAe-gn6sNK4cRMA1Is9snfYI,33.4953962,-112.0030914,null,bar,https://bartershake.com/
+41470,Ernesto's,New York City,"259 E Broadway, New York, NY 10002",ChIJyaTH_pRbwokRp4SVDyxdALw,40.7142731,-73.9854371,high,spanish_restaurant,http://ernestosnyc.com
+72131,Saint-Germain,New Orleans,"3054 St Claude Ave, New Orleans, LA 70117",ChIJOw-wC7GnIIYRJnpHUhmf00Q,29.9674855,-90.0447111,high,restaurant,http://saintgermainnola.com/
+107872,Maria Isabel,San Francisco Bay Area,"500 Presidio Ave, San Francisco, CA 94115",ChIJKWEToFOBhYARBD341tuVAyw,37.7871339,-122.4466032,high,mexican_restaurant,http://mariaisabelsf.com/
+108739,COTOA Restarant,null,"12475 NE 6TH CT, NORTH MIAMI, FL 33161, UNITED STATES",ChIJn8SyL-C32YgRWuPY_2YmsAA,25.8899996,-80.1850702,medium,restaurant,http://www.cotoa.rest/
+40943,Jac's on Bond,New York City,null,ChIJRVNhqddZwokRtdYJh-uBlCY,40.7265850,-73.9935856,medium,bar,http://jacsonbond.com
+68563,Duck Duck Goat,Chicago,"857 W Fulton Market, Chicago, IL 60607",ChIJBR_AFNAsDogROZa7OUuGHEw,41.8865639,-87.6495891,medium,chinese_restaurant,https://duckduckgoatchicago.com
+68056,Hammer Museum,Los Angeles,"10899 Wilshire Blvd, Los Angeles, CA 90024",ChIJ9SNj34G8woARHOdEq52UX6k,34.0591217,-118.4436674,null,art_museum,https://hammer.ucla.edu
+73366,COTE Miami,Miami,"3900 NE 2nd Ave, Miami, FL 33137",ChIJT8zbHlex2YgRbmlvb54NTIY,25.8128901,-80.1914914,null,steak_house,https://www.cotekoreansteakhouse.com
+75133,MEXTA Mexican Restaurant,Austin,"106 E 6th St Suite #110, Austin, TX 78701",ChIJZdNHD0K1RIYRVVzr-wsiaVY,30.2681573,-97.7423917,high,restaurant,https://mextarestaurant.com
+93944,ShinBay,Phoenix,"3720 N Scottsdale Rd #201, Scottsdale, AZ 85251, United States",ChIJaaBM6D4LK4cR8LSeKG5zLtM,33.4910250,-111.9264020,high,japanese_restaurant,http://www.shin-bay.com/
+25402,Che Fico,San Francisco Bay Area,"838 Divisadero St, San Francisco, CA 94117",ChIJa19vTLCAhYARXDWaUW9pGwA,37.7774319,-122.4381079,null,restaurant,https://www.chefico.com
+99243,HWARO,New York City,"776 8th Ave Floor 2, New York, NY 10036, United States",ChIJr_sXTABZwokRrd0jcVJ9DSA,40.7605436,-73.9870459,high,fine_dining_restaurant,https://hwaronyc.com/
+44125,Boro6 Wine Bar,New York City,"549 Warburton Ave, Hastings-On-Hudson, NY 10706",ChIJ0eSPevPswokR1MRhkcFl-jo,40.9950803,-73.8824051,medium,wine_bar,https://www.boro6winebar.com
+43946,Joo Ok,New York City,"22 W 32nd St 16th flr, New York, NY 10001",ChIJfXtCJgBZwokRt0ncRw3PEk4,40.7475891,-73.9869130,high,korean_restaurant,https://www.joo-ok.com
+72325,Daru,"Washington, DC","1451 Maryland Ave NE, Washington, DC 20002",ChIJPQpUuNG5t4kRL7UNlmmgetE,38.8996427,-76.9838880,low,restaurant,https://www.darudc.com
+71133,Craft Omakase,Austin,"4400 N Lamar Blvd Suite 102, Austin, TX 78756",ChIJKWBVYbLLRIYRBUllLQyqLSI,30.3126259,-97.7385724,high,sushi_restaurant,https://craftomakase.com
+101116,Anju,"Washington, DC","1805 18th St NW, Washington, DC 20009",ChIJt49hDb23t4kRgxu6hNiKBNA,38.9143826,-77.0414505,low,korean_restaurant,https://www.anjurestaurant.com/
+100001,Lapaba,Los Angeles,"558 S Western Ave, Los Angeles, CA 90020",ChIJ799-75q4woARcXJBawVAO3g,34.0636505,-118.3089515,null,restaurant,null
+43817,Barbuto,New York City,"113 Horatio Street, New York",ChIJVXheK_pZwokRDNLoQ0JK40M,40.7388802,-74.0093039,low,italian_restaurant,https://www.barbutonyc.com
+99220,Baby Bistro,Los Angeles,"1027 Alpine St, Los Angeles, CA 90012",ChIJpboOd2HHwoAR0kwNDqK4cgw,34.0656213,-118.2469651,null,bistro,https://babybistrola.com/
+72389,Emmer & Rye,Austin,"SkyHouse, 51 Rainey St UNIT 110, Austin, TX 78701",ChIJPWOnS6q1RIYRDOnUe3r5FPs,30.2574194,-97.7390667,high,restaurant,http://www.emmerandrye.com
+107897,Cantina Contramar,Las Vegas,"2777 S Las Vegas Blvd, Las Vegas, NV 89109",ChIJgRtQu7XFyIARBNShlQpNo4Q,36.1371072,-115.1585307,high,restaurant,https://www.fontainebleaulasvegas.com/dining/restaurants/cantina-contramar/
+99900,La Padrona Boston,Boston,null,ChIJd9JNGBR744kRUy2_3Oktr-k,42.3483524,-71.0751296,high,italian_restaurant,https://www.lapadronaboston.com/
+75264,Cafe La Trova,Miami,"971 SW 8th St, Miami, FL 33130",ChIJZzgtHTW32YgR-k9p8IqD5m0,25.7660827,-80.2104785,medium,restaurant,https://www.cafelatrova.com
+68036,Niku Steakhouse,San Francisco Bay Area,"61 Division Street, San Francisco",ChIJ9fZ1hrV_j4AR-j0CLhwaYc0,37.7695835,-122.4035965,high,restaurant,https://www.nikusteakhouse.com
+71686,KINDRED,San Diego,"1503 30th St, San Diego, CA 92102",ChIJn169L35T2YARxr4Mv3Tqj0Q,32.7214597,-117.1300628,low,restaurant,http://www.barkindred.com
+97098,Le Cirque Las Vegas,Las Vegas,"Bellagio Hotel & Casino, 3600 S Las Vegas Blvd, Las Vegas, NV 89109, United States",ChIJswuaqjrEyIARnv3t0HDkF5U,36.1134588,-115.1749872,high,french_restaurant,https://bellagio.mgmresorts.com/en/restaurants/le-cirque.html
+95996,MICHAEL MINA Bellagio,Las Vegas,"Bellagio Hotel & Casino, 3600 S Las Vegas Blvd, Las Vegas, NV 89109, United States",ChIJm8swADDEyIARAsePlKDOn40,36.1120708,-115.1769549,high,seafood_restaurant,https://bellagio.mgmresorts.com/en/restaurants/michael-mina.html
+70026,Angler,San Francisco Bay Area,"132 The Embarcadero, San Francisco",ChIJgURgKGuBhYARMIlKBN79aOQ,37.7930864,-122.3921810,high,restaurant,https://www.anglerrestaurants.com
+39654,Ma•dé,New York City,"22 Spring St, New York, NY 10012",ChIJ63L1ISRZwokRyEGTzZ0gAZM,40.7212979,-73.9951978,high,restaurant,http://ma-de-nyc.com
+43942,Flyfish Club,New York City,"141 E Houston St, New York, NY 10002",ChIJm2Rj91dZwokRLG299K1-7TE,40.7231067,-73.9898617,high,restaurant,https://www.flyfishclub.com
+1385,Red Rooster Harlem,New York City,"310 Lenox Ave, New York, NY 10027",ChIJFcYLJw32wokRnP5A9xO9JqM,40.8081500,-73.9448800,low,restaurant,https://www.redroosterharlem.com
+29600,Omakase,San Francisco Bay Area,"665 Townsend St, San Francisco, CA 94103",ChIJFYz55yx-j4ARFUpWF0lt4gw,37.7706719,-122.4028886,high,restaurant,http://www.omakasesf.com
+69521,Ser Steak & Spirits,Dallas,"2201 N Stemmons Fwy Floor 27, Dallas, TX 75207",ChIJEyodkVSZToYRKnh6i6aNx-8,32.7997871,-96.8295731,null,restaurant,http://sersteak.com/?SEO_id=GMB--2-R-DFWANHH-2&y_source=1_MTU0MDUzNTItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+99187,The Alston,Chicago,null,ChIJm5ERKgDTD4gR63G4MYBFtJI,41.8962393,-87.6283284,high,steak_house,https://www.thealston.com/
+41488,Icca,New York City,"20 Warren St, New York, NY 10007",ChIJyRIhC_dbwokRqGoh89KPQME,40.7143008,-74.0076845,high,japanese_restaurant,http://icca.nyc
+5853,Benjamin Steakhouse,New York City,"52 E 41st St, New York, NY 10017",ChIJ3TH9CwFZwokRIvNO1SP0WLg,40.7518000,-73.9789600,high,steak_house,http://benjaminsteakhouse.com
+41242,Alpana,Chicago,"831 N State St, Chicago, IL 60610",ChIJVeToOJzTD4gRvjGOQ4gHZs8,41.8978021,-87.6280930,medium,restaurant,http://alpanachicago.com
+6630,Gramercy Tavern,New York City,"42 E 20th St, New York, NY 10003",ChIJvSQIgqFZwokRFYQbJdzceSs,40.7385270,-73.9884170,high,restaurant,http://www.gramercytavern.com
+39721,Yellow Rose,New York City,null,ChIJ86Q39ndZwokRJTOUVW7RD-I,40.7325369,-73.9880691,low,american_restaurant,http://yellowrosenyc.com
+7415,Noreetuh,New York City,"128 1st Ave, New York, NY 10009",ChIJPzFYF51ZwokRbAQY59WDJUE,40.7272750,-73.9852210,medium,american_restaurant,http://noreetuh.com
+76008,Restaurant Guy Savoy,Las Vegas,"3570 Las Vegas Blvd S, Las Vegas, NV 89109, United States",ChIJIWDXdTvEyIARa1jZlG5t6Uc,36.1152599,-115.1747195,high,french_restaurant,https://www.caesars.com/caesars-palace/restaurants/guy-savoy?utm_campaign=gmb
+67345,Carbone Dallas,Dallas,null,ChIJ4-tRtg6ZToYRPLhKQs7D_GM,32.7957359,-96.8203278,high,italian_restaurant,https://www.carbonedallas.com/?utm_medium=Click&utm_source=GoogleMyBusiness
+67322,Snail Bar,San Francisco Bay Area,"4935 Shattuck Ave., Oakland, CA 94609",ChIJ_4GPE_x_hYARouAt1lJ7i-c,37.8367496,-122.2641813,medium,wine_bar,https://snailbaroakland.com
+68765,ADEGA Restaurant,San Francisco Bay Area,"1614 Alum Rock Ave, San Jose, CA 95116",ChIJC797reHMj4ARSaQDCMuHWSQ,37.3511694,-121.8583667,high,portuguese_restaurant,https://www.adegarest.com
+5011,Butter Midtown,New York City,"70 W 45th St, New York, NY 10036",ChIJC5JFjf9YwokREzJa0siEb8c,40.7562781,-73.9823303,high,american_restaurant,http://www.butterrestaurant.com
+11107,Tamarind,New York City,"99 Hudson St, New York, NY 10013",ChIJ6Vva1h9awokRXw_JSQ_x6y4,40.7190900,-74.0089200,high,indian_restaurant,http://tamarindtribeca.com
+76537,Delmonico Steakhouse,Las Vegas,"3355 S Las Vegas Blvd, Las Vegas, NV 89109, United States",ChIJT2nL3z3EyIAR8z_LxDW_qXY,36.1231528,-115.1691819,high,steak_house,http://delmonicosteakhouse.com/
+72927,Ethel's Fancy,San Francisco Bay Area,"550 Waverley St, Palo Alto, CA 94301",ChIJRTRAoc67j4ARM-MLNMDboBo,37.4464812,-122.1599474,medium,restaurant,https://www.ethelsfancypa.com
+66909,Peninsula,Nashville,"1035 W Eastland Ave, Nashville, TN 37206",ChIJ1_TwUtBnZIgRMBWrg2FzLYA,36.1838700,-86.7499906,medium,restaurant,http://peninsulanashville.com
+68790,jū-ni,San Francisco Bay Area,"1335 Fulton Street STE 101, San Francisco",ChIJC97OyLGAhYAR4Y3wyxVMk8c,37.7765382,-122.4388301,high,restaurant,http://www.junisf.com
+40095,Oiji Mi,New York City,"17 West 19th Street, New York, NY 10011",ChIJee0VTWZZwokRDYFpAoConlw,40.7396687,-73.9924795,high,korean_restaurant,http://oijimi.com
+108708,Caffe Lucca,Dallas,"4445 Travis St, Dallas, TX 75205",ChIJaz3NgmifToYRM9zP3qh-BoY,32.8220574,-96.7915468,null,restaurant,http://www.caffeluccadallas.com/
+98252,L'Atelier de Joel Robuchon,Las Vegas,"MGM Grand, 3799 S Las Vegas Blvd, Las Vegas, NV 89109, United States",ChIJZ-93QcvFyIARqArsJhw7Mso,36.1020732,-115.1693921,high,french_restaurant,https://mgmgrand.mgmresorts.com/en/restaurants/latelier-joel-robuchon-french-restaurant.html
+74620,Knife Pleat,Los Angeles,"3333 Bristol St #3001, Costa Mesa, CA 92626",ChIJxSir_ZTf3IARy_dlMZYYTVY,33.6917517,-117.8895887,high,fine_dining_restaurant,http://knifepleat.com
+99242,Bomb Biscuit Atlanta,Atlanta,"519 Memorial Dr SE UNIT B2, Atlanta, GA 30312",ChIJ_RsvOroF9YgRDkInxsTJmJM,33.7461492,-84.3704637,low,restaurant,http://www.bombbiscuitatl.com/
+100481,Pinkerton's Barbecue,Houston,"3801 Farnham St, Houston, TX 77098",ChIJtz_udADBQIYR1s-EYSJXUbw,29.7322553,-95.4116624,null,restaurant,https://www.pinkertonsbarbecue.com/
+102023,Four Seasons Hotel Las Vegas,Las Vegas,"3960 S Las Vegas Blvd, Las Vegas, NV 89119",ChIJa2qbocXFyIARHH5YGwc3Qg8,36.0910372,-115.1743089,null,hotel,https://www.fourseasons.com/lasvegas/%3Futm_source%3Dgoogle%26utm_medium%3Dorganicsearch%26utm_campaign%3Dtor-vgs-hre-mid-seo-na%26utm_content%3Dna-na%26utm_term%3Dna
+3979,Carnegie Hall,New York City,"881 7th Ave, New York, NY 10019",ChIJ2RFUePdYwokRd5R6XF6xFD0,40.7651125,-73.9799156,medium,concert_hall,http://www.carnegiehall.org
+95030,Anhelo Restaurant,Phoenix,"7007 E 1st Ave, Scottsdale, AZ 85251",ChIJGazG_zkSK4cR_EpOAojIEvc,33.4938493,-111.9299005,null,fine_dining_restaurant,http://www.anhelorestaurant.com/
+71818,Twisted Soul Cookhouse & Pours,Atlanta,"1133 Huff Rd NW #D, Atlanta, GA 30318",ChIJnSaUy8UE9YgRg7MAIH1ULZ4,33.7892169,-84.4251171,null,southern_restaurant_us,https://www.twistedsoulatl.com/
+95658,RPM Italian Las Vegas,Las Vegas,"3500 S Las Vegas Blvd, Las Vegas, NV 89109, United States",ChIJk9LoarTFyIARSDsrfz6yurI,36.1193530,-115.1731475,medium,italian_restaurant,https://www.rpmrestaurants.com/rpm-italian-las-vegas/
+95455,Hop Alley,Denver,"3500 Larimer St, Denver, CO 80205, United States",ChIJiz68dxp5bIcRnDG_uUVRVJw,39.7669902,-104.9742174,medium,chinese_restaurant,http://www.hopalleydenver.com/
+73226,Bloom Plant Based Kitchen,Chicago,"1559 N Milwaukee Ave, Chicago, IL 60622",ChIJsVsK4J3TD4gRc925DzRAzhI,41.9098906,-87.6764643,low,american_restaurant,http://bloompb.com
+8492,Lucky Cheng's,New York City,"570 10th Ave 4th flr, New York, NY 10036",ChIJORjnnYNZwokR1uP2odXPR_I,40.7650760,-73.9959860,medium,night_club,https://www.luckychengs.com
+70907,BCN Taste & Tradition,Houston,"4210 Roseland St, Houston, TX 77006",ChIJjYk683y_QIYRVaLUbeMhExI,29.7349267,-95.3901565,high,spanish_restaurant,http://bcnhouston.com/
+41416,Lord’s,New York City,"506 LaGuardia Pl, New York, NY 10012",ChIJ-XcRtjdZwokRMcgZdhVjqYg,40.7277403,-73.9995539,null,restaurant,http://lordsenglish.com
+32210,EL Ideas,Chicago,"2419 W 14th St, Chicago, IL 60608",ChIJbbQglnAtDogR-Y6w6ETH91A,41.8627500,-87.6870000,high,american_restaurant,http://www.elideas.com
+43950,Gem Home,New York City,"181 Mott St, New York, NY 10012",ChIJJ_rCLwBZwokR_QgXjl5I8t0,40.7206977,-73.9960870,low,home_goods_store,https://www.gemhomenyc.com
+104429,Charlie Trotter's,Chicago,"816 W Armitage Ave, Chicago, IL 60614",ChIJpxIJemTTD4gRiZTtsxohjaM,41.9183977,-87.6492666,null,fine_dining_restaurant,https://www.charlie-trotters.com/
+40782,Saison,San Francisco Bay Area,"178 Townsend Street, San Francisco, CA 94107",ChIJPUo32Aj3MhURXL06eVIEoHc,37.7797340,-122.3925242,high,restaurant,http://saisonsf.com
+96905,Owamni by The Sioux Chef,Minneapolis-Saint Paul,"420 S 1st St, Minneapolis, MN 55401, United States",ChIJrSqctJQts1IRc4Q-7QQpN5I,44.9811238,-93.2604073,medium,native_american_restaurant,http://owamni.com/
+108717,Chinois on Main,Los Angeles,"2709 Main St, Santa Monica, CA 90405, United States",ChIJ4Y7itdO6woARpkQJNUEbyak,34.0006111,-118.4821977,high,asian_fusion_restaurant,https://wolfgangpuck.com/dining/chinois-santa-monica
+67305,Bad Idea,Nashville,"1021 Russell St #101, Nashville, TN 37206",ChIJ4cxei4JnZIgR4AMk7AUNjOI,36.1758733,-86.7503858,high,restaurant,https://www.badideanashville.com/?utm_source=organic&utm_medium=gmb
+108057,Baar Baar - LA,Los Angeles,"705 W 9th St, Los Angeles, CA 90015, United States",ChIJW_3BHLfHwoARQ3w-at3U0Ek,null,null,medium,indian_restaurant,https://www.baarbaarla.com/
+93855,CUT by Wolfgang Puck - Las Vegas,Las Vegas,"3325 Las Vegas Blvd S, Las Vegas, NV 89109",ChIJ9TdsBj7EyIARQ5JApcC8u4Q,36.1236924,-115.1685257,high,steak_house,https://wolfgangpuck.com/dining/cut-las-vegas/
+66978,Connie & Ted's,Los Angeles,"8171 Santa Monica Blvd, West Hollywood, CA 90046",ChIJ25aVB8e-woAROgPaea77dCU,34.0911444,-118.3672167,medium,seafood_restaurant,http://www.connieandteds.com
+74246,Chi Spacca,Los Angeles,"6610 Melrose Ave, Los Angeles, CA 90038",ChIJwbQBbdO4woARHT4khoXPnok,34.0832749,-118.3390866,high,italian_restaurant,http://www.chispacca.com
+76563,Turkey and the Wolf,New Orleans,"739 Jackson Ave, New Orleans, LA 70130",ChIJtcKRBICmIIYR_25UytUP3Do,29.9271843,-90.0743393,low,sandwich_shop,http://www.turkeyandthewolf.com/
+67886,Quince,San Francisco Bay Area,null,ChIJ8biHnb-AhYARSpU8MDPb5vs,37.7974735,-122.4032962,null,restaurant,http://www.quincerestaurant.com
+10873,Blue Ribbon Brasserie - SoHo,New York City,null,ChIJQSjQsI1ZwokRu19O824YdH4,40.7254560,-74.0030270,low,american_restaurant,https://www.blueribbonrestaurants.com/restaurants/blue-ribbon-brasserie
+42345,Uzuki,New York City,"95 Guernsey St, Brooklyn, NY 11222",ChIJN1M-dmVZwokRnicgNEGnFRY,40.7245208,-73.9534583,medium,japanese_restaurant,https://www.uzuki-ny.com
+43949,Place des Fêtes,New York City,"212 Greene Ave, Brooklyn, NY 11238",ChIJtx7ymGVbwokRzDZBJ8NVJz0,40.6868050,-73.9628690,high,restaurant,https://www.pdfnyc.com
+96572,Basta,Denver,"3601 Arapahoe Ave, Boulder, CO 80303, United States",ChIJPT9ZVsPta4cRGbtCBP9HcGw,40.0153301,-105.2484228,medium,italian_restaurant,https://bastaboulder.com/
+43237,Kiko,New York City,null,ChIJY7hwYABZwokRP4p7Cn1xues,40.7261452,-74.0084601,high,american_restaurant,https://www.kikonewyork.com
+101859,The Maybourne Beverly Hills,Los Angeles,"225 N Canon Dr, Beverly Hills, CA 90210",ChIJuZadDlu7woAR1Wzrce7wjow,34.0681204,-118.3986017,null,hotel,https://www.maybourne.com/en/hotels/the-maybourne-beverly-hills%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dlocal
+103277,The Mansion Restaurant at Rosewood Mansion on Turtle Creek,Dallas,"2821 Turtle Creek Blvd, Dallas, TX 75219",ChIJE4ottMyeToYRXNX8EpUbhtY,32.8042036,-96.8074476,high,hotel,https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas
+108777,The Josephine,Boston,515 Somerville Ave,ChIJGwhRLHto-dn8XWshFBiIoJQ,42.3828649,-71.1052649,medium,restaurant,https://www.josephinepizza.com
+3696,Wolf,New York City,"225 W 57th St, New York, NY 10019",ChIJDSC7nUFZwokRtEwIc8WdF_Q,40.7662200,-73.9812800,medium,italian_restaurant,https://www.nordstrom.com/browse/about/new-york/restaurants/wolf
+107009,Bar at Eleven Madison Park,New York City,"11 Madison Ave, New York, NY 10010",ChIJQT-_LFJZwokRlfiQ8FIVuts,40.7415914,-73.9872122,high,cocktail_bar,https://www.clementebar.com/
+41206,Routier,San Francisco Bay Area,"2801 California St, San Francisco, CA 94115",ChIJv1wfmMiBhYARaDfRf4DApQ8,37.7879094,-122.4405831,medium,modern_french_restaurant,http://routiersf.com
+72270,Present Tense,Nashville,"509 Houston St, Nashville, TN 37203",ChIJpamm9aBnZIgRO0JbzAr3Bb4,36.1422231,-86.7638528,low,japanese_restaurant,http://www.liveinthepresenttense.com
+68612,Olamaie,Austin,"1610 San Antonio St, Austin, TX 78701",ChIJbw26uXW1RIYRJe7jQ8iC5Es,30.2799071,-97.7436982,high,american_restaurant,http://olamaieaustin.com
+43274,L'Artusi,New York City,"522 Hudson Street, New York",ChIJkUqHQABZwokRYyLV9YdSirU,40.7339688,-74.0060337,low,italian_restaurant,https://www.lartusi.com
+41816,John's Food and Wine,Chicago,"2114 North Halsted Street, Sheffield Neighbors, Chicago, IL",ChIJByTHeJzTD4gR31ycfZxfc3s,41.9204421,-87.6489219,medium,restaurant,https://www.johnsfoodandwine.com/
+69099,Kali Restaurant,Los Angeles,"5722 Melrose Ave, Los Angeles, CA 90038",ChIJdfiEi8m4woAR82sc6js_AXs,34.0833493,-118.3244936,high,steak_house,https://www.kalirestaurant.com/
+108028,SUSHISAMBA Los Angeles,Los Angeles,"639 N La Peer Dr, West Hollywood, CA 90069",ChIJqVYNKQC_woARJYTclb06csI,34.0819353,-118.3867539,high,restaurant,https://www.sushisamba.com/locations/los-angeles
+108752,Spoon and Stable,Minneapolis-Saint Paul,"211 N 1ST ST, MINNEAPOLIS, MN 55401",ChIJ9i9vg2g6aj3_eYqNzfvRI9O,44.9850603,-93.2699191,high,new_american_restaurant,http://www.spoonandstable.com/
+71293,Jaleo by José Andrés,"Washington, DC","480 7th St NW, Washington, DC 20004",ChIJLQH_IJC3t4kRZLetUEiw_Lw,38.8959259,-77.0222721,medium,restaurant,https://www.jaleo.com/location/washington-dc
+99144,Chai Pani DC,"Washington, DC","1325 5th St NE Suite A, Washington, DC 20002",ChIJhajM1ni5t4kRtVE0rVDodO8,38.9090734,-76.9976657,medium,indian_restaurant,http://www.chaipani.com/dc
+97442,The Spiral NYC,New York City,"66 Hudson Blvd E, New York, NY 10001",ChIJuYzXdZlZwokR_36T9odtqPY,40.7552723,-73.9995718,null,corporate_office,https://www.thespiralny.com
+10294,Shuko,New York City,"47 E 12th St, New York, NY 10003",ChIJe8WrB5lZwokREBs3DZYJyKc,40.7334269,-73.9914636,high,japanese_restaurant,https://www.shukonyc.com
+68429,Antico Nuovo,Los Angeles,"4653 Beverly Blvd, Los Angeles, CA 90004",ChIJB0hqPkC5woARQq-rCwWDiSY,34.0765597,-118.3109803,high,italian_restaurant,https://www.anticonuovo-la.com
+41789,Kumiko,Chicago,"630 W Lake St, Chicago, IL",ChIJVVVFV88sDogRIs6NMpEi61s,41.8858567,-87.6440761,null,bar,https://barkumiko.com/
+68695,Blue Collar Miami,Miami,"6789 Biscayne Blvd, Miami, FL 33138",ChIJC1jR09mz2YgRy4QYtGQOeFs,25.8376468,-80.1840628,low,american_restaurant,http://bluecollarmiami.com
+93732,TWA Flight Center,New York City,null,ChIJ888sEltYwokRoS0cjRDwMck,40.7697024,-73.9927342,medium,event_venue,http://www.terminal5nyc.com
+68258,La Grotta Ristorante Italiano,Atlanta,"2637 Peachtree Rd NE, Atlanta, GA 30305",ChIJ-aIMPpgF9YgRT3Rv61FOgCs,33.8268487,-84.3870296,high,italian_restaurant,http://lagrottaatlanta.com/
+100633,Nadu,Chicago,"2518 N Lincoln Ave, Chicago, IL 60614",ChIJtXs1ES3TD4gRADuqrhc6xC4,41.9274996,-87.6519171,medium,indian_restaurant,http://naduchicago.com/
+99417,Elmina,"Washington, DC",null,ChIJq0uCMQC3t4kRNvqH6Qi-XLw,38.9195509,-77.0323219,high,african_restaurant,https://www.elminarestaurant.com/
+107934,Mixteca,New York City,"1 Cornelia St, New York, NY 10014",ChIJmZNfKwBZwokRqfVT6PeEXCY,40.7318320,-74.0013960,low,bar,https://cocteleriamixteca.com/
+97183,Alma Fonda Fina,Denver,"2556 15th St, Denver, CO 80211",ChIJtcachtF5bIcRZsMfPFA72Ks,39.7580312,-105.0116729,medium,restaurant,https://www.almalohidenver.com/
+41281,Sons & Daughters,San Francisco Bay Area,"708 Bush St, San Francisco, CA 94108",ChIJvXXIOoyAhYARe-ixq3WdmrY,37.7902809,-122.4091133,high,restaurant,http://sonsanddaughterssf.com
+39542,Tosca Cafe,San Francisco Bay Area,null,ChIJ2xNJivSAhYARhivCKSIaZCY,37.7976266,-122.4058736,medium,bar,http://toscacafesf.com
+70663,Chemin à la Mer,New Orleans,"2 Canal St, New Orleans, LA 70130",ChIJJ1IJEW2mIIYRWGEYqk7J47Y,29.9490488,-90.0638056,high,steak_house,https://www.cheminalamer.com/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-nln-fab-mid-seo-na&utm_content=na-na&utm_term=na
+41365,Le Clou,"Washington, DC","222 M St NE, Washington, DC 20002",ChIJWVeCqWm5t4kRf5pP8ugEHIQ,38.9057749,-77.0027280,medium,french_restaurant,http://lecloudc.com
+68543,Brush Sushi,Atlanta,"3009 Peachtree Rd NE #140, Atlanta, GA 30305",ChIJBf-1gFQF9YgRKggL2q5e-IM,33.8374040,-84.3809233,high,japanese_restaurant,https://brushatl.com/
+100147,Bar ANA,Atlanta,"939 Ponce De Leon Ave NE, Atlanta, GA 30306",ChIJEcipkr4F9YgR5PKq-SaL4_A,33.7735007,-84.3566349,null,dessert_restaurant,https://www.baranaatl.com/
+6879,Union Square Cafe,New York City,"101 E 19th St, New York, NY 10003",ChIJxTHke6JZwokRCLWVd99eDBw,40.7377500,-73.9878740,null,restaurant,http://www.unionsquarecafe.com
+67059,Aria,Atlanta,"490 East Paces Ferry Rd NE, Atlanta, GA 30305",ChIJ2UR5rfMF9YgR1k2zHnrt8qo,33.8387184,-84.3719024,null,american_restaurant,http://www.aria-atl.com/
+40853,Z & Y Restaurant,San Francisco Bay Area,"655 Jackson Street, San Francisco, CA 94133",ChIJmevPu_SAhYARMmQlHRt_Rj4,37.7959240,-122.4060040,low,meal_takeaway,https://www.zandyrestaurant.com/
+11577,Marc Forgione,New York City,"30 Hudson St, New York, NY 10013",ChIJhSLc_R5awokReYEI4dyODxA,40.7164700,-74.0095599,medium,american_restaurant,https://www.marcforgione.com
+69568,Bello by Sandro Nardone,Los Angeles,"1200 Bison Ave Suite C2, Newport Beach, CA 92660",ChIJf21kOlvf3IARTFeUh4omyw4,33.6379870,-117.8642472,high,italian_restaurant,https://bellobysandronardone.com
+108768,il Carcofo,Chicago,"1045 W Fulton St, Chicago, IL 60607",,41.8865203,-87.6543999,high,roman_restaurant,http://www.ilcarciofochicago.com/
+11026,Atla,New York City,"372 Lafayette St, New York, NY 10012",ChIJLSOKsppZwokR_j81qK3aPsM,40.7271874,-73.9938924,low,mexican_restaurant,https://www.atlanyc.com
+39671,YOSHINO • NEW YORK,New York City,"342 Bowery, New York, NY 10012",ChIJ6WTjLENZwokRsU3IurxvnCI,40.7262286,-73.9921624,null,sushi_restaurant,http://yoshinonewyork.com
+99948,Casa Dani Century City,Los Angeles,"10250 Santa Monica Blvd, Los Angeles, CA 90067",ChIJ2_WlTZS7woARoGIsiuxhv_8,34.0591841,-118.4202901,null,spanish_restaurant,https://www.sbe.com/restaurants/casa-dani/casa-dani-century-city/
+70607,Sushi Kaneyoshi,Los Angeles,"250 1st St B1, Los Angeles, CA 90012",ChIJIXKeGv_HwoARtFSSk2sS2AI,34.0500361,-118.2415175,high,sushi_restaurant,https://kaneyoshi.us
+107961,Beef & Liberty Bar at Hawksmoor Chicago,Chicago,"500 N La Salle Dr, Chicago, IL 60654",ChIJa2U5rJ0tDogRzDRim6sXeGY,41.8909552,-87.6330204,null,bar,https://thehawksmoor.com/us/beef-liberty-bar-chicago/
+107771,Seia Miami,Miami,"830 Brickell Plaza, Miami, FL 33131",ChIJwVcggR232YgRsfCXx2oDQaU,25.7656503,-80.1923331,null,restaurant,https://www.seiamiami.com/
+40744,Kebab aur Sharab,New York City,"247 W 72nd St, New York, NY",ChIJp5ZUdGlZwokR9QomdJsja7A,40.7795772,-73.9832555,medium,indian_restaurant,http://kebabaursharab.com
+29684,The Battery,San Francisco Bay Area,"717 Battery St, San Francisco, CA 94111",ChIJDTYl9V-AhYARfLVd9boHpkI,37.7978820,-122.4012850,null,hotel,http://www.thebatterysf.com
+68242,La Natural,Miami,"7289 NW 2nd Ave, Miami, FL 33150",ChIJaeBbjZmx2YgRI0Yb0-WQtPU,25.8418810,-80.2005808,null,restaurant,http://lanaturalmiami.com
+4018,Aldo Sohm Wine Bar,New York City,"151 W 51st St, New York, NY 10019",ChIJFbIdkvhYwokRAicwcVjJ2io,40.7613465,-73.9811449,medium,wine_bar,http://www.aldosohmwinebar.com
+97071,Chan Seattle,Seattle,"724 Pine St, Seattle, WA 98101",ChIJsShv3bJqkFQRSqYTgc7r_0w,47.6131124,-122.3334204,low,korean_restaurant,http://www.chanseattle.com/
+11743,Atera,New York City,"77 Worth St, New York, NY 10013",ChIJ_Y7rMCBawokR0mnRmN5kL2o,40.7169400,-74.0057000,high,american_restaurant,http://ateranyc.com
+66845,Quarter Acre,Dallas,null,ChIJ17q6W0SfToYRxrggvDCrPPs,32.8152446,-96.7704490,high,restaurant,https://www.quarteracrerestaurant.com/
+93371,Esther's Kitchen,Las Vegas,"1131 S Main St, Las Vegas, NV 89104, United States",ChIJ44w1UIXDyIAR4Gj6uVkFoPY,36.1576619,-115.1533825,low,italian_restaurant,https://www.estherslv.com/
+43896,"Four Twenty Five, a Jean-Georges Restaurant",New York City,null,ChIJjybX-nVZwokRbnwwPvjMw4o,40.7605251,-73.9712296,high,american_restaurant,https://www.425parkrestaurant.com
+40627,8282,New York City,"84 Stanton St, New York, NY 10002",ChIJNaUIchtZwokRHI8Pk3mEz1Y,40.7216708,-73.9887463,medium,korean_restaurant,http://eightwoeightwo.com/about-us
+76702,Maple & Ash - Scottsdale,Phoenix,null,ChIJVVUVQr0LK4cR1JLKzJfvcZU,33.5019280,-111.9279606,high,steak_house,http://mapleandash.com/
+40218,Copra,San Francisco Bay Area,"1700 Fillmore St, San Francisco, CA 94115",ChIJGx1jA6SBhYARLMB1ta069Bs,37.7853703,-122.4327894,medium,restaurant,https://www.coprarestaurant.com/
+69709,Michael's Genuine Food & Drink,Miami,"130 NE 40th St, Miami, FL 33137",ChIJfRgILlex2YgRvDRFonWLC4w,25.8131931,-80.1926556,medium,american_restaurant,http://www.michaelsgenuine.com
+108778,Las' Lap,Miami,"2216 Park Ave, Miami Beach, FL, USA",ChIJmzlO7vm12YgR7Jo7CXo4VzI,25.7983186,-80.1307392,high,restaurant,https://www.laslapmia.com/
+3637,Nougatine by Jean-Georges,New York City,"1 Central Park W, New York, NY 10023",ChIJh5JzbfZYwokRzeF2GgGYd2Y,40.7689100,-73.9817600,high,french_restaurant,https://www.jean-georgesrestaurant.com/nougatine-and-terrace-at-jean-georges/
+99147,Cimera,Denver,"3330 Brighton Blvd #200-2, Denver, CO 80216",ChIJHWw9sBx5bIcR3Sz07J5vI5c,39.7687416,-104.9805586,medium,panlatin_restaurant,https://www.cimeradenver.com/
+6659,Rezdôra,New York City,null,ChIJDdKSyCVZwokR-9svvc9YDFo,40.7390100,-73.9891000,high,italian_restaurant,https://www.rezdora.nyc
+67046,OMAKASE YUME,Chicago,"651 W Washington Blvd Suite #101, Chicago, IL 60661",ChIJ2RtTWRgtDogRPCjq4g_BsWo,41.8830440,-87.6444946,high,sushi_restaurant,https://www.omakaseyume.com/
+40036,Attaboy New York,New York City,"134 Eldridge St, New York, NY 10002",ChIJDbQMBIdZwokRVS4L8B8V5SA,40.7188967,-73.9913819,medium,bar,https://attaboy.us/visit-us
+67646,Elcielo Miami By Juan Manuel Barrientos,Miami,null,ChIJ6VVxuZy22YgRlpY7iByTz_Q,25.7696825,-80.1915182,high,restaurant,https://elcielo.com.co/miami/?utm_source=google&utm_medium=maps&utm_campaign=el_cielo_miami
+102315,The St. Regis Atlanta,Atlanta,"88 W Paces Ferry Rd NW, Atlanta, GA 30305",ChIJvR3yI48F9YgRd11It0N7nhM,33.8399960,-84.3825060,null,hotel,https://www.marriott.com/en-us/hotels/atlxr-the-st-regis-atlanta/overview/%3Fscid%3Df2ae0541-1279-4f24-b197-a979c79310b0
+74564,Mother Wolf,Los Angeles,"1545 Wilcox Ave, Los Angeles, CA 90028",ChIJxdFqHyq_woARDUHX8G7HMgo,34.0994241,-118.3313098,high,italian_restaurant,http://motherwolfla.com
+94856,Denver Art Museum,Denver,"100 W 14th Ave Pkwy, Denver, CO 80204, United States",ChIJFaqhMyt_bIcRMfeTGF4E8kM,39.7371878,-104.9893451,medium,art_museum,https://www.denverartmuseum.org/en
+43791,Greywind,New York City,"451 10th Avenue, New York",ChIJRyAmqgpZwokRHjS6xvDPVfI,40.7557505,-73.9986545,null,restaurant,http://greywindnyc.com
+40540,Jeong,Chicago,"1460 W Chicago Ave, Chicago, IL 60642",ChIJLwlex_7TD4gRGPKEsZApggo,41.8963145,-87.6647980,high,restaurant,http://jeongchicago.com
+70981,Calamigos Ranch,Los Angeles,null,ChIJk5FzygYj6IARXHa8eG3QqsQ,34.0921370,-118.8174120,null,event_venue,http://www.calamigosevents.com
+39727,Bresca,"Washington, DC","1906 14th St NW, Washington, DC 20009",ChIJIfKOC-i3t4kRjYSije_nwy0,38.9157867,-77.0322708,high,restaurant,https://www.brescadc.com/
+93750,Courchevel Bistro,Park City,"201 Heber Ave, Park City, UT 84060",ChIJ_8f6Lb1yUocRobYlPSSYmmA,40.6464160,-111.4968540,medium,restaurant,https://www.courchevelbistro.com/?utm_source=google
+41207,Prik Hom,San Francisco Bay Area,null,ChIJv2gmJyCHhYARHtwavIzzxKk,37.7818373,-122.4537697,medium,thai_restaurant,https://www.prikhomsf.com/
+101941,Private Dining by Sepia,Chicago,"135 N Jefferson St, Chicago, IL 60661",ChIJc8yEcsYsDogROtPnOmeb_bA,41.8840781,-87.6424892,null,event_venue,https://www.sepiachicago.com/
+72685,Launderette,Austin,"2115 Holly St, Austin, TX 78702",ChIJQwHkAku0RIYR-lvYDf4FijU,30.2518902,-97.7227868,low,american_restaurant,https://launderetteaustin.com
+67594,Union Restaurant,Los Angeles,"37 Union St, Pasadena, CA 91103",ChIJ6bJimnHDwoARLVTrXTHBoVY,34.1469979,-118.1496377,medium,italian_restaurant,http://www.unionpasadena.com
+107879,À L'ouest,San Diego,"3002 University Ave, San Diego, CA 92104",ChIJ4ZAEFABV2YARvRNfh9U_wtI,32.7486502,-117.1299517,high,french_restaurant,https://alouestsd.com/
+94486,Rioja,Denver,"1431 Larimer St, Denver, CO 80202",ChIJD6avbcV4bIcRTCc7gSIwm-0,39.7479417,-104.9994667,null,restaurant,http://www.riojadenver.com/
+39525,Albi,"Washington, DC","1346 4th St SE, Washington, DC 20003",ChIJ240L8N25t4kRCoGiQ2-21bI,38.8741942,-77.0002617,high,middle_eastern_restaurant,https://www.albidc.com/
+103650,Chicago Cut Steakhouse,Chicago,"300 N La Salle Dr, Chicago, IL 60654",ChIJu-BeUQAtDogRvGGTz-D3ujk,41.8882450,-87.6330981,null,restaurant,null
+75007,Itamae,Miami,"3225 NE 1st Ave, Miami, FL 33137",ChIJZ0Dl11ax2YgRlEIBjDFwpGA,25.8071992,-80.1928890,high,japanese_restaurant,http://www.itamaeao.com
+68517,Ometeo,"Washington, DC","1640 Capital One Dr, Tysons, VA 22102",ChIJ-bceLn9LtokR2p6DBWWZ4UM,38.9254420,-77.2126698,medium,american_restaurant,http://ometeotexmex.com
+97776,The Yale Club of New York City,New York City,"50 Vanderbilt Ave, New York, NY 10017",ChIJwWEH_AFZwokRhh1zaQklMQw,40.7540226,-73.9774703,null,club,https://www.yaleclubnyc.org/
+73746,Maydan,"Washington, DC","1346 Florida Ave NW, Washington, DC 20009",ChIJuRQJIue3t4kR4aTvgqKSRg0,38.9197824,-77.0309582,high,middle_eastern_restaurant,https://meetatmaydan.com/washington-dc
+100816,Elcielo Restaurant New York City,New York City,"1227 Broadway, New York, NY 10001",ChIJpWRCrahZwokRzy_4smRsd3Y,40.7465628,-73.9888768,high,restaurant,https://elcielo.com.co/new-york/%3Futm_source%3Dgoogle%26utm_medium%3Dmaps%26utm_campaign%3Delcielo_nyc
+93592,Shiraz Kitchen & Wine Bar - White Plains,New York City,"80 Mamaroneck Ave, White Plains, NY 10601",ChIJ6S30J-mVwokRd2qst9uX9mY,41.0307019,-73.7661408,medium,mediterranean_restaurant,https://www.shirazkitchen.com
+102245,"The Line Hotel, Los Angeles",Los Angeles,"3515 Wilshire Blvd, Los Angeles, CA 90010",ChIJEz1I84K4woARzSOwF86sb5c,34.0621465,-118.3010175,null,hotel,https://www.thelinehotel.com/los-angeles/
+72012,Corridor 109,Los Angeles,"641 Western Ave, Los Angeles, CA 90004",ChIJo_avB77HwoAR6KembIfXRCk,34.0829747,-118.3096191,high,seafood_restaurant,https://www.corridor109.com/
+4322,Caviar Russe,New York City,"538 Madison Ave, Fl 2, New York, NY 10022",ChIJmQisBftYwokRQBBSSiPmF_k,40.7607500,-73.9737900,high,restaurant,https://www.caviarrusse.com/restaurant/new-york
+69386,The Original Ninfa's on Navigation,Houston,null,ChIJeejHW9u-QIYR2xQC_Nj9vi8,29.7569104,-95.3425357,low,mexican_restaurant,http://ninfas.com/ninfas-on-navigation
+24270,Barclays Center,New York City,null,ChIJo3lEaa5bwokRnuZS2oWTlLk,40.6825756,-73.9751602,null,arena,https://www.barclayscenter.com
+70586,The Brothers Sushi Woodland Hills,Los Angeles,null,ChIJIWGWwLSfwoARZIgfhtnSQsk,34.1677790,-118.5982631,high,sushi_restaurant,http://www.thebrotherssushi.com
+44095,Bonnie's,New York City,"398 Manhattan Ave, Brooklyn, NY 11211",ChIJbQc9ABZZwokRMAK6C-Ekxg4,40.7178057,-73.9464373,low,chinese_restaurant,https://www.bonniesbrooklyn.com
+40472,Frances,San Francisco Bay Area,"3870 17th St, San Francisco, CA 94114",ChIJky2knBt-j4ARXAdR3-GAWM8,37.7627682,-122.4322517,high,restaurant,http://frances-sf.com
+104750,Joujou,San Francisco Bay Area,"65 Division St, San Francisco, CA 94103",ChIJO881EAB_j4ARSOzNf5RzCtc,37.7696736,-122.4038347,null,french_restaurant,null
+73579,Juniper & Ivy,San Diego,"2228 Kettner Blvd, San Diego, CA 92101",ChIJU0G2erNU2YAR9XScAoqtvgU,32.7274546,-117.1711882,medium,new_american_restaurant,https://www.juniperandivy.com
+41073,Elio's,New York City,"1621 2nd Ave, New York, NY 10028",ChIJtcTkkrtYwokRav-iyD-cV_Y,40.7768389,-73.9528586,high,italian_restaurant,http://eliosrestaurant.com
+100471,Darling,Los Angeles,"631 N Robertson Blvd, West Hollywood, CA 90069",ChIJTTI5GQC_woARGhe3mmTP-Qk,34.0817399,-118.3859120,null,american_restaurant,https://darling.la/
+70991,Gris-Gris,New Orleans,"1800 Magazine St, New Orleans, LA 70130",ChIJk6bGlcSnIIYRahN2bQAvLsw,29.9317729,-90.0733810,null,southern_restaurant_us,http://grisgrisnola.com/
+108744,The Tzuco,Chicago,"720 N State St, Chicago, IL 60654, United States",ChIJ6WN3LkvTD4gRTXjLu5f5udU,41.8950247,-87.6288975,null,mexican_restaurant,https://www.tzuco.com/
+67094,Da Gama,Houston,"600 N Shepherd Dr Suite 520, Houston, TX 77007",ChIJ2zndOdfHQIYRut06SNDTzOo,29.7831090,-95.4078913,medium,modern_indian_restaurant,https://www.dagamahtx.com/
+99067,Barbuto Brooklyn,New York City,"60 Furman St, Brooklyn, NY 11201, United States",ChIJ60KUCphbwokRXWseK7A_M4Y,40.7024367,-73.9955200,medium,restaurant,https://www.1hotels.com/brooklyn-bridge/taste/barbuto
+41054,Noz 17,New York City,"458 W 17th St, New York, NY 10011",ChIJT4q4QIFZwokRs1nRu7_ckVI,40.7438296,-74.0065518,high,sushi_restaurant,http://noz.global/experience/noz-17
+71136,Stubborn Seed,Miami,"101 Washington Ave, Miami Beach, FL 33139",ChIJkwRTevG02YgRQqy7_cHUWGQ,25.7701757,-80.1348768,high,fine_dining_restaurant,https://www.stubbornseed.com/menu
+6324,noda,New York City,"37 W 20th St, New York, NY 10011, USA",ChIJBxKYEqZZwokRL__Emm2Tl2Y,40.7447800,-73.9881000,high,sushi_restaurant,https://www.noda.nyc
+40160,Rooster & Owl,"Washington, DC","2436 14th St NW, Washington, DC 20009",ChIJFRi3Siq3t4kRoH7xEpeT7iI,38.9214784,-77.0323243,high,fine_dining_restaurant,https://www.roosterowl.com/
+72168,Ellerbe Fine Foods,Dallas,"1501 W Magnolia Ave, Fort Worth, TX 76104",ChIJOYV4QHhxToYRmuWNwAsHxZ4,32.7303838,-97.3422374,medium,southern_restaurant_us,http://www.ellerbefinefoods.com/
+68938,Cochon Restaurant,New Orleans,"930 Tchoupitoulas St Ste A, New Orleans, LA 70130",ChIJcyHKrHGmIIYR2WCyZwWLEI0,29.9422816,-90.0672842,medium,cajun_restaurant,http://www.cochonrestaurant.com/
+71717,Jeffrey's,Austin,"1204 W Lynn St, Austin, TX 78703",ChIJn64e4Wu1RIYRGNdMhqJ5jNk,30.2804227,-97.7590952,high,steak_house,http://jeffreysofaustin.com
+70890,Majordomo,Los Angeles,"1725 Naud St, Los Angeles, CA 90012",ChIJJxloG2HGwoARrnxMRe2L_ik,34.0690822,-118.2261672,high,californian_restaurant,https://www.momofuku.com/restaurants/majordomo
+34580,Prime & Provisions,Chicago,"222 N LaSalle St, Chicago, IL 60601",ChIJyw8Mx7AsDogRFvhuNG25jWw,41.8864965,-87.6335592,high,restaurant,https://primeandprovisions.com
+6897,GupShup,New York City,"115 E18th St, New York, NY 10003",ChIJvYavzZ5ZwokRBQj3hhDtpfk,40.7368323,-73.9877133,low,indian_restaurant,https://www.gupshupnyc.com
+72480,The Abbey Food & Bar,Los Angeles,"692 N Robertson Blvd, West Hollywood, CA 90069",ChIJq3zyY6--woARAsdovehTDMw,34.0833663,-118.3851013,low,gay_bar,https://theabbeyweho.com/
+41253,Goosefoot,Chicago,"4520 N Lincoln Ave, Chicago, IL 60625",ChIJvR53CQfSD4gRMnHOjEG07ak,41.9687509,-87.6959562,high,fine_dining_restaurant,http://goosefoot.net
+73253,Aurum,San Francisco Bay Area,"132 State St, Los Altos, CA 94022",ChIJSxBi5Mixj4ARwsvMQF5zgcE,37.3801424,-122.1156664,null,indian_restaurant,http://www.aurumca.com
+38101,minibar by José Andrés,"Washington, DC","855 E St NW, Washington, DC 20004",ChIJMY6KQ5C3t4kREDURgsrWo2s,38.8963300,-77.0234500,high,restaurant,https://www.minibarbyjoseandres.com/about-minibar/
+38542,Fiola,"Washington, DC","601 Pennsylvania Ave NW, Washington, DC 20004",ChIJJT16aoW3t4kRuvr4twwPMFY,38.8934010,-77.0204340,high,italian_restaurant,https://www.fioladc.com/
+39833,"The Ritz-Carlton New York, NoMad",New York City,null,ChIJZSWtT1NZwokRHh_3WWnggZE,40.7455355,-73.9888447,null,hotel,http://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/overview
+73025,The Bazaar by José Andrés - Washington DC,"Washington, DC","1100 Pennsylvania Ave NW, Washington, DC 20004",ChIJs0tsVZK3t4kRgQvbdSXM0JE,38.8942404,-77.0274801,high,restaurant,https://www.thebazaar.com/location/washington-dc/
+67997,Henrietta Red,Nashville,"1200 4th Ave N, Nashville, TN 37208",ChIJ96euZ_5mZIgRXtEnIPHEtPs,36.1759616,-86.7867371,null,oyster_bar_restaurant,http://www.henriettared.com
+40460,Zou Zou’s,New York City,"385 9th Ave, New York, NY 10001",ChIJKVbn75VZwokRLdlBWe5rbtU,40.7522767,-73.9980801,low,mediterranean_restaurant,https://www.zouzousnyc.com
+97320,Mizuna,Denver,"225 E 7th Ave, Denver, CO 80203, United States",ChIJU7jWP9h-bIcRCMrOpQnNf4s,39.7274559,-104.9841342,high,new_american_restaurant,https://www.bonannoconcepts.com/restaurant/mizuna/
+102145,Mandarin Oriental | Boston,Boston,"776 Boylston St, Boston, MA 02199",ChIJTTe4UA5644kRuyLvOw-jP-w,42.3487780,-71.0813870,null,hotel,https://www.mandarinoriental.com/en/boston/back-bay%3Fsrc%3Dloc.local-listings.mobos.ggl
+69457,Maie Day,Austin,"1603 S Congress Ave, Austin, TX 78704",ChIJEU9CXNq1RIYRWTv3dLfnxPU,30.2476844,-97.7501144,medium,steak_house,https://www.maieday.com
+102413,"The Ritz Carlton, South Beach",Miami,"1 Lincoln Rd, Miami Beach, FL 33139",ChIJQyikAZu02YgRsxNbsRdQjTg,25.7909379,-80.1291845,null,hotel,https://www.ritzcarlton.com/en/hotels/miasb-the-ritz-carlton-south-beach/overview/%3Fscid%3Df2ae0541-1279-4f24-b197-a979c79310b0
+70115,Uchi - Miami,Miami,null,ChIJH1ajETu32YgRmBKlAVYrpeo,25.8005913,-80.2005150,high,sushi_restaurant,https://uchi.uchirestaurants.com/location/miami
+40187,The Public Theater,New York City,"425 Lafayette St, New York, NY 10003",ChIJg5pz_5pZwokRdKk49MHbCuo,40.7290199,-73.9917498,null,performing_arts_theater,http://publictheater.org
+39760,Dovetail Bar & Restaurant,"Washington, DC","1430 Rhode Island Ave NW, Washington, DC 20005",ChIJ9bWXbJG3t4kRA6jfJzXrqeg,38.9080559,-77.0329230,medium,american_restaurant,http://viceroyhotelsandresorts.com/washington-dc/dovetail
+98417,Josephine,Boston,"515 Somerville Ave, Somerville, MA 02143",ChIJs9TIuxl344kRSEYiRSxQqSo,42.3833462,-71.1056861,medium,restaurant,https://www.josephinepizza.com
+100271,Bubble Bath Back Bay,Boston,"408 Newbury St, Boston, MA 02115",ChIJjXB7NAB744kRrXepsqxbCAI,42.3480170,-71.0887804,medium,wine_bar,https://www.bubblebathboston.com/
+17757,The River Café,New York City,"1 Water St, Brooklyn, NY 11201",ChIJ2QZOdTpawokRU_eN_EPJaX8,40.7031800,-73.9946499,high,american_restaurant,https://rivercafe.com
+40830,L'Abeille,New York City,"412 Greenwich Street, New York, NY 10013",ChIJq75Ur-tZwokRo7I_F_PhlcU,40.7218835,-74.0099500,high,french_restaurant,https://www.labeille.nyc
+28437,Kin Khao,San Francisco Bay Area,"55 Cyril Magnin St, San Francisco, CA 94102",ChIJn_ZxYo-AhYAR22wJt4at2K0,37.7852279,-122.4093481,null,restaurant,http://kinkhao.com
+94038,The Corson Building,Seattle,"5609 Corson Ave S, Seattle, WA 98108, United States",ChIJaWyj4sFBkFQRrErYj12yNKA,47.5519585,-122.3203615,high,new_american_restaurant,http://thecorsonbuilding.com/
+99139,ai Pazzi,null,"221 N Rampart Blvd, Las Vegas, NV 89145, United States",ChIJGRTqebK_yIARgjI0_r9F2Zs,36.1759616,-115.2926192,null,italian_restaurant,https://aipazzi.com/
+99860,Causa,"Washington, DC","920 Blagden Alley NW 1st Floor, Washington, DC 20001, USA",ChIJP1ej4ae3t4kRZmPbTsaTz_w,38.9069113,-77.0247957,high,peruvian_restaurant,https://causadc.com/
+67446,Manresa Restaurant,San Francisco Bay Area,null,ChIJ5aA90e81joARXh_fVSax7dQ,37.2273738,-121.9808426,high,fine_dining_restaurant,http://www.ritualatmanresa.com
+40926,Penny Roma,San Francisco Bay Area,"3000 20th Street, San Francisco, CA 94110",ChIJr-EMFjd-j4ARHKaF3ehlmgY,37.7592626,-122.4110641,medium,restaurant,https://pennyroma.com/
+108713,The St. Regis Chicago Restaurant,Chicago,"401 E Wacker Dr, Chicago, IL",ChIJN-54kCUrDogRepMiJTm4GKY,41.8878493,-87.6177181,null,hotel,https://www.marriott.com/en-us/hotels/chixr-the-st-regis-chicago/overview/%3Fscid%3Df2ae0541-1279-4f24-b197-a979c79310b0
+39631,Nudibranch,New York City,"125 1st Ave., New York, NY 10003",ChIJ5Qa2Xu9ZwokRIyvK1rhdwgw,40.7274205,-73.9857285,medium,korean_restaurant,http://nudibranchnyc.com
+40994,Chang Chang,"Washington, DC","1200 19th St NW, Washington, DC 20036",ChIJs9iFJC23t4kRa5Sf1VH3NGk,38.9061055,-77.0437634,low,chinese_restaurant,http://changchangdc.com
+93657,Dario,Minneapolis-Saint Paul,"323 N Washington Ave Suite 100, Minneapolis, MN 55401",ChIJ78gEEwAzs1IRNQ1M00pTUok,44.9842454,-93.2745796,medium,restaurant,https://www.dariorestaurant.com/
+73759,FOB Kitchen,San Francisco Bay Area,"5179 Telegraph Ave, Oakland, CA 94609",ChIJuTaKcTx-j4AR_yGldaMRzok,37.8377728,-122.2629720,low,filipino_restaurant,http://fobkitchen.com
+22325,Arya Trattoria,Boston,"253 Hanover St, Boston, MA 02113",ChIJHQsP2ohw44kRU4Yc15zYmTM,42.3632969,-71.0549427,medium,italian_restaurant,http://aryatrattoria.com
+66818,Protege,San Francisco Bay Area,"250 California Ave, Palo Alto, CA 94306",ChIJ14CVruW6j4ARoh-i6iIAe5g,37.4278360,-122.1438243,high,new_american_restaurant,http://www.protegepaloalto.com
+67283,Ralph's on the Park,New Orleans,"900 City Park Ave, New Orleans, LA 70119",ChIJ46Y22GWvIIYRkXVqPQbdg-8,29.9834118,-90.0980194,low,restaurant,http://www.ralphsonthepark.com/
+99138,Yoshida Omakase,Boston,"51 Massachusetts Ave, Boston, MA 02115, United States",ChIJg-eqchh744kRXqGxK-EbA4I,42.3497042,-71.0892028,high,restaurant,https://yoshidaomakase.com/
+69812,Commis,San Francisco Bay Area,null,ChIJFzl5Mfh9hYARQmOK6_pAIYw,37.8247083,-122.2548833,high,fine_dining_restaurant,https://commisrestaurant.com
+98294,Le Jardin Sur Madison,New York City,"One Madison Ave, New York, NY 10010",ChIJ-Z-ItAtZwokRUF7S8ADHpLI,40.7410212,-73.9875988,null,event_venue,https://www.lejardinsurmadison.com/
+74440,Street to Kitchen,Houston,"3401 Harrisburg Blvd Suite G, Houston, TX 77003",ChIJWzyvLPC_QIYR2FaVjBujdlc,29.7487095,-95.3408187,low,thai_restaurant,http://www.streettokitchen.com/
+66992,Lucille's,Houston,"5512 La Branch St, Houston, TX 77004",ChIJ27ZI74K_QIYR2oq-RoRRW_0,29.7238227,-95.3850641,low,southern_restaurant_us,http://www.lucilleshouston.com/
+68789,Kau Ba,Houston,"2502 Dunlavy St Suite B, Houston, TX 77006",ChIJc93Jm5nAQIYROjiOaPuFAD8,29.7436163,-95.4022992,low,peruvian_restaurant,https://www.alorahtx.com/
+99862,Gemini — Wine Shop + Dinner,"Washington, DC","1509 17th St NW, Washington, DC 20036, USA",ChIJI2yFAiK3t4kRbKmPDKt9GtQ,38.9100836,-77.0382813,null,wine_store,http://www.happygeminidc.com/
+34569,Frontera Grill,Chicago,"445 N Clark St, Chicago, IL 60654",ChIJ25jYKrIsDogR13tC4wGGODg,41.8905699,-87.6307900,medium,mexican_restaurant,http://www.rickbayless.com/restaurants/frontera-grill
+99174,Lucky Charlie,New York City,"254 Irving Ave, Brooklyn, NY 11237",ChIJkfz0ZQBdwokRPW3d3YJZbog,40.6998399,-73.9163025,null,pizza_restaurant,https://www.luckycharliebk.com/
+107831,Four Seasons Hotel Nashville,Nashville,"100 Demonbreun St, Nashville, TN 37201",ChIJAQIGouZnZIgRyXaN9mj1tYM,36.1601534,-86.7735786,unknown,hotel,https://www.fourseasons.com/nashville/
+100954,The Lounge at BOURBON STEAK,"Washington, DC","2800 Pennsylvania Ave NW, Washington, DC 20007",ChIJ3-qvR0u2t4kRBZ1Z9N-_9M4,38.9044045,-77.0573663,null,lounge_bar,https://www.fourseasons.com/washington/dining/lounges/the_lounge_at_bourbon_steak/
+108730,okdongsik bayside,New York City,"43-13 BELL BLVD, BAYSIDE, NY 11361",ChIJ_TDhmnFhwokRKhz6u7-OwKA,40.7609707,-73.7693298,low,korean_restaurant,https://www.okdongsik.net/
+73517,Birdsong,San Francisco Bay Area,"1085 Mission Street, San Francisco",ChIJTwtvfIOAhYARHMEe0c2Xi4s,37.7793925,-122.4103825,high,restaurant,https://www.birdsongsf.com
+33929,Boka,Chicago,"1729 N Halsted St, Chicago, IL 60614",ChIJg7aSMj3TD4gRlHUmzqlebUI,41.9135158,-87.6480859,high,american_restaurant,https://www.bokachicago.com/
+69087,Mako,Chicago,"731 W Lake St, Chicago, IL 60661",ChIJDdy6PActDogRtHVYT64x2sY,41.8855483,-87.6469329,high,sushi_restaurant,http://www.makochicago.com
+74914,Eculent,Houston,"709 Harris Ave, Kemah, TX 77565",ChIJYTN6muJiP4YRO475DF49_qo,29.5418908,-95.0189977,high,fine_dining_restaurant,https://www.eculent.com/?y_source=1_MjUwNjYwMzctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+101772,Le Parc Bistrobar,San Francisco Bay Area,"185 Sutter St, San Francisco, CA 94104",ChIJCbEcEgCBhYAR88RNaGCm5uM,37.7897710,-122.4034810,high,french_restaurant,http://leparcbistrobar.com/
+72868,Sushi Note,Los Angeles,"13447 Ventura Blvd, Sherman Oaks, CA 91423",ChIJRdsREM6XwoARd61m9adMCbw,34.1474305,-118.4264292,high,sushi_restaurant,http://www.sushinotela.com
+39885,YELLOW Georgetown,"Washington, DC","1524 Wisconsin Ave NW, Washington, DC 20007",ChIJAS_hmey3t4kR0sQaw-MhC3M,38.9094705,-77.0646087,low,cafe,http://yellowthecafe.com
+11101,Locanda Verde - Tribeca,New York City,"377 Greenwich St, New York, NY 10013",ChIJTWkuhfVZwokRS_go-fdp7Vs,40.7198601,-74.0100391,medium,italian_restaurant,https://www.locandaverdenyc.com/location/-tribeca/
+68831,Kasama,Chicago,"1001 N Winchester Ave, Chicago, IL 60622",ChIJccHhHs3TD4gRxVcCWUh7-xQ,41.8996829,-87.6756519,null,restaurant,http://kasamachicago.com
+102171,JW Marriott Nashville,Nashville,"201 8th Ave S, Nashville, TN 37203",ChIJUX-osHxnZIgRgSTKHNXInzg,36.1563362,-86.7810654,null,hotel,https://www.marriott.com/en-us/hotels/bnajw-jw-marriott-nashville/overview/%3Fscid%3Df2ae0541-1279-4f24-b197-a979c79310b0
+108780,le gratin,New York City,"5 Beekman Street, New York, NY",ChIJj4fN7HBbwokRCB5xca3KF1E,40.7110805,-74.0072602,high,french_restaurant,http://legratinnyc.com
+100748,Monsieur Dior by Dominique Crenn,Los Angeles,"323 N Rodeo Dr, Beverly Hills, CA 90210",ChIJi8i2Wpu7woARlZ7wJEbLeyQ,34.0680216,-118.4021996,high,restaurant,https://www.monsieurdiorbeverlyhills.com/
+108475,Café Dior by Dominique Crenn,Dallas,null,ChIJv8W-3hefToYR4fvgZCRz-JE,32.8363579,-96.8047457,high,restaurant,https://www.dior.com/fashion/stores/en_us/united-states/tx/dallas/58-highland-park-village-8763672%3Futm_source%3DYext%26utm_medium%3DGMB
+75506,Pizza Rock,Las Vegas,"201 N 3rd St, Las Vegas, NV 89101",ChIJ8wP5DKDDyIAR7fzFiQY8_9Y,36.1716049,-115.1422778,low,pizza_restaurant,http://www.pizzarocklasvegas.com/
+68098,Muchacho - Dallas,Dallas,null,ChIJ9YEvFLafToYRWlw4rqOmewQ,32.8641181,-96.8025510,low,texmex_restaurant,http://www.muchachotexmex.com/
+100131,KATSUMI,"Washington, DC","1520 14th St NW, Washington, DC 20005",ChIJdVf4Fuq3t4kRpsdAKZL0R2U,38.9101470,-77.0321671,null,food_and_drink,https://katsumidc.com/
+95841,One Vanderbilt,New York City,"1 Vanderbilt Ave, New York, NY 10017",ChIJLcGkmQFZwokRXswF2J3WxDU,40.7529540,-73.9785280,null,business_center,http://www.onevanderbilt.com
+40629,barmini by José Andrés,"Washington, DC","501 9th St NW, Washington, DC 20004",ChIJNaPtQZC3t4kRa50cWZ8PRzQ,38.8963741,-77.0236001,high,bar,https://www.minibarbyjoseandres.com/about-barmini/
+40941,Cellar Door Provisions,Chicago,"3025 West Diversey Avenue, Chicago, IL 60647",ChIJq5wKXXnND4gRPjLPuGUGJzY,41.9318329,-87.7035727,null,restaurant,https://www.cellardoorprovisions.com/
+100369,Odo East Village,New York City,"536 E 5th St, New York, NY 10009",ChIJoyIUFwBZwokRH0uTY_J5rcM,40.7240318,-73.9829146,high,kaiseki_restaurant,https://www.odoeastvillage.nyc/
+108765,The Xochi,Houston,null,ChIJsT1r2yO_QIYRdz286CS4Kt0,29.7544669,-95.3585525,medium,oaxacan_restaurant,http://www.xochihouston.com/?y_source=1_MTAzMTYxNjcyOS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D
+107553,Midōsuji,Chicago,null,ChIJMUEnJwAtDogRLeXK_vIeMVw,41.8816533,-87.6249530,high,restaurant,https://www.midosujichicago.com/
+41929,TenGoku Aburiya,Chicago,"651 W Washington Blvd suite 101a, Chicago, IL 60661",ChIJ86EedlgtDogRN2cL_uKiOz8,41.8827771,-87.6444716,null,japanese_restaurant,http://tengokuaburiya.com
+99546,Monsieur,New York City,"86 E 4th St, New York, NY 10003, USA",ChIJ4fspYQBZwokRrRiWmknPFFk,40.7259662,-73.9892241,medium,bar,https://www.monsieurnyc.com/
+66660,Lazy Betty (relocated ),Atlanta,"999 Peachtree St NE Suite #140, Atlanta, GA 30309",ChIJ00zCHiAH9YgR3l-kmURAKrM,33.7813991,-84.3836584,high,restaurant,http://lazybettyatl.com/
+93087,MAKfam,Denver,"39 W 1st Ave, Denver, CO 80223, United States",ChIJ_0r_quF_bIcR7gAzqfcuDCQ,39.7185568,-104.9880500,low,chinese_restaurant,https://makfam.co/
+107038,ReverenceNYC Hospitality Group,New York City,"119 W 72nd St ste 261, New York, NY 10023",ChIJv4FZCqZZwokR2t-OWo3wFHI,40.7779362,-73.9793651,null,restaurant,https://subculturedining.com/
+99880,Japón at The Setai,Miami,"2001 Collins Ave, Miami Beach, FL 33139, USA",ChIJa2g2fD612YgRUJiFRB2Tphs,25.7959981,-80.1287741,high,restaurant,https://www.thesetaihotel.com/miami-beach-restaurants/japon-lp
+70731,The Marine Room,San Diego,"1950 Spindrift Dr, La Jolla, CA 92037",ChIJJ98fR1EB3IARZ1CA8EOsNLM,32.8528366,-117.2601311,high,restaurant,https://www.marineroom.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing
+40754,S.K.Y.,Chicago,"2300 N Lincoln Park W, Chicago, IL 60614",ChIJp8kb2f8sDogRiV6FGHDSke8,41.9241226,-87.6367046,medium,american_restaurant,https://www.skyrestaurantchicago.com/
+97901,Atelier by Radex,Denver,"2011 E 17th Ave, Denver, CO 80206",ChIJXbP2cDV5bIcRROqpAfDPHN8,39.7434148,-104.9630982,high,french_restaurant,https://atelierbyradex.com/
+43887,SHMONÉ,New York City,null,ChIJBdMLKZBZwokRJ0tYbQ6nfZ4,40.7335735,-73.9990515,high,mediterranean_restaurant,https://www.shmonenyc.com
+70082,Comedor,Austin,"501 Colorado St, Austin, TX 78701",ChIJgywubmi1RIYRQlw1yAejkGA,30.2675993,-97.7441640,medium,restaurant,https://comedortx.com
+70548,Delfina,San Francisco Bay Area,"3621 18th Street, San Francisco",ChIJiTq-JTl_j4ARwOAfsYxMuKs,37.7613707,-122.4243386,low,restaurant,https://www.delfinasf.com
+39767,Aziza,San Francisco Bay Area,"5800 Geary Blvd, San Francisco, CA 94121",ChIJb-KW6Q-HhYAR4NlucuMP_HE,37.7804782,-122.4817011,medium,restaurant,https://azizasf.com/
+7701,Balvanera,New York City,"152 Stanton St, New York, NY 10002",ChIJvRNghoFZwokR8r6CDQqyalA,40.7206300,-73.9853900,low,restaurant,http://www.balvaneranyc.com
+73841,Ezov,Austin,"2708 E Cesar Chavez St, Austin, TX 78702",ChIJV0d-ciO1RIYRrF217CTldgI,30.2534469,-97.7135183,medium,restaurant,https://ezovatx.com
+108758,chang chang,"Washington, DC","1200 19th Street NW, Washington, DC 20036",ChIJs9iFJC23t4kRa5Sf1VH3NGk,38.9062803,-77.0437919,low,chinese_restaurant,http://changchangdc.com
+71970,Asanebo,Los Angeles,"11941 Ventura Blvd, Studio City, CA 91604",ChIJO6ES4ge-woARQ-_ip6PvEUk,34.1435667,-118.3918694,high,japanese_restaurant,http://asanebo-restaurant.com
+33925,Alinea,Chicago,"1723 N Halsted St, Chicago, IL 60614",ChIJuyI60yLTD4gROwTWENq1He0,41.9134194,-87.6482385,high,fine_dining_restaurant,https://www.alinearestaurant.com/
+41236,Bangkok Supper Club,New York City,"641 Hudson St, New York, NY 10014",ChIJvduhDjVZwokReg77D1pNQaQ,40.7390436,-74.0057516,high,thai_restaurant,https://www.bangkoksupperclubnyc.com
+73318,Hayato,Los Angeles,"1320 E 7th St #126, Los Angeles, CA 90021",ChIJt1RlQi_GwoARja7mYeFk2YI,34.0337651,-118.2419457,high,japanese_restaurant,https://www.rowdtla.com/collective/hayato
+93907,Mizumi,Las Vegas,"3131 Las Vegas Blvd S, Las Vegas, NV 89109",ChIJA3ys0BTEyIAR-DWLpgh7c6w,36.1268688,-115.1673791,high,japanese_restaurant,https://www.wynnlasvegas.com/dining/fine-dining/mizumi
+100077,Carabao,null,"145 Gasser Dr Suite C, Napa, CA 94558",ChIJbanGqpcHhYAR_ilYZWjg5rw,38.2813840,-122.2793452,medium,filipino_restaurant,https://carabaonapa.com/
+42379,Isabelle's Osteria,New York City,"245 Park Avenue South, New York",ChIJV9twMKRZwokRkXW1n1miJeQ,40.7379760,-73.9875872,medium,italian_restaurant,https://www.isabellesnyc.com
+41198,Oso,New York City,"1618 Amsterdam Ave, New York, NY 10031",ChIJuYwVAmX2wokRTnBiQLDD6us,40.8219588,-73.9502914,null,mexican_restaurant,http://osoharlem.com
+72816,n/soto,Los Angeles,"4566 W Washington Blvd, Los Angeles, CA 90016",ChIJr7tV88a5woARABa1uEr3Mao,34.0396031,-118.3395236,high,japanese_restaurant,http://n-soto.com
+41354,Mori,New York City,null,ChIJTzkZaC9ZwokRq_FgMF4lgac,40.7271264,-74.0020330,high,sushi_restaurant,http://morinyc.com
+27318,Rintaro,San Francisco Bay Area,"82 14th St, San Francisco, CA 94103",ChIJgcIdeSZ-j4AR1BE-49mhR-E,37.7688100,-122.4151100,medium,restaurant,http://izakayarintaro.com
+100228,Lilo,San Diego,"2571 Roosevelt St, Carlsbad, CA 92008",ChIJi_11lwRy3IARYn7ySFVDrxw,33.1643711,-117.3514691,high,restaurant,http://restaurantlilo.com/
+41089,Karma Modern Indian,"Washington, DC","611 I St NW, Washington, DC 20001",ChIJtQh9lo23t4kR4aQHqpkfdME,38.9010456,-77.0206342,null,indian_restaurant,http://karmamodernindian.com
+69455,Felix Trattoria,Los Angeles,"1023 Abbot Kinney Blvd, Venice, CA 90291",ChIJeTzip8e6woAR_2fYjEWwLII,33.9922429,-118.4718658,high,italian_restaurant,https://felixla.com/
+42864,Ikigai,New York City,"87 Lafayette Ave, Brooklyn, NY 11217",ChIJfYQncQBbwokR36qibWvQRTA,40.6873937,-73.9748979,high,japanese_restaurant,http://ikigai.nyc
+108756,the marine room,San Diego,"1950 Spindrift Dr, La Jolla, CA 92037, United States",ChIJsSb1za3X_6V15XoZomqWXRi,32.8529162,-117.2598987,high,restaurant,https://www.marineroom.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing
+43028,César,New York City,"333 Hudson St, New York, NY 10013",ChIJeyzWYABZwokRkxhWJzFpqvU,40.7271770,-74.0077026,high,fine_dining_restaurant,https://www.cesar.restaurant/?fbclid=PAAaZebS1k2cYiifSpm-Kz8tBIP5tOz7__oBzQfoT4a688_n0Eqp0upbLVDII
+7088,Kanoyama,New York City,"175 2nd Ave, New York, NY 10003",ChIJQzryKJxZwokRYH9Qt5wh3ZY,40.7305452,-73.9865440,null,japanese_restaurant,http://www.kanoyama.com
+71784,Das Ethiopian Cuisine,"Washington, DC","1201 28th St NW, Washington, DC 20007",ChIJnesnLku2t4kR6lADT0U8Utg,38.9054049,-77.0568713,medium,restaurant,http://www.dasethiopian.com
+37956,Sushi Nakazawa,"Washington, DC","1100 Pennsylvania Ave, Washington, DC 20004",ChIJ-f__HJq3t4kRmvtJRiDzurk,38.8940600,-77.0275800,high,sushi_restaurant,https://www.sushinakazawa.com/washington-dc
+41888,Zaytinya,"Washington, DC",null,ChIJ3_mSkpG3t4kRDEWpol01OrI,38.8990736,-77.0238211,medium,mediterranean_restaurant,https://www.zaytinya.com/location/washington-dc/
+94899,PORZANA,Minneapolis-Saint Paul,"200 N 1st St, Minneapolis, MN 55401, United States",ChIJFSDSIDgzs1IR0mwYihwnb2Y,44.9855715,-93.2690240,high,argentinian_restaurant,https://www.porzanampls.com/
+98385,Markette (formerly Haymarket),New York City,"326 7th Ave, New York, NY 10001",ChIJNdS6kwVZwokRxFgqKTkyYuk,40.7475892,-73.9934928,medium,restaurant,https://www.marketterestaurant.com
+4188,Nobu Fifty Seven,New York City,"40 W 57th St, New York, NY 10019",ChIJPX5iCfpYwokRACnACAf2pJw,40.7636211,-73.9765049,high,restaurant,https://www.noburestaurants.com/fifty-seven/experience-5
+43952,K'Far,New York City,"97 Wythe Ave, Brooklyn, NY 11249",ChIJ6TIr1bdZwokRwODfMs7T90g,40.7207031,-73.9587860,null,restaurant,https://www.kfarbrooklyn.com
+26135,Rich Table,San Francisco Bay Area,"199 Gough St, San Francisco, CA 94102",ChIJh_24QJ-AhYAR_xbUNVN2Xns,37.7748500,-122.4228400,medium,restaurant,http://richtablesf.com
+71957,Miss River,New Orleans,"2 Canal St, New Orleans, LA 70130",ChIJO4LKRAqnIIYR35lTx6TXNTg,29.9489791,-90.0635367,high,restaurant,https://www.missrivernola.com/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-nln-fab-mid-seo-na&utm_content=na-na&utm_term=na
+74786,The Polo Lounge,Los Angeles,null,ChIJy6BKexO8woARnyytEf7g64A,34.0815046,-118.4143316,high,restaurant,https://www.dorchestercollection.com/los-angeles/the-beverly-hills-hotel/dining/polo-lounge?utm_source=google&utm_medium=bhh_local_profile&utm_campaign=polo_lounge&utm_content=beverly_hills_dining
+99731,Veerays,New York City,"213 E 45th St, New York, NY 10017",ChIJHbRrFLRZwokRyYhsjTDMAUc,40.7525585,-73.9722846,medium,modern_indian_restaurant,https://www.veerays.com/
+44102,Tolo,New York City,null,ChIJQSKt-VdbwokRRPjIjPe6XEA,40.7143377,-73.9905099,medium,chinese_restaurant,https://tolonyc.com
+11459,Peasant,New York City,"194 Elizabeth St, New York, NY 10012",ChIJ0XJEBIZZwokR3iPgClK9uEg,40.7217100,-73.9942800,null,italian_restaurant,http://www.peasantnyc.com
+40162,Jua,New York City,"36 E 22nd St, New York, NY 10010",ChIJfTgbIE9ZwokRdRjFE2OMZN8,40.7396779,-73.9878514,high,korean_restaurant,http://juanyc.com
+95924,Hai Hai,Minneapolis-Saint Paul,"2121 University Ave NE, Minneapolis, MN 55418",ChIJLxPhMfUts1IRSGFlQ7usiVI,45.0098536,-93.2628979,low,southeast_asian_restaurant,http://haihaimpls.com/
+69159,Formosa Cafe,Los Angeles,null,ChIJdU3LK9a-woARss6xbZxQxMs,34.0904521,-118.3460628,low,restaurant,https://theformosacafe.com
+72647,Tam Tam,Miami,"99 NW 1st St, Miami, FL 33128",ChIJQS512_W32YgR_x8a_d5iUlQ,25.7752003,-80.1950777,medium,vietnamese_restaurant,http://tam-tam-mia.com
+39590,Sip & Guzzle,New York City,"29 Cornelia St suite 28, New York, NY 10014",ChIJ49KsB19ZwokR8VwrMbECQr8,40.7314775,-74.0024921,high,bar,http://sipandguzzle.com
+39714,L'Ardente,"Washington, DC","200 Massachusetts Ave NW, Washington, DC 20001",ChIJ-82JrXi3t4kRSAkfWH-6ToU,38.8989234,-77.0141630,null,italian_restaurant,https://www.lardente.com/
+68860,Toshokan,Austin,"807 E 4th St, Austin, TX 78702",ChIJcfo-EVu1RIYRlogC9YO2TEk,30.2634994,-97.7346680,high,sushi_restaurant,https://www.toshokanatx.com
+95844,Wren & Wolf,Phoenix,"2 N Central Ave #101, Phoenix, AZ 85004",ChIJLd4xpt0TK4cRqoZk9Xt6KYc,33.4484150,-112.0749091,high,steak_house,https://www.wrenandwolf.com/
+43890,Nōksu,New York City,"49 W 32nd St, New York, NY 10001",ChIJSfeOCf5ZwokRWuoMT5Kc6KY,40.7483485,-73.9878089,high,korean_restaurant,https://noksunyc.com/?SEO_id=GMB--R-NYCCUQQ-2&y_source=1_MTA0NTQ1Mjg1MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D
+67763,Mélisse Restaurant,Los Angeles,"1104 Wilshire Blvd, Santa Monica, CA 90401",ChIJ7fOMUsSkwoARIOVuE_23I1Q,34.0245221,-118.4913563,high,new_american_restaurant,http://citrinandmelisse.com
+108740,The Pinkerton's Barbecue,Houston,"3801 Farnham Street, Houston, TX 77098",ChIJ21f4pDNyb2lnZv4Sra8fUFW,29.7320495,-95.4117580,null,restaurant,https://www.pinkertonsbarbecue.com/
+108712,Llama San,New York City,"359 6TH AVE, NEW YORK, NY 10014",ChIJ8youq41ZwokRqnnXghN1DIs,40.7321494,-74.0010607,low,restaurant,https://llamasannyc.com
+11171,Frenchette,New York City,"241 W Broadway, New York, NY 10013",ChIJu7pIuopZwokRvIsndYhPg4U,40.7196400,-74.0057800,medium,french_restaurant,https://www.frenchettenyc.com
+30185,Boulevard,San Francisco Bay Area,"1 Mission St, San Francisco, CA 94105",ChIJF-zbSmSAhYARvOafjdCRszQ,37.7933700,-122.3927400,high,bar,https://www.boulevardrestaurant.com
+74187,Wakuriya,San Francisco Bay Area,"115 De Anza Blvd, San Mateo, CA 94402",ChIJw5XHiMifj4ARPKqzyYwc8kw,37.5213139,-122.3367444,high,japanese_restaurant,http://www.wakuriya.com
+108710,Colibrí Pop-up at Los Balcones,Los Angeles,1360 Vine St,ChIJi17OHDe_woARtMgCtG6EEiE,34.0962265,-118.3265749,null,peruvian_restaurant,http://losbalconesperu.com
+73533,Claudia,Chicago,"540 W Madison St, Chicago, IL 60661",ChIJtxPE7sYsDogR5OEZqvFoZLo,41.8826419,-87.6417207,null,corporate_office,https://540westmadison.com
+99154,Berenjak,Los Angeles,"1010 S Santa Fe Ave, Los Angeles, CA 90021, United States",ChIJi-NVGiDGwoARSYqOhBs8jYc,34.0312474,-118.2298056,high,persian_restaurant,https://berenjak.com/locations/downtown-los-angeles/
+40637,Bourbon Steak Washington D.C.,"Washington, DC","2800 Pennsylvania Avenue Northwest, Washington, DC 20007",ChIJNdBhOEu2t4kRiasAfqJKcvM,38.9044367,-77.0573891,high,steak_house,https://www.bourbonsteakdc.com/
+4211,The Russian Tea Room,New York City,"150 W 57th St, New York, NY 10019",ChIJ_816e_dYwokROMvaQpsyemk,40.7649580,-73.9794337,high,fine_dining_restaurant,http://www.russiantearoomnyc.com
+11001,The Musket Room,New York City,"265 Elizabeth St, New York, NY 10012",ChIJ3TJ4moVZwokRkyy0hZnv_RA,40.7239200,-73.9937800,high,american_restaurant,https://www.musketroom.com
+108732,Arya,Boston,null,ChIJHQsP2ohw44kRU4Yc15zYmTM,42.3630215,-71.0552436,null,italian_restaurant,
+72371,Chez TJ,San Francisco Bay Area,"938 Villa St, Mountain View, CA 94041",ChIJPUL8UjS3j4ARdCh-Ys_Bgqs,37.3946669,-122.0804378,high,fine_dining_restaurant,https://www.cheztj.com
+71597,Rasika West End,"Washington, DC","1190 New Hampshire Ave NW, Washington, DC 20037",ChIJMUs6-ra3t4kRueqJ32bEmDU,38.9050755,-77.0481629,medium,indian_restaurant,https://www.rasikarestaurant.com/
+101975,"Four Seasons Hotel Washington, DC","Washington, DC","2800 Pennsylvania Ave NW, Washington, DC 20007",ChIJNdBhOEu2t4kR6zkWO2XCzFI,38.9048185,-77.0572948,null,hotel,https://www.fourseasons.com/washington/%3Futm_source%3Dgoogle%26utm_medium%3Dorganicsearch%26utm_campaign%3Dtor-was-hre-mid-seo-na%26utm_content%3Dna-na%26utm_term%3Dna
+74608,Uchiko,Austin,"4200 N Lamar Blvd, Austin, TX 78756",ChIJXQ-Uy2LKRIYR3W5SjLhBBj0,30.3107759,-97.7399843,high,sushi_restaurant,https://uchiko.uchirestaurants.com/location/austin
+15160,The Metropolitan Museum of Art,New York City,"1000 5th Ave, New York, NY 10028",ChIJb8Jg9pZYwokR-qHGtvSkLzs,40.7792543,-73.9628842,null,museum,https://www.metmuseum.org
+75502,La Petite Grocery,New Orleans,"4238 Magazine St, New Orleans, LA 70115",ChIJ8RmDjE6kIIYRZE6ynAYK7vo,29.9207891,-90.1001219,null,bistro,http://www.lapetitegrocery.com/
+43886,Meju,New York City,"5-28 49th Ave, Queens, NY 11101",ChIJ6alY3R1ZwokRQXUSqpo8OIM,40.7435222,-73.9552482,high,korean_restaurant,http://mejunyc.com
+67737,Mot Hai Ba,Dallas,"6047 Lewis St, Dallas, TX 75206",ChIJ79xTeE6fToYR8ioqjlo5ut8,32.8123467,-96.7622981,medium,asian_fusion_restaurant,https://www.mothaibadallas.com/
+100545,Astor Club,Chicago,"24 E Goethe St, Chicago, IL 60610",ChIJWb0dSADTD4gRbv3lbhkahrU,41.9061384,-87.6278115,high,restaurant,https://astorclub.com/
+74662,7 Adams,San Francisco Bay Area,"1963 Sutter St, San Francisco, CA 94115",ChIJXVvsirKBhYARfWD1MEpT_Uw,37.7859770,-122.4326014,high,fine_dining_restaurant,https://www.7adamsrestaurant.com
+40360,Le Gratin,New York City,"5 Beekman Street, New York, NY",ChIJj4fN7HBbwokRCB5xca3KF1E,40.7114295,-74.0068285,high,french_restaurant,http://legratinnyc.com
+99887,Las' Lap Miami,Miami,"2216 Park Ave, Miami Beach, FL 33139, USA",ChIJmzlO7vm12YgR7Jo7CXo4VzI,25.7987034,-80.1302601,high,restaurant,https://www.laslapmia.com/
+73255,Giorgio Baldi,Los Angeles,"114 W Channel Rd, Santa Monica, CA 90402",ChIJSxc3XpCkwoARojp0NVes41A,34.0284066,-118.5187501,null,italian_restaurant,https://www.giorgio-baldi.com/
+95490,Mercantile Dining & Provision,Denver,"1701 Wynkoop St #155, Denver, CO 80202",ChIJJ3w-CsN4bIcRnjIYAv0i6MU,39.7536124,-104.9997070,high,restaurant,https://www.mercantiledenver.com/
+56636,Saint Urban,New York City,43 East 20th Street - New York,ChIJh7rW8llZwokR6yEA3sRVYlQ,40.7388360,-73.9884478,high,restaurant,https://www.sainturbannyc.com
+10692,Babbo,New York City,"110 Waverly Pl, New York, NY 10011",ChIJ0cr5SZFZwokRqThsmC5Caes,40.7322830,-73.9992840,high,italian_restaurant,https://babbonyc.com/
+69320,MaMou,New Orleans,"942 N Rampart St, New Orleans, LA 70116",ChIJE5UXKPynIIYRaBLgdS1C0zo,29.9627673,-90.0661187,high,european_restaurant,https://www.mamounola.com/
+100240,88 Club,Los Angeles,"9737 S Santa Monica Blvd, Beverly Hills, CA 90210",ChIJi_R5HMm9woARv_qBcJatv_0,34.0681980,-118.4081179,high,restaurant,https://www.88clubbh.com/
+95795,Best Friend,Las Vegas,"3770 S Las Vegas Blvd, Las Vegas, NV 89109",ChIJL1TIqmPFyIARwNxvEj7vO9o,36.1050207,-115.1735947,medium,restaurant,https://parkmgm.mgmresorts.com/en/restaurants/best-friend.html
+108736,Nadu Kitchen,Chicago,"2518 N Lincoln Ave, Chicago, IL 60614, United States",ChIJawW29AVIMooBbvRzkDiNbzK,41.9270499,-87.6520380,medium,indian_restaurant,http://naduchicago.com/
+70697,The Ranch Restaurant & Saloon,Los Angeles,"1025 E Ball Rd #101A, Anaheim, CA 92805",ChIJJ5fu7bbX3IARh_sSy1VkxsY,33.8187226,-117.8973546,high,american_restaurant,https://www.theranch.com/restaurant/?utm_source=MyBusiness&utm_medium=Panel&utm_campaign=RestaurantWeb
+100425,Delilah Dallas,Dallas,"1616 Hi Line Dr, Dallas, TX 75207",ChIJRRNz2PiZToYRQ3X831-FqBM,32.7960394,-96.8178791,high,restaurant,https://www.delilahrestaurants.com/
+72024,Drusie & Darr by Jean-Georges,Nashville,"231 6th Ave N, Nashville, TN 37219",ChIJOcuyESpnZIgRmVAVtDRJueQ,36.1636850,-86.7825982,high,restaurant,https://www.thehermitagehotel.com/nashville-dining/jean-georges-restaurant
+103301,il Carciofo,Chicago,"1045 W Fulton St, Chicago, IL 60607",ChIJlUSEXAAtDogRL4uQxSuDhgg,41.8865940,-87.6540079,high,roman_restaurant,http://www.ilcarciofochicago.com/
+96039,Molotov Kitschen + Cocktails,Denver,"3333 E Colfax Ave, Denver, CO 80206",ChIJmQ4KfWN_bIcRZTOGbncNQ68,39.7403130,-104.9480345,medium,ukrainian_restaurant,http://molotovdenver.com/
+72351,Pasjoli,Los Angeles,"2732 Main St, Santa Monica, CA 90405",ChIJpTjP4G-7woARDdfT19BYG28,34.0001931,-118.4820912,high,french_restaurant,http://www.pasjoli.com
+99691,82 Acres,"Portland, OR","2032 SE Clinton St, Portland, OR 97202, United States",ChIJZfoF0-8LlVQRDlcUOOzcpx4,45.5032661,-122.6448806,medium,restaurant,https://www.82acrespdx.com/
+72507,California English,San Diego,"9276 Scranton Rd, San Diego, CA 92121",ChIJq6oaDD4H3IARcUl0CicFNss,32.8915352,-117.2022931,low,restaurant,https://www.californiaenglishsd.com
+40579,A16 San Francisco,San Francisco Bay Area,"2355 Chestnut St, San Francisco, CA 94123",ChIJE4ZWOdSAhYARsE9BoggtBSU,37.7999003,-122.4421013,medium,restaurant,http://a16pizza.com/private-events-at-san-francisco
+108733,Dobson's Bar & Restaurant,San Diego,"956 Broadway Cir, San Diego, CA 92101",ChIJpE2eAOmSFpPaWXgBl9Hdp2D,32.7154810,-117.1626071,medium,californian_restaurant,http://dobsonsrestaurant.com
+67630,th_prsrv at Eculent,Houston,"709 Harris Ave, Kemah, TX 77565",ChIJ6UQOoe5jP4YR3yM4B4ea33E,29.5418908,-95.0189977,high,native_american_restaurant,http://www.thprsrv.com/
+96157,Hazie's,San Francisco Bay Area,null,ChIJn-6m802BhYARruM4u0h9-Bc,37.7765501,-122.4247769,low,restaurant,https://www.haziessf.com
+7480,Soogil,New York City,"108 E 4th St, New York, NY 10003",ChIJgzeCUpxZwokRbd_EmbP7osI,40.7255100,-73.9883800,low,korean_restaurant,https://www.soogil.com
+102498,"The Ritz-Carlton, Dallas",Dallas,"2121 McKinney Ave, Dallas, TX 75201",ChIJ2wxVsjqZToYRdO6QJURD6xA,32.7922402,-96.8033716,null,hotel,https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/overview/%3Fscid%3Df2ae0541-1279-4f24-b197-a979c79310b0
+108734,Dobson's Bar & Restaurnt,San Diego,"956 Broadway Cir, San Diego, CA 92101",,32.7157924,-117.1631112,medium,californian_restaurant,http://dobsonsrestaurant.com
+108735,The Copra,San Francisco Bay Area,"1700 Fillmore St, San Francisco, CA 94115",ChIJ3CW1rXFpCTpv5fjyjnAvDd1,37.7857270,-122.4325238,medium,restaurant,
+40998,The Commerce Inn,New York City,"50 Commerce St, New York, NY 10014",ChIJ-SBoguRZwokRmTRHDYXw0EI,40.7313538,-74.0057057,medium,american_restaurant,http://thecommerceinn.com
+69451,Banshee,Atlanta,"1271 Glenwood Ave SE, Atlanta, GA 30316",ChIJeTP7sxsB9YgRxlN9qnOSUgE,33.7399618,-84.3459272,null,restaurant,http://banshee-atl.com/
+69801,UKA,Los Angeles,"JAPAN HOUSE, Ovation Hollywood, 6801 Hollywood Blvd Level 5, Los Angeles, CA 90028",ChIJFyxQKCO_woARf6OMJ9ZWJNg,34.1017937,-118.3392247,null,authentic_japanese_restaurant,https://www.exploretock.com/uka/?utm_source=google_business_profile
+69751,Tagine,Los Angeles,"132 N Robertson Blvd, Beverly Hills, CA 90211",ChIJFW28mVG5woARU_phmHUBxdc,34.0677595,-118.3835527,high,moroccan_restaurant,http://www.taginebeverlyhills.com
+71772,Kato Restaurant,Los Angeles,"777 S Alameda St Building 1, Suite 114, Los Angeles, CA 90021",ChIJnd0gSmi7woARCdXsW5usqKU,34.0341749,-118.2410628,high,taiwanese_restaurant,https://www.katorestaurant.com/
+68141,Navio,San Francisco Bay Area,"1 Miramontes Point Rd, Half Moon Bay, CA 94019",ChIJa20ih2MLj4ARxpEI4qkvwZI,37.4338455,-122.4414431,high,seafood_restaurant,https://www.naviohalfmoonbay.com/
+44163,Melba's Grand Central Terminal,New York City,"89 E 42nd St, New York, NY 10017",ChIJ0-KySwBZwokROY0ex-BEQrc,40.7527277,-73.9772353,null,american_restaurant,https://www.melbasrestaurant.com/event/location-grand-central
+108724,Tempura Masui,New York City,"222 E 39th St, New York, NY 10016, United States",ChIJsnvR2Gq6dO1cvi_kCTJh8Sj,40.7477318,-73.9748053,high,japanese_restaurant,http://www.tempuramatsui.com
+44130,Chutney Masala,New York City,"76 Main St, Irvington, NY 10533",ChIJMQZD4BPrwokR_2rhFNn1lU0,41.0391301,-73.8685415,medium,indian_restaurant,https://www.chutneymasala.com
+75200,Fiola Mare,"Washington, DC","3100 K St NW, Washington, DC 20007",ChIJZUQ8NEy2t4kRX3b-nMqKZ-I,38.9016510,-77.0606693,null,seafood_restaurant,http://www.fiolamaredc.com
+99293,Junior,Nashville,"907 Dickerson Pike, Nashville, TN 37207",ChIJXcL9t11nZIgRHlOohgsKyvk,36.1880999,-86.7727268,high,restaurant,https://juniornashville.com/
+66935,Manhattan Beach Post,Los Angeles,"1142 Manhattan Ave, Manhattan Beach, CA 90266",ChIJ1xvteOuzwoAR4YYewt0xbzU,33.8852472,-118.4107417,medium,fine_dining_restaurant,http://eatmbpost.com
+108714,mizumi,Las Vegas,"3131 Las Vegas Blvd S, Las Vegas, NV 89109",ChIJy-H_3aURIrPhBD94qGl63tO,36.1272873,-115.1672802,null,japanese_restaurant,https://www.wynnlasvegas.com/dining/fine-dining/mizumi
+71851,Camphor,Los Angeles,"923 E 3rd St #109, Los Angeles, CA 90013",ChIJNW1lfmzHwoARxzp7unjgv-0,34.0466391,-118.2342018,high,restaurant,https://www.camphor.la/
+99668,The Mulberry LA,Los Angeles,"1800 Sawtelle Blvd, Los Angeles, CA 90025",ChIJvbXCwSC7woARm0oGgY3osgM,34.0438839,-118.4459658,medium,restaurant,https://www.themulberrylosangeles.com/
+76299,Mother Wolf Las Vegas,Las Vegas,"2777 S Las Vegas Blvd, Las Vegas, NV 89109, United States",ChIJOykdlg_FyIARzidH87_WT7s,36.1373630,-115.1594359,high,italian_restaurant,https://www.motherwolflv.com/
+41963,Maxwells Trading,Chicago,"1516 W Carroll Ave, Chicago, IL 60607",ChIJZftHjnAtDogRevLY7PXWbd8,41.8876644,-87.6652479,high,restaurant,https://www.maxwellstrading.com/
+41130,Dame,New York City,"87 MacDougal St, New York, NY 10012",ChIJU3gRuXpZwokRihNyTYLnc1g,40.7289445,-74.0015073,null,seafood_restaurant,http://damenewyork.com
+66796,Valle,San Diego,"222 N Pacific St, Oceanside, CA 92054",ChIJ0ZTXds9v3IARKvxAY5fwV2k,33.1946132,-117.3834554,null,restaurant,https://valleoceanside.com
+97569,Yellowtail Japanese Restaurant & Lounge by Akira Back,Las Vegas,"3600 S Las Vegas Blvd, Las Vegas, NV 89109",ChIJvUdRyzDEyIARcD6aX3eH2rI,36.1137230,-115.1750901,high,japanese_restaurant,https://bellagio.mgmresorts.com/en/restaurants/yellowtail-japanese-restaurant-lounge.html
+99618,Fish Shop,"Washington, DC","610 Water St SW, Washington, DC 20024, United States",ChIJlTamgmK3t4kRB6NVkGpDt5k,38.8762120,-77.0213418,medium,seafood_restaurant,https://fishshopdc.com/
+69955,General Muir,Atlanta,"1540 Avenue Pl B-230, Atlanta, GA 30329",ChIJgdpxu1gG9YgRMQTfx8ArOMA,33.8011787,-84.3272123,low,american_restaurant,http://www.thegeneralmuir.com/
+71171,Tsubaki,Los Angeles,"1356 Allison Ave, Los Angeles, CA 90026",ChIJKzmylv3GwoARATbBpfkfDmI,34.0727806,-118.2515250,low,authentic_japanese_restaurant,http://tsubakila.com
+93289,Frasca Food and Wine,Denver,"1738 Pearl St, Boulder, CO 80302",ChIJ32ggfCnsa4cReukO2DP2hXY,40.0192049,-105.2724745,high,fine_dining_restaurant,https://www.frascafoodandwine.com/
+99518,AVIV,Miami,"2341 Collins Ave, Miami Beach, FL 33139",ChIJTcVvE8e12YgRLrRM14_YJzM,25.7998576,-80.1270840,null,israeli_restaurant,https://www.avivsb.com/
+99403,Petite Edith,Chicago,null,ChIJM2hbIwDTD4gR63_ugg0SJDA,41.8985787,-87.6346115,high,bistro,https://www.petiteedith.com/
+99210,Lucien,San Diego,"7863 Girard Ave #308, La Jolla, CA 92037",ChIJObi7SjUD3IAR6J0Sbt-VQtA,32.8463110,-117.2741900,high,restaurant,https://luciensd.com/
+40477,Maison Barnes,New York City,"100 E 63rd St, New York, NY 10065",ChIJKYUkP1JZwokRkMimcbPxmFI,40.7650602,-73.9675511,high,french_restaurant,https://www.maisonbarnes-newyork.com
+7343,Lucien,New York City,"14 1st Ave, New York, NY 10009",ChIJ_X--hINZwokR0nGi4dhw1JE,40.7233900,-73.9881700,low,french_restaurant,http://luciennyc.com
+76074,Lonesome Dove Fort Worth,Dallas,"2406 N Main St, Fort Worth, TX 76164",ChIJk0u7Had2ToYRDC_c38Q-edc,32.7882289,-97.3489231,high,steak_house,http://www.lonesomedovefortworth.com/
+76429,Momofuku,Las Vegas,"Boulevard Tower, 3708 Las Vegas Blvd S Level 2, Las Vegas, NV 89109",ChIJr5_NOTrEyIARarIe98SXxdw,36.1101282,-115.1741403,medium,restaurant,https://cosmopolitanlasvegas.mgmresorts.com/en/restaurants/momofuku.html
+27988,Eight Tables by George Chen,San Francisco Bay Area,"8 Kenneth Rexroth Pl, San Francisco, CA 94133",ChIJM70_7fOAhYARBhmOeIEcEY4,37.7984516,-122.4077813,high,restaurant,https://eighttables.com
+104305,Wayan Miami,Miami,"50 NW 24th St STE 101, Miami, FL 33127",ChIJEczPCAC32YgRj5LeEM_PTXg,25.7996197,-80.1959800,null,asian_restaurant,https://www.wayan-restaurants.com/miami
+71057,The Conservatory at Ivy City,"Washington, DC","1401 Okie St NE, Washington, DC 20002",ChIJkf3fRZC5t4kRQP4Z1gbByWY,38.9144327,-76.9841527,null,bar,https://www.conservatorydc.com
+101787,Waldorf Astoria New York,New York City,"301 Park Ave, New York, NY 10022, USA",ChIJTzi6VfxYwokRDtjrgLbTvH4,40.7564821,-73.9734562,null,hotel,https://www.waldorfastorianewyork.com/
+69163,Garrison,Austin,"101 Red River St, Austin, TX 78701",ChIJdUdA46i1RIYRJnc7t8vqHxw,30.2619965,-97.7380364,high,restaurant,https://www.garrisongrill.com/?utm_source=google+Maps&utm_medium=seo+maps&utm_campaign=seo+maps
+100627,Novecientos Grados,San Diego,"3665 N Harbor Dr Gate 115, San Diego, CA 92101",ChIJZyCa4vur3oAR1I4X3unfwKk,32.7326981,-117.1962491,null,latin_american_restaurant,null
+108737,joujou,San Francisco Bay Area,null,ChIJuWyW1qfbI-wPXPW8mbjiQKn,37.7697808,-122.4035868,high,french_restaurant,null
+74507,Catch LA,Los Angeles,"8715 Melrose Ave, West Hollywood, CA 90069",ChIJx7bgU66-woARVapEo_hs2YQ,34.0814457,-118.3836778,high,seafood_restaurant,https://www.catchrestaurants.com/location/catch-la
+97304,Kumoya,Denver,"2400 W 32nd Ave, Denver, CO 80211",ChIJU4pNM6N5bIcRmmTR2FgPuDc,39.7618383,-105.0162272,high,japanese_restaurant,https://www.kumoyadenver.com/
+44121,Alta Calidad,New York City,"552 Vanderbilt Ave, Brooklyn, NY 11238",ChIJQ928SqRbwokRKuID55C7xFo,40.6801337,-73.9682324,medium,mexican_restaurant,https://www.altacalidadbk.com
+99516,Kizaki,Denver,"1551 S Pearl St, Denver, CO 80210, United States",ChIJT6LLNQB_bIcRFlId0L9BFOM,39.6884361,-104.9806820,high,sushi_restaurant,https://denchukizaki.com/
+73899,Gunshow,Atlanta,"924 Garrett St, Atlanta, GA 30316",ChIJv7pmK-ID9YgRcrZZUrFw728,33.7407083,-84.3580222,high,new_american_restaurant,http://www.gunshowatl.com/
+74479,Charcoal Venice,Los Angeles,"425 Washington Blvd, Venice, CA 90292",ChIJX41ccC67woARuk-Im7V-TVo,33.9816272,-118.4629432,medium,new_american_restaurant,https://charcoalvenice.com
+26113,Nightbird,San Francisco Bay Area,"330 Gough St, San Francisco, CA 94102",ChIJyzdPuJiAhYARaLoaRwaGRGE,37.7765624,-122.4228503,high,restaurant,https://www.nightbirdrestaurant.com
+40715,Scarr’s Pizza,New York City,"22 Orchard St, New York, NY 10002",ChIJOUqatilawokRguvFSj0wX7Y,40.7153411,-73.9914280,low,pizza_restaurant,http://scarrspizza.com
+56654,Lex Yard,New York City,"550 Lexington Ave, New York, NY 10022",ChIJp3Q2MABZwokRbzZFYomRijg,40.7562499,-73.9727281,high,american_restaurant,https://www.lexyardnyc.com/
+67324,Morihiro,Los Angeles,"1115 Sunset Blvd Ste 100, Los Angeles, CA 90012, United States",ChIJ4-k-iiDBwoARPT_AOvL9pIc,34.1168875,-118.2624108,high,authentic_japanese_restaurant,https://www.morionodera.com
+74224,Meals By Genet,Los Angeles,"1053 S Fairfax Ave, Los Angeles, CA 90019",ChIJW9SZwxW5woARkrzV1YcRMAE,34.0566737,-118.3647262,low,ethiopian_restaurant,http://mealsbygenetla.com
+40939,The Dabney,"Washington, DC","122 Blagden Alley NW, Washington, DC 20001",ChIJrTuAH-23t4kRUu2vghXPScI,38.9063446,-77.0245248,high,american_restaurant,https://thedabney.com/
+40822,Foul Witch,New York City,"15 Avenue A, New York, NY 10009",ChIJq6oPsoNZwokR1hGiiD3wy8g,40.7227931,-73.9862513,null,italian_restaurant,http://foulwitchnyc.com
+108766,Antoine's Restaurnt,New Orleans,"713 Street Louis Street, New Orleans, LA 70130",ChIJWegGCA6mIIYRYAiMKN4T4CM,29.9569825,-90.0664162,high,french_restaurant,http://www.antoines.com/
+107548,"Mandarin Oriental, New York",New York City,"80 Columbus Cir, New York, NY 10023, USA",ChIJL83lHfZYwokRnd7wA8PLD1E,40.7688844,-73.9830440,null,hotel,https://www.mandarinoriental.com/en/new-york/manhattan?src=loc.yext.monyc.ggl
+41566,Brindille,Chicago,"534 N Clark St, Chicago, IL 60654",ChIJZZFRsbMsDogRRNQeQlolb8M,41.8918933,-87.6314064,high,french_restaurant,http://brindille-chicago.com
+11007,Estela,New York City,null,ChIJf3f-f4VZwokRcBCEciTOGRQ,40.7247590,-73.9947280,null,restaurant,https://www.estelanyc.com
+69323,Mother Wolf,Miami,"3841 NE 2nd Ave, Miami, FL 33137",ChIJE5XxYEOx2YgRtM7W6KI9XfY,25.8126459,-80.1910809,high,restaurant,http://www.motherwolfmiami.com
+107820,Kidilum,New York City,"31 W 21st St, New York, NY 10010",ChIJN6uv0m9ZwokRy9oCyqsaWpU,40.7411738,-73.9921494,high,restaurant,https://kidilumnyc.com/
+108769,Takai by Kashiba & Bar,Seattle,"180 Bellevue Way NE, Bellevue, WA 98004",ChIJB8PPeYdskFQRKkBJfiZLuXE,47.6111340,-122.2015129,high,sushi_restaurant,https://takaibykashiba.com/
+101953,The Setai Miami Beach,Miami,"2001 Collins Ave, Miami Beach, FL 33139",ChIJxZsBVJy02YgRz20NMJIwoWM,25.7958833,-80.1288355,null,hotel,https://www.thesetaihotel.com/%3Futm_source%3Dlocal%26utm_campaign%3DGMB%26utm_medium%3Dorganic
+73233,Tei-An,Dallas,null,ChIJsw_DQCaZToYRnHMnjqCAraA,32.7920570,-96.7955047,high,japanese_restaurant,http://www.tei-an.com/
+40400,Huso,New York City,"323A Greenwich St, New York, NY 10013",ChIJJy7oGqZZwokReiM-H1qtHYs,40.7173283,-74.0105321,high,fine_dining_restaurant,https://husony.com
+108208,Max & Helen's,Los Angeles,"127 N Larchmont Blvd, Los Angeles, CA 90004",ChIJOQgNUAC5woAR9Gh_qCkbxmU,34.0738764,-118.3239695,null,american_restaurant,https://www.maxandhelens.com/
+69686,Sabio on Main,San Francisco Bay Area,"501 Main St, Pleasanton, CA 94566",ChIJffSEK6Ppj4ARs6RzsEqCZlI,37.6606473,-121.8760594,high,californian_restaurant,https://www.sabiopleasanton.com
+41243,Oyamel Cocina Mexicana,"Washington, DC","401 7th St NW, Washington, DC 20004",ChIJvfdr_Y-3t4kRN-8elI5NN6g,38.8949709,-77.0217214,medium,restaurant,https://www.oyamel.com/location/washington-dc/
+96600,The Bar Room at The Modern,New York City,"9 W 53rd St, New York, NY 10019",ChIJpWThSuJZwokRjFz9XPvs0TI,40.7609475,-73.9768318,medium,bar,https://www.themodernnyc.com/?utm_source=GoogleBusinessProfiles
+75677,Virtu Honest Craft,Phoenix,"3701 N Marshall Way, Scottsdale, AZ 85251, United States",ChIJcxLCI8ALK4cRLW5iv6hXRrg,33.4907025,-111.9279812,null,restaurant,http://www.virtuscottsdale.com/
+33924,Girl & the Goat,Chicago,"809 W Randolph St, Chicago, IL 60607",ChIJs8mbNsUsDogRUnpg-b_IK5E,41.8841760,-87.6479441,medium,new_american_restaurant,https://www.girlandthegoat.com/chicago
+108726,Nikolai's Roof,Atlanta,"255 Courtland St NE, Atlanta, GA",ChIJX4ANj73_Z4bVv7Z3ZrYg32o,33.7618895,-84.3832200,high,restaurant,http://nikolaisroofatl.com/?SEO_id=GMB-HH-R-ATLAHHH-1&y_source=1_MTU0MDUxNDItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+97811,Gai Noi,Minneapolis-Saint Paul,"1610 Harmon Pl, Minneapolis, MN 55403",ChIJwZlh67Uzs1IR5lKTO2AwAHo,44.9715939,-93.2854583,null,laotian_restaurant,http://www.gainoimpls.com/
+69227,Casa Teresa,"Washington, DC","919 19th St NW, Washington, DC 20006",ChIJdYa9KLq3t4kRXZZmJFZZBnk,38.9017672,-77.0431844,medium,restaurant,https://teresadc.com/
+100188,Eunoia,"Washington, DC","320 Florida Ave NE, Retail Bay 1, Washington, DC 20002",ChIJGdMMPk65t4kRJT7FiY1dDAo,38.9079791,-77.0018914,null,restaurant,https://www.eunoiadc.com/
+100149,Night Rooster,Dallas,"1000 N Riverfront Blvd, Dallas, TX 75207",ChIJEejED1WZToYRJFRyyooXRR4,32.7865817,-96.8173243,null,chinese_restaurant,https://nightroosterdallas.com/
+26627,Liholiho Yacht Club,San Francisco Bay Area,"871 Sutter St, San Francisco, CA 94109",ChIJkVSnJpKAhYARCSaDnRo5brE,37.7881800,-122.4145800,medium,restaurant,http://liholihoyachtclub.com
+99288,DOLORES,New York City,"397 Tompkins Ave, Brooklyn, NY 11216, United States",ChIJwYDDibRbwokR7p0WTQvV1Y8,40.6838554,-73.9438622,medium,restaurant,http://www.doloresbk.com/
+71037,Thanh Long Restaurant,San Francisco Bay Area,"4101 Judah Street, San Francisco",ChIJKck2KJeHhYARBwfZ8NytyRY,37.7601700,-122.5060879,medium,restaurant,http://www.thanhlongsf.com
+74702,Si! Mon,Los Angeles,"60 N Venice Blvd, Venice, CA 90291",ChIJxyDoj5u7woARttWkJDjVa7g,33.9846764,-118.4703202,high,restaurant,https://www.si-mon.la/
+3497,Sushi Noz,New York City,"181 E 78th St, New York, NY 10075",ChIJmUAVNb5YwokRyFZIbhQ_cxM,40.7738500,-73.9581300,high,sushi_restaurant,https://www.sushinoz.com
+40325,Chef’s Table at Brooklyn Fare,New York City,"431 W 37th St, New York, NY 10018",ChIJiVVSAE1awokRzdvqVP_z3aA,40.7561226,-73.9964617,high,fine_dining_restaurant,http://brooklynfare.com
+42495,Mission Ceviche Union Square,New York City,"7 E 17th St, New York, NY 10003",ChIJixS5XaJZwokR1hrG2VpP1No,40.7378555,-73.9913424,medium,restaurant,http://www.missionceviche.com
+108750,The Kali Restaurant,Los Angeles,"5722 Melrose Ave, Los Angeles, CA 90038",ChIJdfiEi8m4woAR82sc6js_AXs,34.0831255,-118.3242036,high,steak_house,https://www.kalirestaurant.com/
+10951,Lure Fishbar,New York City,"142 Mercer St, New York, NY 10012",ChIJgS2D-o5ZwokRgS5knl8ipzI,40.7246122,-73.9985747,medium,restaurant,http://www.lurefishbar.com
+95387,CHICA Las Vegas,Las Vegas,"3355 S Las Vegas Blvd St 106, Las Vegas, NV 89109, United States",ChIJI_PSEz7EyIARiRJvTUvHCWM,36.1224361,-115.1694836,medium,latin_american_restaurant,https://chicarestaurant.com/?utm_source=google
+39745,Secchu Yokota,New York City,null,ChIJ8-YKf4JZwokR8E9EvXIGnhI,40.7228305,-73.9831015,high,japanese_restaurant,http://secchuyokota.com
+43955,Passerine,New York City,"36 E 20th St, New York, NY 10003",ChIJNz2NYnNZwokRmpUsT-iz-ZE,40.7385487,-73.9886861,high,restaurant,https://www.passerinenyc.com
+67177,Imperfecto,"Washington, DC","1124 23rd St NW, Washington, DC 20037",ChIJ3cVPOEW3t4kRoDGlzKQqgKI,38.9043118,-77.0503028,high,restaurant,https://www.sevenreasonsgroup.com/imperfecto
+99469,Restaurant Ki,Los Angeles,"111 San Pedro St, Los Angeles, CA 90012",ChIJ6fB8aADHwoARxXCY99wLo0U,34.0500968,-118.2413802,high,korean_restaurant,https://restaurantki.com/
+72809,ILE,Los Angeles,"6775 Selma Ave, Los Angeles, CA 90028",ChIJR7-GUoO_woAR_Eul-Srcjps,34.0946644,-118.3296774,high,caterer,https://www.ileishome.com
+72900,Ellie Bird,"Washington, DC","125 Founders Ave, Falls Church, VA 22046",ChIJRQoqiIm1t4kRqG1bunWzLcI,38.8910234,-77.1836255,medium,restaurant,http://elliebirdva.com
+102151,Four Seasons Los Angeles at Beverly Hills,Los Angeles,"300 S Doheny Dr, Los Angeles, CA 90048",ChIJT9e323V644kRR6TiEnwcOlA,34.0730227,-118.3892337,null,hotel,https://www.fourseasons.com/losangeles/%3Futm_source%3Dgoogle%26utm_medium%3Dorganicsearch%26utm_campaign%3Dtor-lax-hre-mid-seo-na%26utm_content%3Dna-na%26utm_term%3Dna
+39532,Comfort Kitchen,Boston,null,ChIJ2c_A5KN744kRfC83faHt9rA,42.3174634,-71.0640533,null,restaurant,http://comfortkitchenbos.com
+67199,Lumi,San Diego,null,ChIJ3QqQ3kxT2YARgK7gy73kBhA,32.7092248,-117.1602703,medium,sushi_restaurant,https://lumirooftop.com/
+69157,Sachet,Dallas,"4270 Oak Lawn Ave, Dallas, TX 75219",ChIJdTynptyeToYR6IL5Jm4SIXo,32.8214593,-96.8020033,medium,mediterranean_restaurant,http://www.sachetdallas.com/
+108720,Ivan Ramen,New York City,"25 Clinton St, New York, NY 10002, United States",ChIJzdy-qYDB9-JTjs9LIVdLG2k,40.7201485,-73.9849720,null,ramen_restaurant,https://www.ivanramen.com/location/clinton-st
+73943,El Naranjo - South Lamar,Austin,"2717 S Lamar Blvd STE 1085, Austin, TX 78704",ChIJVcoxv9O0RIYRguIiCS2qWHE,30.2441867,-97.7809868,medium,mexican_restaurant,http://elnaranjorestaurant.com
+7606,Tuome,New York City,"536 E 5th St, New York, NY 10009",ChIJU7iTdXhZwokR2n5XFHPVdAY,40.7241248,-73.9828906,null,fine_dining_restaurant,http://www.tuomenyc.com
+40442,Mott St,Chicago,"1401 N Ashland Ave, Chicago, IL 60622",ChIJKRH5t9rSD4gRCcziAsL8HuI,41.9071605,-87.6673185,low,asian_fusion_restaurant,http://mottstreetchicago.com
+73548,Range Life,San Francisco Bay Area,"2160 Railroad Ave, Livermore, CA 94550",ChIJtYIsQJ_nj4ARoufXI-UbBg8,37.6834367,-121.7700639,medium,new_american_restaurant,https://www.rangelifelivermore.com
+75027,Uchi - Austin,Austin,"801 S Lamar Blvd, Austin, TX 78704",ChIJz2Whyx61RIYR7mCeZje-QWw,30.2575392,-97.7597958,high,sushi_restaurant,https://uchi.uchirestaurants.com/location/austin
+44108,Sylvia's Restaurant,New York City,"328 Malcolm X Blvd, New York, NY 10027",ChIJb8Xw0wz2wokRXhp1-HSLvkI,40.8086445,-73.9444790,low,american_restaurant,https://sylviasrestaurant.com/
+99316,Sons & Daughters,San Francisco Bay Area,null,ChIJIXwLPAB_j4AREOwu0PRm_UE,37.7616252,-122.4108486,high,restaurant,http://www.sonsanddaughterssf.com/
+76793,Chauhan Ale & Masala House,Nashville,"123 12th Ave N, Nashville, TN 37203",ChIJZcOjCfNmZIgRzhH6Vr1rd9g,36.1577292,-86.7885708,low,indian_restaurant,https://www.chauhannashville.com/
+8146,Meadowsweet,New York City,"149 Broadway, Brooklyn, NY 11211",ChIJwXUoA99bwokRU2bF-gdB25I,40.7103995,-73.9632384,medium,american_restaurant,http://www.meadowsweetnyc.com
+41024,Elske,Chicago,"1350 W Randolph St, Chicago, IL 60607",ChIJSWTvSyYtDogRE-4fa_DPwZA,41.8844715,-87.6609250,null,new_american_restaurant,https://elskerestaurant.com/
+33900,HaiSous Vietnamese Kitchen,Chicago,"1800 S Carpenter St, Chicago, IL 60608",ChIJTW33Mf8sDogRiUnjYL3R_ck,41.8579055,-87.6533518,medium,vietnamese_restaurant,http://www.haisous.com
+100323,Lielle,Los Angeles,"9575 W Pico Blvd, Los Angeles, CA 90035",ChIJmQOZTgC7woARN-0kvvPBCBw,34.0553644,-118.3975671,high,restaurant,http://www.lielle.la/
+70483,Californios,San Francisco Bay Area,"355 11th Street, San Francisco",ChIJIfD0wjh-j4ARbWVBlaGpKnU,37.7714672,-122.4128723,high,restaurant,http://www.californiossf.com
+4393,Daniel,New York City,"60 E 65th St., New York, NY 10065",ChIJ09ZGju5YwokRXOcNC23JRwk,40.7667737,-73.9676070,high,french_restaurant,https://www.danielnyc.com
+100600,Betsy,Los Angeles,"875 E Mariposa St, Altadena, CA 91001",ChIJyROYYDXDwoARx_7TxDXZi6Q,34.1881455,-118.1316748,high,restaurant,https://betsyaltadena.com/
+108771,maie day,Austin,"1603 S Congress Ave, Austin, TX",ChIJS2PXUnCovDAgBQxj7e1fgVZ,30.2478544,-97.7502036,medium,steak_house,https://www.maieday.com
+99166,Cove,New York City,"285 W Houston St, New York, NY 10014, United States",ChIJJcBbLABZwokRoXSmVANVTkk,40.7286836,-74.0077503,high,american_restaurant,https://www.cove-nyc.com/
+95400,Demi,Minneapolis-Saint Paul,"212 N 2nd St Suite 100, Minneapolis, MN 55401, United States",ChIJIRuC3GEzs1IR95ImVc1yzlE,44.9851187,-93.2707188,high,restaurant,https://demimpls.com/
+40401,Dhamaka,New York City,"119 Delancey St, New York, NY 10002",ChIJJyPbJe1ZwokRu8dDEOqAYDc,40.7180658,-73.9881304,medium,indian_restaurant,http://dhamaka.nyc
+39865,Una Pizza Napoletana,New York City,"175 Orchard St, New York, NY 10002",ChIJAbYL-YNZwokRIfs6jgmbXqg,40.7217331,-73.9885731,low,pizza_restaurant,http://unapizza.com
+108738,The Itamae,Miami,null,ChIJ09gbtR9zTeSOgX2Mh_YwBxG,25.8071327,-80.1930268,high,japanese_restaurant,http://www.itamaeao.com
+41201,Rose's Luxury,"Washington, DC","717 8th St SE, Washington, DC 20003",ChIJUZM20My5t4kRnhgopk_e4YA,38.8806519,-76.9953235,null,american_restaurant,https://www.rosesluxury.com/
+70221,Pricci,Atlanta,"500 Pharr Rd NE, Atlanta, GA 30305",ChIJHcXg8_IF9YgRHJp4dxRZVkA,33.8373549,-84.3714811,medium,italian_restaurant,https://buckheadrestaurants.com/restaurant/pricci/
+73075,Kettner Exchange,San Diego,"2001 Kettner Blvd, San Diego, CA 92101",ChIJs7N7gbRU2YARkSPbQpAGTUM,32.7253645,-117.1697595,medium,american_restaurant,https://www.kettnerexchange.com/
+72340,Tailor,Nashville,"620 Taylor St, Nashville, TN 37208",ChIJpRw3GcNnZIgRzEvUjPtmjfA,36.1775998,-86.7926906,high,restaurant,https://www.tailornashville.com
+68330,Providence,Los Angeles,null,ChIJaUBtetO-woARqyrV4ASPECg,34.0836697,-118.3300251,high,seafood_restaurant,https://providencela.com
+71988,Zuni Cafe,San Francisco Bay Area,"1658 Market Street, San Francisco",ChIJO7u9q5-AhYARiSSXyWv9eJ8,37.7736000,-122.4216080,medium,cafe,http://www.zunicafe.com
+40418,Dear Margaret,Chicago,"2965 N Lincoln Ave, Chicago, IL 60657",ChIJK6F0pf3TD4gRE6NV_SnqgzU,41.9359126,-87.6628715,medium,french_restaurant,http://dearmargaretchi.com
+42700,Sushi Sho,New York City,"3 E 41st St, New York, NY 10017",ChIJT_JHTgFZwokRXleXHadsVaE,40.7525548,-73.9807508,high,restaurant,https://www.exploretock.com/sushi-sho-nyc
+94304,Guard and Grace,Denver,"1801 California St, Denver, CO 80202",ChIJC4cKadd4bIcRgbLBZ79ZiP8,39.7475338,-104.9895298,high,steak_house,http://www.guardandgrace.com/
+40255,Mooncusser,Boston,null,ChIJHe5IgHR644kRtWtdJlRLe5w,42.3498064,-71.0706942,null,seafood_restaurant,http://mooncusserboston.com
+72532,Wolf In The Woods,San Diego,"1920 Fort Stockton Dr Suite C, San Diego, CA 92103",ChIJq6rmudeq3oARyQfZSR7FKao,32.7529676,-117.1831035,high,bistro,http://www.thewolfinthewoods.com
+75353,The Arrogant Butcher,Phoenix,"2 E Jefferson St #150, Phoenix, AZ 85004",ChIJ2UT2ryESK4cR1gSXHi3SKeg,33.4474000,-112.0728342,low,american_restaurant,https://www.thearrogantbutcher.com/locations/phoenix-az/?utm_source=Google
+6606,Cosme,New York City,"35 E 21st St, New York, NY 10010",ChIJT-gYZKFZwokR7O8LLYuYMjU,40.7396910,-73.9884280,high,mexican_restaurant,http://www.cosmenyc.com
+100414,Jo'Seon Wagyu Steak House,Dallas,"1628 Oak Lawn Ave, Dallas, TX 75207",ChIJr2qfdG6ZToYRuA5wX26cUTM,32.7970923,-96.8191296,high,restaurant,https://www.joseonrestaurant.com/
+40550,Bronzeville Winery,Chicago,"4420 S Cottage Grove Ave, Chicago, IL 60653",ChIJLZ2WbDwpDogR2A7JbXKusW8,41.8145312,-87.6066732,null,restaurant,http://bronzevillewinery.com
+7309,Death & Co,New York City,"433 E 6th St, New York, NY 10009",ChIJKU1MNJ1ZwokRQ7eiWK511vI,40.7258900,-73.9847000,medium,bar,https://www.deathandcompany.com/location/death-and-company-new-york
+102224,The St. Regis Chicago,Chicago,null,ChIJN-54kCUrDogRepMiJTm4GKY,41.8875572,-87.6176403,null,hotel,https://www.marriott.com/en-us/hotels/chixr-the-st-regis-chicago/overview/%3Fscid%3Df2ae0541-1279-4f24-b197-a979c79310b0
+10697,Il Mulino Downtown,New York City,"86 W 3rd St, New York, NY 10012",ChIJhWUUopFZwokR-uGjV8FCLNQ,40.7298070,-73.9991590,medium,italian_restaurant,https://www.ilmulino.com/downtown
+69079,Heritage,Los Angeles,"2030 E 7th St, Long Beach, CA 90804",ChIJDcD184Qx3YARLeMltHfb8PU,33.7751463,-118.1668383,high,restaurant,https://heritagerestaurantlb.com
+72576,Oyster Oyster,"Washington, DC","1440 8th St NW, Washington, DC 20001",ChIJQcHOEK-3t4kRbvsIP3ccItA,38.9092379,-77.0231294,high,restaurant,http://www.oysteroysterdc.com
+43870,Lilia,New York City,"567 Union Avenue, Brooklyn",ChIJJXCD6ltZwokRJ_cwjKQH63c,40.7175365,-73.9524225,medium,italian_restaurant,http://www.lilianewyork.com
+102114,The Fifth Avenue Hotel,New York City,"1 W 28th St, New York, NY 10001",ChIJ4dl6S5lZwokRb4ibeAxtTjI,40.7449544,-73.9877067,null,hotel,https://www.thefifthavenuehotel.com/
+100918,Mita,"Washington, DC","804 V St NW, Washington, DC 20001, USA",ChIJ44jFvt-3t4kRViqXvYDPqg4,38.9176531,-77.0232205,null,restaurant,https://www.mitadc.com/
+72092,Hilda and Jesse,San Francisco Bay Area,"701 Union Street, San Francisco",ChIJOTx-qBuBhYARiQ7wRTHOyj4,37.8000413,-122.4110437,medium,restaurant,http://www.hildaandjessesf.com
+40559,Bar Masa,New York City,"10 Columbus Cir, New York, NY 10019",ChIJM26HnlhYwokR4IfXFz-AuCA,40.7685526,-73.9831866,high,restaurant,http://barmasanyc.com
+72560,ARTIFACT at Mingei,San Diego,"1439 El Prado, San Diego, CA 92101",ChIJQavEkr1U2YARXYhwGAXCJDU,32.7311237,-117.1510264,low,restaurant,http://www.artifactatmingei.com
+71233,Kemuri Tatsu-Ya,Austin,null,ChIJl7OoOTO0RIYRskVofJdNTzE,30.2538380,-97.7129490,low,japanese_restaurant,http://kemuri-tatsuya.com
+108745,Atelier,Chicago,"4835 N Western Ave, Chicago, IL",ChIJCMsoTSDR7YOQ7BIP60ektVK,41.9695693,-87.6886005,high,fine_dining_restaurant,http://atelier-chicago.com
+73856,Miller Union,Atlanta,null,ChIJV1QMS-sE9YgR0bCLgwLEWhY,33.7820054,-84.4130080,null,american_restaurant,http://www.millerunion.com/
+44104,Le Café Louis Vuitton NYC,New York City,"6 E 57th St, New York, NY 10022",ChIJBXB5bPFZwokRM9y44D2T5OQ,40.7624498,-73.9733609,high,cafe,https://lecafelvnyc.com
+68949,Audrey,Nashville,"809 Meridian St, Nashville, TN 37207",ChIJcYvTRy9nZIgRUV2mzYjLCx0,36.1845002,-86.7679777,high,restaurant,https://www.audreynashville.com
+41740,Ed Sullivan Theater,New York City,"1697 Broadway, New York, NY 10019",ChIJZ-__31dYwokR5usO9_3FrMk,40.7637399,-73.9830068,null,performing_arts_theater,http://edsullivan.com/ed-sullivan-theater
+42957,Café Carmellini,New York City,"250 5th Ave, New York, NY 10001",ChIJb7CqrvpZwokRFeC0MqXi7ys,40.7449130,-73.9875253,high,fine_dining_restaurant,https://cafecarmellini.com
+71383,Cattleack Barbeque,Dallas,"13628 Gamma Rd, Farmers Branch, TX 75244",ChIJLYVJGSsnTIYRCJ-WzhhIbfg,32.9346139,-96.8362604,low,barbecue_restaurant,http://cattleackbbq.com/
+4312,The Polo Bar,New York City,"1 E 55th St, New York, NY 10022",ChIJY2_4VvpYwokRXjgsYKtUXOU,40.7615591,-73.9743427,high,restaurant,https://www.ralphlauren.com/global-polo-bar
+73357,Soko,Los Angeles,"101 Wilshire Blvd, Santa Monica, CA 90401",ChIJT87XAIalwoARZL-EWDaLv2k,34.0178812,-118.5014490,high,sushi_restaurant,https://www.sokosantamonica.com/
+42882,Marky's Caviar (Madison Ave.),New York City,"1067 Madison Ave, New York, NY 10028",ChIJORO6nCVZwokRSqpU9A7d6c4,40.7773924,-73.9611690,high,fine_dining_restaurant,https://markyscaviar.com
+68844,Cochon Butcher,New Orleans,"930 Tchoupitoulas St, New Orleans, LA 70130",ChIJCe1AzC2nIIYRTU9lLew974M,29.9421999,-90.0671290,low,american_restaurant,https://cochonbutcher.com/
+67217,Hiyakawa Miami,Miami,"2700 N Miami Ave #5, Miami, FL 33127",ChIJ3W2BBCa32YgRYpVIwDJVBUg,25.8027376,-80.1953960,high,japanese_restaurant,http://www.hiyakawamiami.com
+43803,Indian Table,New York City,null,ChIJoxQJdFBawokRXDFDwgZZ1hw,40.6860216,-73.9944050,low,indian_restaurant,http://indiantableny.com
+70936,lolo wine bar & restaurant,Los Angeles,"5140 W Sunset Blvd, Los Angeles, CA 90027",ChIJk0aWgYC_woAR-ZMeTxnBc8Q,34.0979222,-118.3020145,medium,restaurant,https://lolowinebar.com
+10225,Loring Place,New York City,"21 W 8th St, New York, NY 10011",ChIJ69NaKJdZwokR3CamunXyYig,40.7329941,-73.9975357,medium,american_restaurant,https://www.loringplacenyc.com
+10409,Sushi Nakazawa,New York City,"23 Commerce St, New York, NY 10014",ChIJsw80F5NZwokRcDtxajLLOeA,40.7317465,-74.0045494,high,sushi_restaurant,https://www.sushinakazawa.com/new-york
+75335,201 4th Ave N Garage,Nashville,"201 4th Ave N, Nashville, TN 37219",ChIJ1yRWTFhmZIgRH2uTs2hcdg0,36.1638674,-86.7794053,null,parking_lot,https://www.parkitdowntown.com/nashville/201-building
+10170,Kosaka,New York City,"220 W 13th St, New York, NY 10011",ChIJZY2-HL5ZwokRnIcy5aBG-o0,40.7381973,-74.0014450,high,sushi_restaurant,http://kosakanyc.com
+41344,Nella Pizza e Pasta,Chicago,"1125 E 55th St, Chicago, IL 60615",ChIJ-WhorWopDogRLR9FvYMxfv4,41.7948773,-87.5985247,low,italian_restaurant,https://nellachicago.com/
+68139,Yolan,Nashville,"403 4th Ave S, Nashville, TN 37201",ChIJa1zPuWRnZIgRqnSYUV8fZm4,36.1567612,-86.7745959,null,italian_restaurant,https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/dining/?scid=feed67b0-9a2f-4de1-8df6-114544116108
+7245,Hearth,New York City,"403 E 12th St, New York, NY 10009",ChIJQTZ0-Z1ZwokRhl9v1FaVF0A,40.7300060,-73.9832250,low,fine_dining_restaurant,http://restauranthearth.com
+67320,Yangban,Los Angeles,"712 S Santa Fe Ave, Los Angeles, CA 90021",ChIJ4fs7p7_HwoARRSTDRJkYSn0,34.0339769,-118.2297393,medium,korean_restaurant,https://yangbanla.com
+108727,Sushi Kaneyoshi Bar & Grill,Los Angeles,"250 1st St B1, Los Angeles, CA",ChIJQzreXwGR1vb4qL_cMwYB_h5,34.0499674,-118.2410686,high,sushi_restaurant,https://kaneyoshi.us
+108725,Lapaba,Los Angeles,"558 S Western Ave, Los Angeles, CA",ChIJ799-75q4woARcXJBawVAO3g,34.0633606,-118.3092020,null,restaurant,null
+108015,BADMAASH VENICE,Los Angeles,"1616 Abbot Kinney Blvd, Venice, CA 90291",ChIJvRBqBgC7woARksYbwYKIuMY,33.9895930,-118.4637278,null,indian_restaurant,http://www.badmaashla.com/
+102398,Sunset Tower Hotel,Los Angeles,"8358 Sunset Blvd, West Hollywood, CA 90069",ChIJPR1jrb--woARjgvrg3cz16I,34.0952195,-118.3722258,null,hotel,http://www.sunsettowerhotel.com/
+69815,Omakase @ Barracks Row,"Washington, DC","522 8th St SE, Washington, DC 20003",ChIJFZO8ACO5t4kRZPCSdzahTs4,38.8818902,-76.9947862,high,sushi_restaurant,https://omakasedc.com/
+20647,Sumiao Hunan Kitchen,Boston,"270 Third St Cambridge, MA 02142",ChIJA9rG1KRw44kRxTGqPxYEgek,42.3660100,-71.0820300,medium,chinese_restaurant,https://www.sumiaohunan.com
+71799,Don Artemio Restaurant,Dallas,"3268 W 7th St, Fort Worth, TX 76107",ChIJNQ8ebcBzToYRTHnBeeLXtIo,32.7514508,-97.3645701,high,mexican_restaurant,http://www.donartemio.us/
+100008,Alteño,Denver,"249 Clayton St, Denver, CO 80206",ChIJ7Ri1z3l_bIcRGE8i3Zx2rAs,39.7203868,-104.9559977,medium,mexican_restaurant,https://altenorestaurant.com/
+67327,Oriole,Chicago,null,ChIJ4_ovZs8sDogRyw3X3QCiI-Y,41.8861692,-87.6450939,high,fine_dining_restaurant,https://www.oriolechicago.com/
+67778,Lula Cafe,Chicago,"2537 N Kedzie Blvd, Chicago, IL 60647",ChIJ-7r5qHrND4gRgmIpiTEL5Nk,41.9276583,-87.7067917,low,american_restaurant,http://lulacafe.com
+107829,COTE 550,New York City,"550 Madison Ave, New York, NY 10022, USA",ChIJU__rGyVZwokRWGCOCB4u-8M,40.7616006,-73.9731034,high,restaurant,https://www.cotekoreansteakhouse.com/
+43609,COQODAQ,New York City,"12 East 22nd Street, New York, NY 10010",ChIJp-hnIhNZwokRq1FijMduZrM,40.7400559,-73.9887467,high,restaurant,https://coqodaq.com
+67826,Matsuhisa,Los Angeles,null,ChIJ7yr_2065woARrbIIMpW8ZWk,34.0683333,-118.3766667,high,sushi_restaurant,https://matsuhisabeverlyhills.com
+98191,Maison Margaux,Minneapolis-Saint Paul,null,ChIJyzpfRMozs1IR6bEGG8EMWPc,44.9861625,-93.2696889,medium,restaurant,http://www.maisonmargauxmpls.com/
+41247,Cranes,"Washington, DC","724 9th St NW, Washington, DC 20001",ChIJ0Qfj-l-3t4kRGcx_Y4QZf6I,38.8991979,-77.0241895,high,restaurant,http://cranes-dc.com
+41439,Schwa Restaurant,Chicago,"1466 N Ashland Ave, Chicago, IL 60622",ChIJxXAHLdvSD4gRV6CF2nQJZQs,41.9089358,-87.6679579,high,new_american_restaurant,https://www.schwarestaurant.com/
+107868,bumblebirds,"Washington, DC","303 Pennsylvania Ave. SE, Washington, DC 20003",ChIJ035_OwC5t4kRj7_yYPwlQyo,38.8865873,-77.0017814,low,restaurant,https://www.bumblebirdsdc.com/
+40269,Chalong NYC,New York City,"749 Ninth Avenue, New York, New York 10019",ChIJhwCMNh5ZwokROomRErlMEpk,40.7639556,-73.9889945,low,thai_restaurant,http://chalongnyc.com
+26072,Hotel Kabuki,San Francisco Bay Area,"1625 Post St, San Francisco, CA 94115",ChIJr1x3276AhYARrjGvC3BSTfk,37.7855266,-122.4285174,low,hotel,https://www.jdvhotels.com/hotels/california/san-francisco/hotel-kabuki
+40598,Monteverde Restaurant & Pastificio,Chicago,"1020 West Madison Street, Chicago, Illinois",ChIJMViM4dssDogRdmIJH2z_Q10,41.8819188,-87.6529673,medium,italian_restaurant,https://monteverdechicago.com/
+69540,March,Houston,"1624 Westheimer Rd, Houston, TX 77006",ChIJEzo-VtLBQIYRAFxlZfioQC8,29.7431485,-95.4003814,high,mediterranean_restaurant,https://www.marchrestaurant.com/
+70085,Joe's Stone Crab,Miami,"11 Washington Ave, Miami Beach, FL 33139",ChIJgYZ4DvG02YgR6zxax8FTfHo,25.7691130,-80.1350110,high,seafood_restaurant,https://joesstonecrab.com
+39672,Forsythia,New York City,"9 Stanton Street, New York, NY",ChIJ6Xa02cFZwokRv_5HQ3fHoHk,40.7225353,-73.9924920,high,italian_restaurant,http://forsythianyc.com
+94043,Nobu Caesars Palace Las Vegas,Las Vegas,null,ChIJAXK2ZzvEyIAR2ZN4cdxmSjQ,36.1168490,-115.1753099,null,japanese_restaurant,https://www.caesars.com/caesars-palace/restaurants/nobu?utm_campaign=gmb
+6569,Tempura Matsui,New York City,null,ChIJ3aiOZQRZwokRyTh5pEHCyXY,40.7481900,-73.9746700,high,japanese_restaurant,http://www.tempuramatsui.com
+39935,SAN HO WON,San Francisco Bay Area,"2170 Bryant St, San Francisco, CA 94110",ChIJBQpgwVh_j4ARocWBZnqOXEg,37.7596003,-122.4102472,high,korean_barbecue_restaurant,https://www.sanhowon.com/
+76952,Ocean 44,Phoenix,"4748 N Goldwater Blvd, Scottsdale, AZ 85251, USA",ChIJ67qCv5gLK4cRcq6saR9CeNc,33.5053743,-111.9307499,high,fine_dining_restaurant,https://www.ocean44.com/
+99049,Casa Brasa,Dallas,"8111 Preston Rd, Dallas, TX 75225",ChIJ27iuQhGfToYRJOSgrCDeLKk,32.8608190,-96.8044737,high,restaurant,https://thecasabrasa.com/
+99175,Wolfsbane,San Francisco Bay Area,"2495 3rd St, San Francisco, CA 94107",ChIJk-mYOAB_j4ARdDPkxEHNfTA,37.7580646,-122.3881523,null,restaurant,https://wolfsbanesf.com/
+71390,Gwen,Los Angeles,"6600 W Sunset Blvd, Los Angeles, CA 90028",ChIJLz5MuTq_woARNr7ORKQW7-4,34.0977490,-118.3334280,high,fine_dining_restaurant,https://www.gwenla.com/
+70370,Crossroads Kitchen - Los Angeles,Los Angeles,"8284 Melrose Ave, Los Angeles, CA 90046",ChIJhZy9Gba-woARQLEEpEN46uw,34.0835270,-118.3701570,medium,vegan_restaurant,http://www.crossroadskitchen.com
+43968,Maison Passerelle,New York City,"1 Wall St, New York, NY 10005",ChIJTQ0bJiJbwokRIjq-0C-madM,40.7075029,-74.0116530,high,restaurant,https://maisonpasserellenyc.com
+73008,Warlord,Chicago,"3198 N Milwaukee Ave, Chicago, IL 60618",ChIJRZHMT1_ND4gRLCLV9oCWtEU,41.9389249,-87.7239861,medium,restaurant,http://www.warlordchicago.com
+99623,Pig and Khao - UWS,New York City,"433 Amsterdam Ave, New York, NY 10024, United States",ChIJmWvEAIZYwokRpvhPBfDbi_k,40.7841670,-73.9772473,null,restaurant,https://www.pigandkhao.com/uws
+25652,State Bird Provisions,San Francisco Bay Area,"1529 Fillmore St, San Francisco, CA 94115",ChIJQ7kGpLmAhYARKeCe2pDobWk,37.7837400,-122.4330050,medium,restaurant,http://statebirdsf.com
+100423,Margot,Denver,"1551 S Pearl St, Denver, CO 80210",ChIJreGQhDd5bIcRP3OYKrquLHk,39.6884361,-104.9806820,high,restaurant,https://margotdenver.com/
+41396,Anelya,Chicago,"3472 North Elston Avenue, Avondale, Chicago, IL",ChIJX0Q0cfnND4gRQls6tng3lEQ,41.9442056,-87.7056575,medium,ukrainian_restaurant,https://www.anelyarestaurant.com/
+39568,Ris,"Washington, DC","2275 L St NW, Washington, DC 20037",ChIJ3Sl-vba3t4kR69SFBTOnHT8,38.9039406,-77.0496820,null,american_restaurant,http://www.risdc.com
+94900,Sushi Kashiba,Seattle,"86 Pine St Suite #1, Seattle, WA 98101, United States",ChIJFS-l3bJqkFQRLsPudqgFD-4,47.6098164,-122.3415489,high,sushi_restaurant,https://sushikashiba.com/
+21743,Omni Parker House,Boston,"60 School St, Boston, MA 02108",ChIJoZacmYRw44kRz81praiJwLI,42.3576942,-71.0599593,medium,hotel,https://www.omnihotels.com/hotels/boston-parker-house/dining
+67553,Merois,Los Angeles,"8430 W Sunset Blvd, West Hollywood, CA 90069",ChIJ62K862-_woAR8YptH_AXFJY,34.0946318,-118.3735788,high,asian_fusion_restaurant,https://wolfgangpuck.com/restaurants/merois-west-hollywood/
+108775,Barbuto,New York City,"60 Furman Street, Brooklyn, NY 11201, United States",ChIJ60KUCphbwokRXWseK7A_M4Y,40.7028200,-73.9958644,medium,restaurant,https://www.1hotels.com/brooklyn-bridge/taste/barbuto
+108731,L'Atelier de Joel Robuchon,Las Vegas,"3799 S Las Vegas Blvd, Las Vegas, NV 89109",ChIJZ-93QcvFyIARqArsJhw7Mso,36.1018570,-115.1692282,high,french_restaurant,https://mgmgrand.mgmresorts.com/en/restaurants/latelier-joel-robuchon-french-restaurant.html
+108755,Napa Rose,Los Angeles,"1601 DISNEYLAND DR, ANAHEIM, CA 92802",ChIJjHKYkf3Np6jDqqaZ5RkCwLO,33.8073010,-117.9216493,medium,californian_restaurant,https://disneyland.disney.go.com/grand-californian-hotel/napa-rose/?CMP=OKC-354372_GM_DLR_dining_naparose_NA
+74328,Sushi Nikkei,Los Angeles,"3819 Atlantic Ave, Long Beach, CA 90807",ChIJWScCxpEz3YARs_wK6uTIcr4,33.8275200,-118.1852442,low,asian_fusion_restaurant,http://www.sushinikkei-la.com
+108751,The Spoon and Stable,Minneapolis-Saint Paul,"211 N 1st St, Minneapolis, MN 55401",ChIJ7G0stL-FjIwJIDumSKoXcVT,44.9858168,-93.2693355,high,new_american_restaurant,http://www.spoonandstable.com/
+108767,Il Carciofo Restaurant,Chicago,"1045 W Fulton St, Chicago, IL 60607",ChIJlUSEXAAtDogRL4uQxSuDhgg,41.8868772,-87.6536409,high,roman_restaurant,http://www.ilcarciofochicago.com/
+99406,COTOA,null,"12475 NE 6th Ct, North Miami, FL 33161, United States",ChIJn8SyL-C32YgRWuPY_2YmsAA,25.8900640,-80.1853012,medium,restaurant,http://www.cotoa.rest/
+108709,Death & Co,New York City,"433 E 6th St, New York, NY 10009, United States",,40.7261631,-73.9842148,medium,bar,https://www.deathandcompany.com/location/death-and-company-new-york
+67378,Chinois on Main,Los Angeles,"2709 Main St, Santa Monica, CA 90405",,34.0008326,-118.4821831,high,asian_fusion_restaurant,https://wolfgangpuck.com/dining/chinois-santa-monica
+108764,yellow,"Washington, DC",null,ChIJAS_hmey3t4kR0sQaw-MhC3M,38.9099580,-77.0645685,low,cafe,
+108772,Noodle in a Haystack,San Francisco Bay Area,"4601 Geary Blvd, San Francisco, CA 94118, United States",,37.7811294,-122.4686251,high,japanese_restaurant,http://noodleinhaystack.com
+68464,Dobson's Bar & Restaurant,San Diego,null,ChIJB57vCKhU2YARpuTC6OY5Yoc,32.7153855,-117.1630571,medium,californian_restaurant,
