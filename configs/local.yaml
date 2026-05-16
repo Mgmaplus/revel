@@ -12,7 +12,7 @@ log_level: INFO
 
 # --- LLM (Stage 4; unused in Step 1) ------------------------------------------
 llm_provider: gemini
-llm_model: gemini-2.5-flash
+llm_model: gemini-2.0-flash
 llm_max_concurrency: 4
 llm_cache_dir: .cache/llm
 
