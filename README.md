@@ -1,5 +1,7 @@
 # Revel — restaurant CSV → production-grade dataset pipeline (v1)
 
+> **📖 Reviewer's note**: Start with [`Data_exercise_revel.md`](./Data_exercise_revel.md) — it's the full transcript of the agent conversation that built v1, including every design decision, gotcha, and tradeoff. Read that first to understand *why* the code looks the way it does, then come back here for the *how*.
+
 Turns a messy CSV of US restaurants into a deduplicated, cuisine-classified,
 romance-scored Parquet dataset. Runs entirely on a single laptop. The only
 external dependency is the Gemini API (used in Stage 4 for the rows the
