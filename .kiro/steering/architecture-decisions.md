@@ -30,7 +30,7 @@ inclusion: always
 - **Status**: Accepted (v1)
 - **Decision**: Fill & Transform's LLM portion is a Python module of plain async functions calling LLMs via a `LLMClient` protocol with Pydantic-validated structured outputs. **No LangGraph, no LangChain agents** in v1.
 - **Reasoning**: Workload is row-wise with one-shot, structured calls; no branching reasoning, no tool use, no multi-turn state. LangGraph's value comes from those features; adopting it now adds dependencies and test surface for no functional gain.
-- **Provider**: **Google Gemini** via the `google-genai` SDK. Default model `gemini-2.0-flash` (cheap, fast, strong structured-output support via `response_schema` + Pydantic). Behind `LLMClient` protocol; `LLM_PROVIDER` env var swaps providers (OpenAI / Anthropic / local Ollama swappable without touching enrichment code). `temperature=0`, JSON-schema-enforced structured outputs.
+- **Provider**: **Google Gemini** via the `google-genai` SDK. Default model `gemini-2.5-flash-lite` (cheap, fast, strong structured-output support via `response_schema` + Pydantic). Behind `LLMClient` protocol; `LLM_PROVIDER` env var swaps providers (OpenAI / Anthropic / local Ollama swappable without touching enrichment code). `temperature=0`, JSON-schema-enforced structured outputs.
 - **Auth**: `GEMINI_API_KEY` from `.env`. Never logged. The only network dependency in v1.
 - **Caching**: `diskcache`, key = `sha256(provider + model + messages + schema_version)`. Reruns are free and deterministic.
 - **Concurrency**: `asyncio.Semaphore`, default 4.

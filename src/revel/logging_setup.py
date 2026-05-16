@@ -44,6 +44,12 @@ def configure_logging(level: str = "INFO") -> None:
         level=log_level,
         force=True,
     )
+
+    # Quiet third-party noise so our structured progress logs are readable.
+    # `httpx` emits one INFO line per HTTP request; in Stage 4 with concurrency
+    # that drowns out our progress lines. Demote to WARNING.
+    for noisy in ("httpx", "httpcore", "google_genai"):
+        logging.getLogger(noisy).setLevel(logging.WARNING)
     structlog.configure(
         processors=[
             structlog.contextvars.merge_contextvars,

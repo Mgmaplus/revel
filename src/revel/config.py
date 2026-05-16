@@ -57,7 +57,7 @@ class Settings(BaseSettings):
 
     # --- LLM (Stage 4) ---------------------------------------------------------
     llm_provider: str = "gemini"
-    llm_model: str = "gemini-2.0-flash"
+    llm_model: str = "gemini-2.5-flash-lite"
     llm_max_concurrency: int = 4
     llm_cache_dir: Path = Path(".cache/llm")
     gemini_api_key: SecretStr | None = Field(

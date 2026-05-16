@@ -11,7 +11,7 @@ def test_secret_is_redacted_in_log(capsys) -> None:
     configure_logging("INFO")
     log = get_logger("test")
     # `gemini_api_key` is in the SECRET_KEYS allow-list and must be redacted.
-    log.info("calling_llm", gemini_api_key="should-be-redacted", model="gemini-2.0-flash")
+    log.info("calling_llm", gemini_api_key="should-be-redacted", model="gemini-2.5-flash-lite")
     captured = capsys.readouterr().err.strip().splitlines()
     assert captured, "expected a log line on stderr"
     payload = json.loads(captured[-1])

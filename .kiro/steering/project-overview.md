@@ -71,7 +71,7 @@ High-level data/control flow. Replace the placeholder with an ASCII diagram once
 - dbt schema tests (`not_null`, `unique`, `accepted_values`, range expressions) for SQL-side validation
 
 **Agent / LLM**
-- **Google Gemini** via `google-genai` SDK, model `gemini-2.0-flash`, `temperature=0`, JSON-schema-enforced structured outputs (`response_schema` with Pydantic models)
+- **Google Gemini** via `google-genai` SDK, model `gemini-2.5-flash-lite`, `temperature=0`, JSON-schema-enforced structured outputs (`response_schema` with Pydantic models)
 - Provider-agnostic `LLMClient` protocol; swappable via `LLM_PROVIDER` env var
 - `diskcache` for content-hashed response caching (reruns are free + deterministic)
 - **No agent framework in v1** (no LangGraph, no LangChain agents) — see ADR-002

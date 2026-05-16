@@ -46,8 +46,12 @@ def run_enrichment(
         dry_run=settings.dry_run,
     )
 
-    df, cuisine_stats = fill_cuisine(df, client=client)
-    df, romance_stats = fill_romance(df, client=client)
+    df, cuisine_stats = fill_cuisine(
+        df, client=client, max_concurrency=settings.llm_max_concurrency
+    )
+    df, romance_stats = fill_romance(
+        df, client=client, max_concurrency=settings.llm_max_concurrency
+    )
 
     # Distribution + histogram for the run report. Buckets: 0–9, 10–19, ...
     cuisine_dist = {

@@ -67,7 +67,7 @@ class GeminiClient:
         self,
         *,
         api_key: str,
-        model: str = "gemini-2.0-flash",
+        model: str = "gemini-2.5-flash-lite",
         cache: LLMCache,
     ) -> None:
         # Local import to keep test/dry-run paths free of the dependency.

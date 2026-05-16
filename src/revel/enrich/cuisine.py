@@ -1,9 +1,13 @@
 """Cuisine fallback for rows the deterministic taxonomy missed.
 
 Process: read `data/pre_agent/restaurants.parquet`, find rows where
-`_needs_llm_cuisine == TRUE`, batch them in groups of 20, ask Gemini to
-classify each into the closed `CuisineLiteral` taxonomy. Confidence < 0.6
-yields NULL + a flag (per security rules, fail closed).
+`_needs_llm_cuisine == TRUE`, batch them, ask Gemini to classify each
+into the closed `CuisineLiteral` taxonomy. Confidence < 0.6 yields NULL
++ a flag (per security rules, fail closed).
+
+Concurrency: batches run in a ThreadPoolExecutor with `max_workers=N`
+so we get N batches in flight at once. The Gemini SDK is sync so this
+is the right shape (avoids restructuring as asyncio).
 """
 
 from __future__ import annotations
@@ -13,7 +17,8 @@ from typing import cast
 
 import polars as pl
 
-from revel.enrich.llm.client import LLMClient, LLMError
+from revel.enrich.llm._batch import run_batches_concurrent
+from revel.enrich.llm.client import LLMClient
 from revel.enrich.llm.schemas import (
     CUISINE_VALUES,
     CuisineLLMBatch,
@@ -21,9 +26,12 @@ from revel.enrich.llm.schemas import (
 )
 from revel.logging_setup import get_logger
 
-# Batch size — small enough to fit in a single LLM call latency budget,
-# large enough to amortize fixed overhead per call.
-DEFAULT_BATCH_SIZE = 20
+# Batch size — bigger means fewer round-trips (better throughput) but
+# larger output tokens per call (closer to the model's output cap and
+# more chance of partial truncation). 40 is a sweet spot for cuisine
+# (the per-row output is small: a literal + optional secondary + float).
+DEFAULT_BATCH_SIZE = 40
+DEFAULT_MAX_CONCURRENCY = 4
 MIN_CONFIDENCE = 0.6
 
 
@@ -71,6 +79,7 @@ def fill_cuisine(
     *,
     client: LLMClient,
     batch_size: int = DEFAULT_BATCH_SIZE,
+    max_concurrency: int = DEFAULT_MAX_CONCURRENCY,
 ) -> tuple[pl.DataFrame, dict[str, int]]:
     """Return a copy of `df` with cuisine filled in for LLM-needed rows.
 
@@ -104,29 +113,52 @@ def fill_cuisine(
         ["canonical_id", "name", "primary_type", "city_canonical", "display_address", "website"]
     ).to_dicts()
 
+    batches = list(_chunked(rows, batch_size))
     resolved: dict[int, CuisineLLMResult] = {}
     failed_ids: set[int] = set()
 
-    for batch in _chunked(rows, batch_size):
-        prompt = _build_prompt(batch)
-        try:
-            response = client.complete_json(prompt, CuisineLLMBatch)
-        except LLMError as exc:
+    def _call_one(batch: list[dict[str, object]]) -> CuisineLLMBatch:
+        return client.complete_json(_build_prompt(batch), CuisineLLMBatch)
+
+    total_batches = len(batches)
+    log.info(
+        "cuisine.start",
+        batches=total_batches,
+        batch_size=batch_size,
+        concurrency=max_concurrency,
+        rows_to_resolve=len(rows),
+    )
+
+    completed = 0
+    succeeded = 0
+    for batch, result in run_batches_concurrent(batches, _call_one, max_workers=max_concurrency):
+        completed += 1
+        if isinstance(result, Exception):
             log.warning(
                 "cuisine.batch_failed",
+                progress=f"{completed}/{total_batches}",
                 batch_size=len(batch),
-                error=str(exc)[:200],
+                error_type=type(result).__name__,
+                error=str(result)[:200],
             )
             for row in batch:
                 failed_ids.add(cast(int, row["canonical_id"]))
             continue
 
-        returned_ids = {r.canonical_id for r in response.results}
+        succeeded += 1
+        returned_ids = {r.canonical_id for r in result.results}
         expected_ids = {cast(int, r["canonical_id"]) for r in batch}
-        for r in response.results:
+        for r in result.results:
             resolved[r.canonical_id] = r
         for missing in expected_ids - returned_ids:
             failed_ids.add(missing)
+
+        log.info(
+            "cuisine.batch_done",
+            progress=f"{completed}/{total_batches}",
+            succeeded=succeeded,
+            rows_resolved_so_far=len(resolved),
+        )
 
     # Count low-confidence so we can flag them; null them out.
     low_conf_ids = {cid for cid, r in resolved.items() if r.confidence < MIN_CONFIDENCE}
@@ -163,7 +195,15 @@ def fill_cuisine(
         )
 
     if update_rows:
-        updates = pl.DataFrame(update_rows, schema_overrides={"canonical_id": pl.Int64})
+        updates = pl.DataFrame(
+            update_rows,
+            schema_overrides={
+                "canonical_id": pl.Int64,
+                "_cuisine_new": pl.String,
+                "_cuisine_secondary_new": pl.String,
+                "_cuisine_flag": pl.String,
+            },
+        )
         df = df.join(updates, on="canonical_id", how="left")
         df = df.with_columns(
             cuisine=pl.when(pl.col("_needs_llm_cuisine"))

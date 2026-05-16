@@ -1,7 +1,7 @@
 """Romance scoring fallback for rows the deterministic rubric missed.
 
 Same shape as `cuisine.py`: read pre-agent frame, find rows where
-`_needs_llm_romance == TRUE`, batch-call Gemini, validate, merge.
+`_needs_llm_romance == TRUE`, batch-call Gemini concurrently, validate, merge.
 """
 
 from __future__ import annotations
@@ -11,11 +11,16 @@ from typing import cast
 
 import polars as pl
 
-from revel.enrich.llm.client import LLMClient, LLMError
+from revel.enrich.llm._batch import run_batches_concurrent
+from revel.enrich.llm.client import LLMClient
 from revel.enrich.llm.schemas import RomanceLLMBatch, RomanceLLMResult
 from revel.logging_setup import get_logger
 
-DEFAULT_BATCH_SIZE = 20
+# Romance output is heavier than cuisine (5 sub-scores + rationale per row),
+# so we cap the batch a bit smaller to stay well under the model's output
+# token cap. 25 was chosen so the typical batch produces ~3 KB of JSON.
+DEFAULT_BATCH_SIZE = 25
+DEFAULT_MAX_CONCURRENCY = 4
 
 # Composite weights — match the deterministic rubric in
 # `int_restaurants__enriched_det.sql`. Sub-scores ∈ [0, 10].
@@ -88,6 +93,7 @@ def fill_romance(
     *,
     client: LLMClient,
     batch_size: int = DEFAULT_BATCH_SIZE,
+    max_concurrency: int = DEFAULT_MAX_CONCURRENCY,
     weights: dict[str, float] = DEFAULT_WEIGHTS,
 ) -> tuple[pl.DataFrame, dict[str, int]]:
     log = get_logger(__name__)
@@ -122,26 +128,50 @@ def fill_romance(
     resolved: dict[int, RomanceLLMResult] = {}
     failed_ids: set[int] = set()
 
-    for batch in _chunked(rows, batch_size):
-        prompt = _build_prompt(batch)
-        try:
-            response = client.complete_json(prompt, RomanceLLMBatch)
-        except LLMError as exc:
+    batches = list(_chunked(rows, batch_size))
+
+    def _call_one(batch: list[dict[str, object]]) -> RomanceLLMBatch:
+        return client.complete_json(_build_prompt(batch), RomanceLLMBatch)
+
+    total_batches = len(batches)
+    log.info(
+        "romance.start",
+        batches=total_batches,
+        batch_size=batch_size,
+        concurrency=max_concurrency,
+        rows_to_resolve=len(rows),
+    )
+
+    completed = 0
+    succeeded = 0
+    for batch, result in run_batches_concurrent(batches, _call_one, max_workers=max_concurrency):
+        completed += 1
+        if isinstance(result, Exception):
             log.warning(
                 "romance.batch_failed",
+                progress=f"{completed}/{total_batches}",
                 batch_size=len(batch),
-                error=str(exc)[:200],
+                error_type=type(result).__name__,
+                error=str(result)[:200],
             )
             for row in batch:
                 failed_ids.add(cast(int, row["canonical_id"]))
             continue
 
-        returned_ids = {r.canonical_id for r in response.results}
+        succeeded += 1
+        returned_ids = {r.canonical_id for r in result.results}
         expected_ids = {cast(int, r["canonical_id"]) for r in batch}
-        for r in response.results:
+        for r in result.results:
             resolved[r.canonical_id] = r
         for missing in expected_ids - returned_ids:
             failed_ids.add(missing)
+
+        log.info(
+            "romance.batch_done",
+            progress=f"{completed}/{total_batches}",
+            succeeded=succeeded,
+            rows_resolved_so_far=len(resolved),
+        )
 
     update_rows: list[dict[str, object]] = []
     for cid, r in resolved.items():
